@@ -401,17 +401,21 @@ a {
   margin-top: 24px;
 }
 
-@media (max-width: 520px) {
+/* Five nav items plus the brand name do not fit below ~760px: keep only the brand mark. */
+@media (max-width: 760px) {
   .brand-name {
     display: none;
   }
+}
+
+@media (max-width: 520px) {
   .nav-link {
     padding: 0 8px;
   }
 }
 
-/* Very narrow phones: the hero already offers both section links, so keep only Câu sai. */
-@media (max-width: 359px) {
+/* Narrow phones: the hero already offers both section links, so keep Thực hành and Câu sai. */
+@media (max-width: 479px) {
   .nav-link.nav-sec {
     display: none;
   }

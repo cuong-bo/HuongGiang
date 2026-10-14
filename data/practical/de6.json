@@ -1,0 +1,710 @@
+{
+ "id": 6,
+ "title": "Đề thực hành số 6",
+ "source": "de co ban 6",
+ "timeLimitMinutes": null,
+ "generalNotes": [
+  "Đề thi thực hành (Học viện Kỹ thuật Quân sự), trưởng ban đề thi TS Hoa Tất Thắng, giáo viên ra đề TS Nguyễn Văn Giang.",
+  "Đề thi gồm 2 trang; không được sử dụng tài liệu, USB và các thiết bị lưu trữ khác.",
+  "Các file bài làm để trong thư mục E:\\ThiCC với cách đặt tên: Câu 1: xyz_cau1.docx; Câu 2: xyz_cau2.xlsx; Câu 3: xyz_cau3.pptx.",
+  "Trong đó xyz là số báo danh của thí sinh.",
+  "Thời gian làm bài không ghi trên đề."
+ ],
+ "tasks": [
+  {
+   "no": 1,
+   "app": "word",
+   "title": "Câu 1. Soạn thảo văn bản (Microsoft Word)",
+   "statement": {
+    "intro": "Sử dụng phần mềm Microsoft Word soạn thảo một tài liệu (khoảng 5 trang) gồm các nội dung sau:",
+    "requirements": [
+     "Nội dung tài liệu: 1) Trang đầu: Phần Mục lục (01 trang). 2) Từ trang 2 trở đi, trình bày các chương và đề mục, các chương đứng đầu trang. 3) Trang cuối: Tài liệu tham khảo (khoảng 4 tài liệu, bố trí trên 01 trang).",
+     "Yêu cầu 1) Đánh số trang ở chính giữa phía trên.",
+     "Yêu cầu 2) Các đầu mục, tính cả đầu chương được phân cấp tới Heading 3.",
+     "Yêu cầu 3) Mục lục: Dùng mục lục tự động. Mục lục căn chỉnh theo hai bên.",
+     "Yêu cầu 4) Tham chiếu đến tài liệu tham khảo: Tự động cập nhật khi có thay đổi.",
+     "Yêu cầu 5) Định dạng trang: Giấy A4 Portrait; Header: 1.3cm; Footer: 1.3cm; Top: 2.5 cm, Bottom: 2.2 cm; Left: 3.5 cm; Right: 1.5 cm. Font chữ Times New Roman, cỡ 13pt.",
+     "Chú ý: Phần nội dung, tên chương, mục có thể tự chọn nội dung tùy ý."
+    ],
+    "material": []
+   },
+   "solution": {
+    "summary": "Thiết lập trang và style (Normal, Heading 1-3) trước, rồi soạn nội dung theo cấu trúc Mục lục, các chương (mỗi chương bắt đầu một trang mới), Tài liệu tham khảo. Sau đó chèn số trang trên giữa, tạo mục lục tự động tới Heading 3, tạo danh sách tài liệu tham khảo có đánh số tự động và dùng Cross-reference để trích dẫn.",
+    "steps": [
+     {
+      "title": "Bước 0: Mở file mới và đặt đơn vị đo là cm",
+      "forRequirement": "Chuẩn bị",
+      "actions": [
+       "Mở Word, chọn Blank document (Ctrl+N).",
+       "Nếu thước và hộp thoại đang dùng Inches: File > Options > Advanced > kéo xuống mục Display > ô 'Show measurements in units of' chọn Centimeters > OK.",
+       "Lưu ngay: File > Save As > chọn thư mục E:\\ThiCC > đặt tên xyz_cau1.docx (xyz là số báo danh) > Save. Trong lúc làm nhớ bấm Ctrl+S thường xuyên."
+      ],
+      "note": "Nếu thư mục E:\\ThiCC chưa có thì tạo mới thư mục ThiCC trong ổ E rồi lưu vào đó."
+     },
+     {
+      "title": "Bước 1: Định dạng trang (khổ giấy, lề, Header/Footer)",
+      "forRequirement": "Yêu cầu 5",
+      "actions": [
+       "Tab Layout (Word 2010 là Page Layout) > nhóm Page Setup > bấm nút mũi tên nhỏ ở góc dưới bên phải nhóm (Dialog Launcher) để mở hộp thoại Page Setup.",
+       "Thẻ Margins: nhập Top = 2.5 cm; Bottom = 2.2 cm; Left = 3.5 cm; Right = 1.5 cm; Gutter = 0 cm; Orientation chọn Portrait; Apply to: Whole document.",
+       "Thẻ Paper: ô Paper size chọn A4 (21 cm x 29.7 cm).",
+       "Thẻ Layout: mục From edge nhập Header = 1.3 cm và Footer = 1.3 cm. Không tick Different first page (để trang 1 cũng có số trang).",
+       "Bấm OK."
+      ],
+      "note": "Nếu máy hiện số kiểu 0.98\" thì chưa đổi sang cm (xem Bước 0). Nên làm bước này đầu tiên để số trang không bị lệch về sau."
+     },
+     {
+      "title": "Bước 2: Đặt font Times New Roman 13pt cho toàn tài liệu qua style Normal",
+      "forRequirement": "Yêu cầu 5",
+      "actions": [
+       "Tab Home > nhóm Styles > bấm chuột phải vào style Normal > Modify...",
+       "Trong hộp thoại Modify Style: ô font chọn Times New Roman, ô cỡ chọn 13 > OK.",
+       "Khi đó mọi đoạn văn bản thường sẽ là Times New Roman 13pt. Có thể chỉnh thêm cho đẹp: Format > Paragraph... > Line spacing: 1.5 lines, Special: First line 1 cm, Alignment: Justified.",
+       "Với từng style tiêu đề (bước tiếp theo) cũng phải đổi font sang Times New Roman vì mặc định là Calibri Light hoặc Cambria."
+      ],
+      "note": "Đề yêu cầu cỡ 13pt cho toàn bộ chữ. Để chắc điểm, giữ cả tiêu đề ở 13pt và phân biệt bằng In đậm, IN HOA, in nghiêng chứ không tăng cỡ."
+     },
+     {
+      "title": "Bước 3: Chỉnh style Heading 1, Heading 2, Heading 3 (phân cấp tới Heading 3)",
+      "forRequirement": "Yêu cầu 2",
+      "actions": [
+       "Tab Home > nhóm Styles > bấm chuột phải Heading 1 > Modify... > Font: Times New Roman, 13, Bold, màu Black (Automatic) > Format > Paragraph...: Alignment Left, Spacing Before 12 pt, After 6 pt; thẻ Line and Page Breaks tick Page break before (để mỗi chương luôn đứng đầu trang mới) > OK > OK.",
+       "Làm tương tự với Heading 2: Times New Roman, 13, Bold; không tick Page break before.",
+       "Làm tương tự với Heading 3: Times New Roman, 13, Bold + Italic (hoặc chỉ Italic); không tick Page break before.",
+       "Nếu bảng Styles không hiện Heading 2, Heading 3 thì bấm Dialog Launcher của nhóm Styles (hoặc Ctrl+Alt+Shift+S) > Options > Select styles to show: All styles."
+      ],
+      "note": "Heading 1 là cấp chương, Heading 2 là mục (1.1), Heading 3 là tiểu mục (1.1.1). Dùng Page break before cho Heading 1 là cách chuẩn hơn gõ Ctrl+Enter vì nó tự áp dụng cho chương mới sau này."
+     },
+     {
+      "title": "Bước 4: Đánh số tự động cho chương và mục (Multilevel List nối với Heading)",
+      "forRequirement": "Yêu cầu 2 (bước nên làm)",
+      "actions": [
+       "Đặt con trỏ vào một đoạn bất kỳ. Tab Home > nhóm Paragraph > nút Multilevel List > Define New Multilevel List...",
+       "Bấm nút More >> ở góc dưới trái để mở rộng hộp thoại.",
+       "Chọn Level 1 bên trái: ô 'Enter formatting for number' gõ 'Chương ' trước số 1 (có nền xám, giữ nguyên) để thành Chương 1; ô 'Link level to style' chọn Heading 1; Number style chọn 1, 2, 3.",
+       "Chọn Level 2: 'Link level to style' chọn Heading 2; nội dung ô formatting là 1.1 (Word tự lấy số cấp 1, dấu chấm, số cấp 2). Chọn Level 3: link tới Heading 3, hiển thị 1.1.1.",
+       "Bấm OK. Từ nay mỗi khi áp dụng Heading 1, 2, 3 sẽ tự có số Chương 1, 1.1, 1.1.1."
+      ],
+      "note": "Nếu thấy phức tạp, trong phòng thi có thể gõ tay số thứ tự vào tiêu đề (ví dụ 'Chương 1. TỔNG QUAN', '1.1. Khái niệm'). Cách tự động vẫn tốt hơn."
+     },
+     {
+      "title": "Bước 5: Soạn bố cục tài liệu (trang Mục lục, các chương, trang Tài liệu tham khảo)",
+      "forRequirement": "Nội dung 1, 2, 3",
+      "actions": [
+       "Trang 1: gõ dòng 'MỤC LỤC' (căn giữa, in đậm, KHÔNG áp dụng style Heading để không tự lọt vào mục lục), nhấn Enter vài lần để chừa chỗ cho mục lục (sẽ chèn ở Bước 9).",
+       "Tạo Chương 1: nhấn Enter để xuống dòng mới, gõ tên chương, ví dụ 'TỔNG QUAN VỀ ỨNG DỤNG CÔNG NGHỆ THÔNG TIN', bôi đen dòng này rồi Home > Styles > bấm Heading 1 (hoặc Ctrl+Alt+1). Do Heading 1 đã bật Page break before nên chương tự nhảy sang trang 2.",
+       "Gõ đề mục con, ví dụ 'Khái niệm cơ bản' > áp Heading 2 (Ctrl+Alt+2); gõ 'Vai trò' > áp Heading 3 (Ctrl+Alt+3). Dưới mỗi đề mục gõ 2 đến 3 đoạn văn thường (style Normal). Muốn có văn bản mẫu nhanh, gõ =lorem(3,5) rồi Enter để Word tự sinh 3 đoạn, mỗi đoạn 5 câu.",
+       "Tạo Chương 2, Chương 3 theo cách tương tự (mỗi chương có ít nhất một Heading 2 và một Heading 3, chiếm khoảng 1 trang mỗi chương). Gợi ý cấu trúc: Chương 1 Tổng quan (1.1, 1.1.1, 1.2); Chương 2 Nội dung chính (2.1, 2.1.1, 2.2); Chương 3 Ứng dụng và kết luận (3.1, 3.2).",
+       "Cuối cùng gõ tiêu đề 'TÀI LIỆU THAM KHẢO' và áp Heading 1 để lọt vào mục lục. Nếu đã bật đánh số Chương tự động thì đặt con trỏ vào tiêu đề này > Home > Paragraph > Multilevel List > None để bỏ chữ 'Chương' (hoặc bấm nút Numbering để tắt số).",
+       "Tổng cộng khoảng 5 trang: trang 1 Mục lục, trang 2 đến 4 là 3 chương, trang 5 Tài liệu tham khảo."
+      ],
+      "note": "Mỗi chương phải bắt đầu ở đầu một trang mới. Nếu chương dài hơn một trang thì tổng số trang vượt 5, không sao nhưng nên giữ khoảng 5 trang."
+     },
+     {
+      "title": "Bước 6: Soạn danh sách Tài liệu tham khảo (đánh số tự động [1], [2], ...)",
+      "forRequirement": "Yêu cầu 4 (chuẩn bị)",
+      "actions": [
+       "Dưới tiêu đề TÀI LIỆU THAM KHẢO, gõ 4 tài liệu, mỗi tài liệu một dòng (Enter giữa các dòng), ví dụ: Nguyễn Văn A, Giáo trình Tin học cơ bản, NXB Giáo dục, 2020. / Trần Thị B, Microsoft Office 2016, NXB Thống kê, 2018. / Lê Văn C, Ứng dụng công nghệ thông tin, NXB Khoa học và Kỹ thuật, 2019. / Phạm Văn D, Kỹ năng sử dụng máy tính, NXB Đại học Quốc gia, 2021.",
+       "Bôi đen 4 dòng đó. Tab Home > nhóm Paragraph > bấm mũi tên cạnh nút Numbering > Define New Number Format... > ô 'Number style' chọn 1, 2, 3; ô 'Number format' sửa thành [1] (giữ số 1 có nền xám, thêm hai dấu ngoặc vuông quanh nó) > Alignment Left > OK.",
+       "Khi đó bốn dòng có số [1], [2], [3], [4] là danh sách đánh số tự động. Đảm bảo cả 4 tài liệu nằm gọn trên 1 trang (trang 5)."
+      ],
+      "note": ""
+     },
+     {
+      "title": "Bước 7: Tạo tham chiếu tự động đến tài liệu tham khảo (Cross-reference)",
+      "forRequirement": "Yêu cầu 4",
+      "actions": [
+       "Trong phần nội dung một chương (ví dụ Chương 1), đặt con trỏ ngay sau câu cần trích dẫn, ví dụ sau cụm 'Theo giáo trình tin học cơ bản ' (gõ một dấu cách).",
+       "Tab Insert > nhóm Links > Cross-reference.",
+       "Trong hộp thoại Cross-reference: ô Reference type chọn Numbered item; ô Insert reference to chọn Paragraph number (hoặc Paragraph number (no context)); tick Insert as hyperlink; ở danh sách bên dưới chọn tài liệu [1] > bấm Insert > Close.",
+       "Kết quả hiện số [1] trong câu văn, nền xám khi click vào (đó là một trường tham chiếu). Lặp lại để chèn thêm [2], [3] ở vài vị trí khác trong các chương.",
+       "Kiểm tra tự động cập nhật: thêm hoặc xóa một tài liệu trong danh sách tham khảo, rồi bấm Ctrl+A (chọn tất cả) > F9 (Update Field). Các số tham chiếu trong bài thay đổi theo. Có thể bật thêm: File > Options > Display > tick 'Update fields before printing'."
+      ],
+      "note": "Cách khác cũng chấp nhận: dùng References > Insert Citation và Bibliography. Nhưng Cross-reference tới Numbered item là cách đơn giản và hay dùng nhất. Không gõ tay [1] vì khi danh sách đổi thì số không cập nhật."
+     },
+     {
+      "title": "Bước 8: Đánh số trang ở chính giữa phía trên",
+      "forRequirement": "Yêu cầu 1",
+      "actions": [
+       "Tab Insert > nhóm Header & Footer > Page Number > Top of Page > chọn kiểu Plain Number 2 (số ở giữa).",
+       "Word chuyển sang chế độ chỉnh Header. Kiểm tra số trang nằm chính giữa, font Times New Roman 13 (nếu không, bôi đen số và đặt lại font).",
+       "Bấm Close Header and Footer (hoặc nháy đúp vào vùng thân văn bản) để thoát.",
+       "Nếu ở Bước 1 đã tick Different first page thì bỏ tick đó để trang đầu cũng có số."
+      ],
+      "note": "Nếu không muốn số trang xuất hiện trên trang Mục lục thì tick Different First Page, nhưng đề không yêu cầu nên để tất cả các trang đều có số trang."
+     },
+     {
+      "title": "Bước 9: Chèn mục lục tự động (tới Heading 3) và căn chỉnh theo hai bên",
+      "forRequirement": "Yêu cầu 3 (và Yêu cầu 2)",
+      "actions": [
+       "Đặt con trỏ dưới dòng 'MỤC LỤC' ở trang 1 (dòng trống đã chừa sẵn).",
+       "Tab References > nhóm Table of Contents > Table of Contents > Custom Table of Contents...",
+       "Trong hộp thoại Table of Contents: tick Show page numbers; tick Right align page numbers; Tab leader chọn dòng chấm (......); Formats chọn From template; Show levels = 3 > OK.",
+       "Mục lục xuất hiện với số trang canh phải, nối bằng dấu chấm, như vậy hai mép trái và phải của mục lục thẳng hàng. Để chắc chắn căn đều hai bên: bôi đen toàn bộ mục lục > Home > Paragraph > Justify (Ctrl+J).",
+       "Nếu mục lục không đúng font: Home > Styles > Dialog Launcher > chọn lần lượt TOC 1, TOC 2, TOC 3 > Modify > đặt Times New Roman 13.",
+       "Khi sửa tên chương, thêm mục hoặc đổi số trang: bấm vào mục lục > Update Table (hoặc F9) > chọn Update entire table > OK."
+      ],
+      "note": "Mục lục phải chiếm đúng 1 trang (trang 1). Vì Heading 1 có Page break before nên chương 1 không dính vào trang mục lục. Dòng 'MỤC LỤC' không dùng style Heading nên không tự đưa vào mục lục."
+     },
+     {
+      "title": "Bước 10: Kiểm tra lần cuối và lưu",
+      "forRequirement": "Tất cả",
+      "actions": [
+       "Cập nhật toàn bộ trường: Ctrl+A > F9 > chọn Update entire table nếu có hỏi.",
+       "Dùng View > Navigation Pane (tick) để xem cây Heading 1/2/3; kiểm tra có đủ 3 cấp.",
+       "Xem File > Print (Ctrl+P) để duyệt từng trang: trang 1 mục lục, các chương bắt đầu đầu trang, trang cuối là Tài liệu tham khảo, số trang ở giữa trên.",
+       "Bấm Ctrl+S để lưu file xyz_cau1.docx trong E:\\ThiCC."
+      ],
+      "note": ""
+     }
+    ],
+    "formulas": [],
+    "result": "File xyz_cau1.docx dài khoảng 5 trang A4 dọc: trang 1 là MỤC LỤC tự động có 3 cấp, số trang canh phải kèm dấu chấm dẫn; từ trang 2 mỗi Chương nằm ở đầu một trang mới; trang cuối là TÀI LIỆU THAM KHẢO gồm 4 tài liệu đánh số [1] đến [4]; trong nội dung có các tham chiếu [1], [2] dạng Cross-reference; số trang hiển thị chính giữa phía trên mọi trang; toàn bộ chữ Times New Roman 13pt. Tự kiểm tra: mở Page Setup xem đủ thông số lề và Header/Footer; Navigation Pane hiện đủ Heading 1, 2, 3; bấm F9 thì mục lục và tham chiếu cập nhật."
+   },
+   "checklist": [
+    "Giấy A4, Portrait (Page Setup > Paper và Margins).",
+    "Top 2.5 cm, Bottom 2.2 cm, Left 3.5 cm, Right 1.5 cm.",
+    "Header 1.3 cm, Footer 1.3 cm (Page Setup > Layout > From edge).",
+    "Font toàn văn bản Times New Roman, cỡ 13pt (kể cả tiêu đề, mục lục, số trang).",
+    "Trang 1 chỉ có Mục lục (1 trang).",
+    "Mỗi chương bắt đầu ở đầu một trang mới (từ trang 2).",
+    "Có đề mục dùng đủ Heading 1, Heading 2, Heading 3.",
+    "Trang cuối là Tài liệu tham khảo với khoảng 4 tài liệu, nằm trọn 1 trang.",
+    "Số trang đặt chính giữa phía trên (Header, Plain Number 2).",
+    "Mục lục tạo bằng References > Table of Contents, hiển thị tới 3 cấp, số trang canh phải, mục lục căn đều hai bên.",
+    "Có ít nhất một tham chiếu tới tài liệu tham khảo dạng Cross-reference (không gõ tay).",
+    "Sau khi thêm bớt tài liệu tham khảo rồi nhấn F9 thì tham chiếu cập nhật theo."
+   ],
+   "commonMistakes": [
+    "Gõ tay mục lục và số trang thay vì dùng mục lục tự động, hoặc dùng cỡ chữ/in đậm thủ công thay vì style Heading nên mục lục không tạo được.",
+    "Đặt font Times New Roman 13 bằng cách bôi đen rồi sửa tay; các style Heading, TOC, Header vẫn giữ font cũ (Calibri) nên một số chỗ sai font. Cần Modify style Normal và các Heading.",
+    "Dùng nhiều lần Enter hoặc Ctrl+Enter để nhảy sang trang chương mới; khi sửa nội dung bị lệch trang. Nên dùng Page break before cho Heading 1.",
+    "Gõ tay [1] trong văn bản thay vì Cross-reference nên không tự cập nhật khi đổi danh sách tham khảo.",
+    "Quên bật Show levels = 3 khi chèn mục lục nên Heading 3 không hiện.",
+    "Đưa dòng 'MỤC LỤC' vào style Heading 1 khiến mục lục tự liệt kê chính nó.",
+    "Nhập lề khi Word đang để Inches; hoặc quên chỉnh Header/Footer 1.3 cm trong thẻ Layout của Page Setup.",
+    "Chèn số trang ở Footer (cuối trang) thay vì ở Header chính giữa (Top of Page).",
+    "Không cập nhật mục lục (F9) trước khi lưu nên số trang lệch với thực tế.",
+    "Tài liệu tham khảo bị tràn sang trang thứ 2 do khoảng cách dòng quá lớn."
+   ],
+   "uncertain": [
+    "Đề không nêu rõ 'căn chỉnh theo hai bên' của mục lục là Justify hay là số trang canh phải. Hướng dẫn thực hiện cả hai: Right align page numbers kèm dấu chấm dẫn và Justify (Ctrl+J).",
+    "Đề yêu cầu font Times New Roman cỡ 13pt cho cả văn bản; hướng dẫn giữ cả các tiêu đề ở 13pt (phân biệt bằng in đậm, in hoa, in nghiêng).",
+    "Đề không yêu cầu cụ thể cách tham chiếu tài liệu tham khảo; hướng dẫn dùng Cross-reference tới danh sách đánh số vì đây là cách phổ biến. File mẫu xyz-Cau 1.doc (định dạng .doc cũ) chỉ đọc được một phần văn bản (tài liệu mẫu có Mục lục, Lời nói đầu, các chương về cơ học), không dùng để đối chiếu chi tiết."
+   ]
+  },
+  {
+   "no": 2,
+   "app": "excel",
+   "title": "Câu 2. Tạo bảng tính (Microsoft Excel)",
+   "statement": {
+    "intro": "Bảng điểm tổng kết một kỳ thi thể hiện như bảng sau (hai dòng đầu là dữ liệu mẫu trong đề, các dòng sau là '...'). Sử dụng phần mềm Microsoft Excel tạo bảng tổng kết với các yêu cầu sau:",
+    "requirements": [
+     "1) Nhập dữ liệu (giả định) cho 10 thí sinh trên các cột: TT (thứ tự), Họ tên, Ngày sinh, GT (giới tính), Toán, Anh; Kẻ khung, căn chỉnh, định dạng các kiểu dữ liệu cho phù hợp; Font: Times New Roman, cỡ 13pt.",
+     "2) Định dạng trang: Khổ giấy A4, Landscape; Top: 2.5, Bottom: 2.5; Left: 2.5, right: 1.5. Căn chỉnh bảng tính ra giữa trang in (Horizontally).",
+     "3) Nhập công thức tính giá trị cột Tuổi, biết tuổi tính đến ngày hiện tại.",
+     "4) Nhập công thức tính Điểm trung bình của hai môn thi Toán và Anh vào cột Điểm TB biết rằng điểm Toán hệ số 3 và điểm Anh hệ số 2. Điểm TB được làm tròn với 1 chữ số sau dấu phẩy.",
+     "5) Nhập công thức cho cột Xếp loại và cột Học bổng theo thang điểm sau: Dưới 5: Kém, không học bổng; Từ 5 đến cận 7: Trung bình, không học bổng; Từ 7 đến cận 8: Khá, học bổng 500 000; Từ 8 đến cận 9.5: Giỏi, học bổng 1 000 000; Từ 9.5 đến 10: Xuất sắc, học bổng 2 000 000."
+    ],
+    "material": [
+     {
+      "kind": "table",
+      "caption": "Bảng điểm tổng kết (mẫu trong đề; các ô Tuổi, Điểm TB, Xếp loại, Học bổng để trống chờ công thức)",
+      "rows": [
+       [
+        "TT",
+        "Họ tên",
+        "Ngày sinh",
+        "Tuổi",
+        "GT",
+        "Toán",
+        "Anh",
+        "Điểm TB",
+        "Xếp loại",
+        "Học bổng"
+       ],
+       [
+        "1",
+        "Nguyễn Văn A",
+        "30/01/1978",
+        "",
+        "Nam",
+        "4",
+        "7",
+        "",
+        "",
+        ""
+       ],
+       [
+        "2",
+        "Trần Thị B",
+        "08/02/1974",
+        "",
+        "Nữ",
+        "6",
+        "8",
+        "",
+        "",
+        ""
+       ],
+       [
+        "...",
+        "...",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+       ]
+      ]
+     },
+     {
+      "kind": "table",
+      "caption": "Thang điểm xếp loại và học bổng",
+      "rows": [
+       [
+        "Điểm TB",
+        "Xếp loại",
+        "Học bổng"
+       ],
+       [
+        "Dưới 5",
+        "Kém",
+        ""
+       ],
+       [
+        "Từ 5 đến cận 7",
+        "Trung bình",
+        ""
+       ],
+       [
+        "Từ 7 đến cận 8",
+        "Khá",
+        "500 000"
+       ],
+       [
+        "Từ 8 đến cận 9.5",
+        "Giỏi",
+        "1 000 000"
+       ],
+       [
+        "Từ 9.5 đến 10",
+        "Xuất sắc",
+        "2 000 000"
+       ]
+      ]
+     },
+     {
+      "kind": "table",
+      "caption": "Gợi ý dữ liệu giả định cho 10 thí sinh (thí sinh có thể tự bịa; bộ này để thử đủ các mức xếp loại)",
+      "rows": [
+       [
+        "TT",
+        "Họ tên",
+        "Ngày sinh",
+        "GT",
+        "Toán",
+        "Anh"
+       ],
+       [
+        "1",
+        "Nguyễn Văn A",
+        "30/01/1978",
+        "Nam",
+        "4",
+        "7"
+       ],
+       [
+        "2",
+        "Trần Thị B",
+        "08/02/1974",
+        "Nữ",
+        "6",
+        "8"
+       ],
+       [
+        "3",
+        "Lê Văn C",
+        "12/05/1990",
+        "Nam",
+        "7",
+        "5"
+       ],
+       [
+        "4",
+        "Phạm Thị D",
+        "23/09/1985",
+        "Nữ",
+        "8",
+        "7"
+       ],
+       [
+        "5",
+        "Hoàng Văn E",
+        "15/03/1992",
+        "Nam",
+        "9",
+        "8"
+       ],
+       [
+        "6",
+        "Đỗ Thị G",
+        "07/11/1988",
+        "Nữ",
+        "10",
+        "9"
+       ],
+       [
+        "7",
+        "Vũ Văn H",
+        "19/06/1983",
+        "Nam",
+        "3",
+        "4"
+       ],
+       [
+        "8",
+        "Ngô Thị K",
+        "01/12/1995",
+        "Nữ",
+        "8",
+        "8"
+       ],
+       [
+        "9",
+        "Bùi Văn L",
+        "25/08/1980",
+        "Nam",
+        "9",
+        "10"
+       ],
+       [
+        "10",
+        "Đặng Thị M",
+        "30/04/1991",
+        "Nữ",
+        "7",
+        "7"
+       ]
+      ]
+     }
+    ]
+   },
+   "solution": {
+    "summary": "Nhập 10 dòng dữ liệu, định dạng font Times New Roman 13, kẻ khung và căn chỉnh; thiết lập trang A4 ngang với lề và căn giữa ngang; sau đó nhập công thức Tuổi, Điểm TB (làm tròn 1 chữ số, hệ số 3 và 2), Xếp loại và Học bổng bằng hàm IF lồng nhau rồi kéo xuống cho 10 dòng.",
+    "steps": [
+     {
+      "title": "Bước 1: Tạo bảng và nhập dữ liệu",
+      "forRequirement": "Yêu cầu 1",
+      "actions": [
+       "Mở Excel, dùng Sheet1. Lưu ngay vào E:\\ThiCC với tên xyz_cau2.xlsx (File > Save As > Excel Workbook).",
+       "Nhập dòng tiêu đề vào A1:J1 lần lượt: TT, Họ tên, Ngày sinh, Tuổi, GT, Toán, Anh, Điểm TB, Xếp loại, Học bổng (đúng thứ tự cột của đề).",
+       "Nhập 10 dòng dữ liệu vào các cột A, B, C, E, F, G (cột D, H, I, J để trống, sẽ nhập công thức). Hai dòng đầu theo đề: 1 | Nguyễn Văn A | 30/01/1978 | Nam | 4 | 7 và 2 | Trần Thị B | 08/02/1974 | Nữ | 6 | 8. Các dòng 3 đến 10 nhập dữ liệu giả định, ví dụ theo bảng gợi ý ở phần đề.",
+       "Gõ Ngày sinh theo dạng dd/mm/yyyy (30/01/1978). Phải kiểm tra Excel nhận là ngày chứ không phải chữ: ngày hợp lệ tự căn phải trong ô, nếu bị căn trái nghĩa là Excel hiểu là text (xem phần lỗi thường gặp).",
+       "Nhập cột TT bằng cách gõ 1 và 2 rồi bôi đen hai ô, kéo núm điền (Fill handle, ô vuông nhỏ góc dưới phải) xuống tới số 10."
+      ],
+      "note": "Điểm Toán và Anh nhập là số (căn phải), không gõ thêm chữ."
+     },
+     {
+      "title": "Bước 2: Font Times New Roman 13, kẻ khung, căn chỉnh và định dạng kiểu dữ liệu",
+      "forRequirement": "Yêu cầu 1",
+      "actions": [
+       "Bôi đen A1:J11 (hoặc click ô A1 rồi Ctrl+Shift+End). Tab Home > nhóm Font > ô font chọn Times New Roman, ô cỡ chọn 13.",
+       "Kẻ khung: giữ nguyên vùng chọn A1:J11 > Home > nhóm Font > mũi tên nút Borders > All Borders.",
+       "Hàng tiêu đề A1:J1: Home > Bold (Ctrl+B), nhóm Alignment bấm Center và Middle Align; tô nền nhẹ (Fill Color) nếu muốn; bật Wrap Text nếu cột hẹp.",
+       "Căn chỉnh nội dung: cột TT (A), Ngày sinh (C), Tuổi (D), GT (E) chọn Center; cột Họ tên (B) Align Left; các cột Toán, Anh, Điểm TB căn giữa hoặc phải; cột Xếp loại (I) Center; Học bổng (J) Align Right.",
+       "Định dạng kiểu dữ liệu: bôi đen C2:C11 > chuột phải > Format Cells... (Ctrl+1) > thẻ Number > Category: Custom > Type: dd/mm/yyyy > OK. Bôi đen D2:D11 > Format Cells > Number > Category Number, Decimal places = 0. Bôi đen H2:H11 > Number, Decimal places = 1. Bôi đen J2:J11 > Number, Decimal places = 0, tick Use 1000 Separator.",
+       "Chỉnh độ rộng cột: bôi đen các cột A đến J > nháy đúp vào đường ngăn giữa hai tiêu đề cột bất kỳ (AutoFit Column Width) hoặc Home > Format > AutoFit Column Width."
+      ],
+      "note": "Cột Tuổi phải để định dạng Number hoặc General. Nếu Excel tự gán định dạng Date vì ô bên cạnh là ngày, kết quả Tuổi sẽ hiện như ngày tháng năm 1900, cần đổi lại."
+     },
+     {
+      "title": "Bước 3: Định dạng trang (A4, Landscape, lề, căn giữa ngang)",
+      "forRequirement": "Yêu cầu 2",
+      "actions": [
+       "Tab Page Layout > nhóm Page Setup > bấm Dialog Launcher (mũi tên nhỏ góc dưới phải) để mở hộp thoại Page Setup.",
+       "Thẻ Page: Orientation chọn Landscape; Paper size chọn A4.",
+       "Thẻ Margins: Top = 2.5, Bottom = 2.5, Left = 2.5, Right = 1.5 (đơn vị cm). Phần 'Center on page' tick Horizontally (không tick Vertically). Header và Footer giữ mặc định.",
+       "Bấm OK. Nhấn Ctrl+P (hoặc File > Print) xem Print Preview: bảng nằm ngang và chính giữa theo chiều ngang trang.",
+       "Có thể đặt vùng in cho gọn: bôi đen A1:J11 > Page Layout > Print Area > Set Print Area."
+      ],
+      "note": "Nếu Excel đang hiện đơn vị inch (do cài đặt Region), nhập 2.5 cm bằng cách gõ '2.5 cm' vào ô, Excel sẽ tự đổi sang inch. Hoặc 2.5 cm xấp xỉ 0.98 inch, 1.5 cm xấp xỉ 0.59 inch."
+     },
+     {
+      "title": "Bước 4: Tính Tuổi (đến ngày hiện tại)",
+      "forRequirement": "Yêu cầu 3",
+      "actions": [
+       "Click ô D2, gõ công thức =YEAR(TODAY())-YEAR(C2) rồi Enter.",
+       "Giải thích: TODAY() trả về ngày hôm nay, YEAR() lấy năm, hiệu hai năm cho số tuổi tính theo năm.",
+       "Nếu muốn tuổi chính xác theo ngày/tháng: dùng =DATEDIF(C2,TODAY(),\"Y\"). Chỉ cần chọn một trong hai.",
+       "Kéo núm điền ở góc dưới phải ô D2 xuống D11 (hoặc nháy đúp núm điền, hoặc chọn D2:D11 rồi Ctrl+D).",
+       "Kiểm tra: ngày sinh 30/01/1978 cho kết quả bằng năm hiện tại trừ 1978 (nếu dùng DATEDIF thì có thể ít hơn 1 nếu chưa tới sinh nhật)."
+      ],
+      "note": "Nếu máy dùng dấu chấm phẩy (;) làm dấu ngăn cách đối số (thường gặp khi Region là Vietnamese) thì gõ ; thay cho dấu phẩy: =DATEDIF(C2;TODAY();\"Y\"). Quy tắc này áp dụng cho mọi công thức dưới đây."
+     },
+     {
+      "title": "Bước 5: Tính Điểm TB (hệ số 3 và 2, làm tròn 1 chữ số)",
+      "forRequirement": "Yêu cầu 4",
+      "actions": [
+       "Click ô H2, gõ =ROUND((F2*3+G2*2)/5,1) rồi Enter.",
+       "Giải thích: F2 là Toán nhân hệ số 3, G2 là Anh nhân hệ số 2, cộng lại chia tổng hệ số 3+2=5; ROUND(...,1) làm tròn tới 1 chữ số sau dấu phẩy.",
+       "Kéo núm điền từ H2 xuống H11.",
+       "Kiểm tra: dòng 1 (4 và 7) cho (12+14)/5 = 5.2; dòng 2 (6 và 8) cho (18+16)/5 = 6.8."
+      ],
+      "note": "Phải bọc toàn bộ phép tính trong ROUND chứ không chỉ định dạng 1 chữ số thập phân (Format Cells). Xếp loại phải dựa trên giá trị đã làm tròn."
+     },
+     {
+      "title": "Bước 6: Tính Xếp loại",
+      "forRequirement": "Yêu cầu 5",
+      "actions": [
+       "Click ô I2, gõ =IF(H2<5,\"Kém\",IF(H2<7,\"Trung bình\",IF(H2<8,\"Khá\",IF(H2<9.5,\"Giỏi\",\"Xuất sắc\")))) rồi Enter.",
+       "Giải thích: kiểm tra từ thấp lên cao. Nếu dưới 5 là Kém; nếu chưa đúng mà dưới 7 thì là Trung bình (tức từ 5 tới cận 7); tiếp theo dưới 8 là Khá; dưới 9.5 là Giỏi; còn lại (từ 9.5 trở lên) là Xuất sắc.",
+       "Kéo núm điền từ I2 xuống I11.",
+       "Gõ đúng chính tả chữ Việt như trong đề: Kém, Trung bình, Khá, Giỏi, Xuất sắc."
+      ],
+      "note": "Chuỗi chữ trong công thức luôn đặt trong dấu nháy kép thẳng; nếu copy từ Word dễ bị nháy cong gây lỗi #NAME?."
+     },
+     {
+      "title": "Bước 7: Tính Học bổng",
+      "forRequirement": "Yêu cầu 5",
+      "actions": [
+       "Click ô J2, gõ =IF(I2=\"Khá\",500000,IF(I2=\"Giỏi\",1000000,IF(I2=\"Xuất sắc\",2000000,\"\"))) rồi Enter.",
+       "Giải thích: nếu Xếp loại là Khá thì 500000, Giỏi thì 1000000, Xuất sắc thì 2000000, còn lại (Kém, Trung bình) để trống đúng như bảng thang điểm của đề.",
+       "Kéo núm điền J2 xuống J11.",
+       "Cách khác dựa trực tiếp vào điểm: =IF(H2>=9.5,2000000,IF(H2>=8,1000000,IF(H2>=7,500000,\"\"))). Kết quả tương đương.",
+       "Cột J đã định dạng Number có dấu phân cách hàng nghìn ở Bước 2."
+      ],
+      "note": "Có thể thay \"\" bằng 0 nếu muốn hiện số 0; đề để trống nên dùng \"\"."
+     },
+     {
+      "title": "Bước 8: Kiểm tra và lưu",
+      "forRequirement": "Tất cả",
+      "actions": [
+       "Đối chiếu bảng gợi ý ở phần đề: Điểm TB lần lượt 5.2, 6.8, 6.2, 7.6, 8.6, 9.6, 3.4, 8, 9.4, 7 và Xếp loại Trung bình, Trung bình, Trung bình, Khá, Giỏi, Xuất sắc, Kém, Giỏi, Giỏi, Khá.",
+       "Học bổng tương ứng: trống, trống, trống, 500000, 1000000, 2000000, trống, 1000000, 1000000, 500000.",
+       "Nhấn Ctrl+P để xem trước trang in: giấy ngang, bảng ở giữa theo chiều ngang, không bị cắt cột.",
+       "Lưu Ctrl+S (xyz_cau2.xlsx)."
+      ],
+      "note": ""
+     }
+    ],
+    "formulas": [
+     {
+      "cell": "D2",
+      "formula": "=YEAR(TODAY())-YEAR(C2)",
+      "meaning": "Tuổi = năm hiện tại trừ năm sinh. Kéo xuống D11. Có thể thay bằng =DATEDIF(C2,TODAY(),\"Y\") để tính tuổi tròn chính xác."
+     },
+     {
+      "cell": "H2",
+      "formula": "=ROUND((F2*3+G2*2)/5,1)",
+      "meaning": "Điểm TB có trọng số: Toán hệ số 3, Anh hệ số 2, chia cho tổng hệ số 5, làm tròn 1 chữ số thập phân."
+     },
+     {
+      "cell": "I2",
+      "formula": "=IF(H2<5,\"Kém\",IF(H2<7,\"Trung bình\",IF(H2<8,\"Khá\",IF(H2<9.5,\"Giỏi\",\"Xuất sắc\"))))",
+      "meaning": "Xếp loại theo thang: dưới 5 Kém; 5 đến cận 7 Trung bình; 7 đến cận 8 Khá; 8 đến cận 9.5 Giỏi; từ 9.5 trở lên Xuất sắc."
+     },
+     {
+      "cell": "J2",
+      "formula": "=IF(I2=\"Khá\",500000,IF(I2=\"Giỏi\",1000000,IF(I2=\"Xuất sắc\",2000000,\"\")))",
+      "meaning": "Học bổng theo xếp loại; Kém và Trung bình để trống."
+     }
+    ],
+    "result": "Sheet có bảng 10 cột x 11 dòng (1 dòng tiêu đề, 10 thí sinh) kẻ khung đầy đủ, font Times New Roman 13; cột Tuổi, Điểm TB (1 chữ số thập phân), Xếp loại, Học bổng đều là công thức và tự thay đổi khi sửa Toán, Anh hoặc Ngày sinh. Print Preview hiển thị khổ A4 ngang với lề Top 2.5, Bottom 2.5, Left 2.5, Right 1.5 và bảng nằm giữa trang theo chiều ngang. Tự kiểm tra: bấm vào từng ô cột D, H, I, J phải thấy công thức; đổi thử điểm Toán xem Xếp loại và Học bổng đổi theo."
+   },
+   "checklist": [
+    "Có đủ các cột TT, Họ tên, Ngày sinh, Tuổi, GT, Toán, Anh, Điểm TB, Xếp loại, Học bổng và 10 thí sinh.",
+    "Toàn bảng dùng font Times New Roman cỡ 13pt.",
+    "Bảng có kẻ khung toàn bộ (All Borders), tiêu đề in đậm căn giữa.",
+    "Cột Ngày sinh là kiểu ngày dd/mm/yyyy (không phải text), Điểm TB hiện 1 chữ số thập phân, Học bổng có dấu phân cách hàng nghìn.",
+    "Trang in: A4, Landscape.",
+    "Lề Top 2.5, Bottom 2.5, Left 2.5, Right 1.5 và tick Horizontally trong Center on page.",
+    "Cột Tuổi dùng công thức với TODAY() (không gõ cứng số).",
+    "Cột Điểm TB dùng công thức hệ số 3 và 2 bọc trong ROUND(...,1).",
+    "Cột Xếp loại dùng IF lồng nhau đúng mốc 5, 7, 8, 9.5.",
+    "Cột Học bổng cho 500000 (Khá), 1000000 (Giỏi), 2000000 (Xuất sắc) và trống với Kém, Trung bình.",
+    "Công thức đã kéo xuống đủ 10 dòng, không có lỗi #VALUE!, #NAME?."
+   ],
+   "commonMistakes": [
+    "Gõ ngày sinh dd/mm/yyyy trong khi máy dùng định dạng ngày kiểu mm/dd/yyyy khiến ngày như 30/01/1978 thành chữ (text) và công thức Tuổi báo #VALUE!. Cách khắc phục: kiểm tra ô có căn phải không; đổi Region (Control Panel > Region > Short date dd/MM/yyyy) rồi nhập lại.",
+    "Cột Tuổi hiển thị như ngày tháng (ví dụ 01/01/1900) do ô có định dạng Date; phải đổi sang Number, 0 chữ số thập phân.",
+    "Chỉ định dạng 1 chữ số thập phân mà không dùng ROUND nên giá trị thực vẫn dài (ví dụ 9.46 hiển thị 9.5 nhưng xếp loại vẫn tính như 9.46).",
+    "Viết sai hệ số: lấy Toán nhân 2 và Anh nhân 3 hoặc chia cho 2 thay vì 5.",
+    "Viết IF sai mốc (dùng <=7 thay <7) làm điểm 7.0 bị xếp Trung bình thay vì Khá; nhớ 'cận 7' nghĩa là nhỏ hơn 7.",
+    "Gõ chữ Kém/Khá/Giỏi sai chính tả hoặc không khớp với chuỗi so sánh trong công thức Học bổng.",
+    "Dùng dấu phẩy trong công thức trong khi máy yêu cầu dấu chấm phẩy (hoặc ngược lại) nên báo lỗi công thức; chỉ cần đổi dấu ngăn cách đối số.",
+    "Dùng dấu nháy cong khi copy từ Word thay cho nháy kép thẳng nên ra #NAME?.",
+    "Quên tick Horizontally ở Center on page hoặc đặt Portrait thay vì Landscape.",
+    "Nhập Tuổi bằng số cố định thay vì công thức TODAY()."
+   ],
+   "uncertain": [
+    "Bảng đề in mờ nhưng đọc được rõ: tiêu đề cột TT, Họ tên, Ngày sinh, Tuổi, GT, Toán, Anh, Điểm TB, Xếp loại, Học bổng; hai dòng mẫu là Nguyễn Văn A, 30/01/1978, Nam, 4, 7 và Trần Thị B, 08/02/1974, Nữ, 6, 8.",
+    "File mẫu KT.xlsx có hai sheet: Sheet1 tính tuổi bằng =2020-RIGHT(C2,4) (cố định năm 2020, không đúng với 'đến ngày hiện tại') và có thêm cột K thừa; Sheet2 không làm tròn Điểm TB bằng ROUND. Hướng dẫn làm theo đề (TODAY() và ROUND), không theo hai chỗ lệch đó. Dữ liệu 10 thí sinh trong hướng dẫn là gợi ý, đề cho phép giả định.",
+    "Đề không nói rõ Học bổng của Kém và Trung bình, bảng thang điểm để trống nên hướng dẫn dùng \"\" (trống); dùng 0 cũng chấp nhận được."
+   ]
+  },
+  {
+   "no": 3,
+   "app": "powerpoint",
+   "title": "Câu 3. Tạo các trang trình chiếu (Microsoft PowerPoint)",
+   "statement": {
+    "intro": "Sử dụng phần mềm Microsoft PowerPoint thiết kế slides mẫu trình chiếu phục vụ cho báo cáo (>= 5 slides), trong đó có các nội dung sau:",
+    "requirements": [
+     "Nội dung 1) Trang giới thiệu: gồm có 2 nội dung: Tên tài liệu trong phần thi Word; Hà Nội, ngày...tháng...năm.",
+     "Nội dung 2) Nội dung: a. Mục lục nội dung trình bày trong bài thi Word. b. Các trang tiếp theo tương ứng với một nội dung trong mục lục.",
+     "Nội dung 3) Kết luận.",
+     "Yêu cầu 1) Đánh số trang slide.",
+     "Yêu cầu 2) Sử dụng slide master để định dạng kích thước, font trong phần tiêu đề, nội dung.",
+     "Yêu cầu 3) Tạo mới một Layout để sử dụng cho phần nội dung.",
+     "Yêu cầu 4) Sử dụng ít nhất 02 hiệu ứng Animation.",
+     "Yêu cầu 5) Sử dụng ít nhất 02 hiệu ứng Transition."
+    ],
+    "material": [
+     {
+      "kind": "text",
+      "caption": "Nội dung trang giới thiệu (slide 1)",
+      "lines": [
+       "Tên tài liệu trong phần thi Word: (lấy tên tài liệu bạn đã soạn ở Câu 1)",
+       "Hà Nội, ngày...tháng...năm"
+      ]
+     }
+    ]
+   },
+   "solution": {
+    "summary": "Tạo bộ khung bằng Slide Master (font, cỡ chữ, số trang), tạo một Custom Layout dành cho slide nội dung, rồi dựng 6 slide: Giới thiệu, Mục lục, 3 slide nội dung tương ứng 3 chương, Kết luận; cuối cùng gắn ít nhất 2 Animation và 2 Transition.",
+    "steps": [
+     {
+      "title": "Bước 1: Tạo file và lưu",
+      "forRequirement": "Chuẩn bị",
+      "actions": [
+       "Mở PowerPoint, chọn Blank Presentation (slide đầu là Title Slide).",
+       "File > Save As > thư mục E:\\ThiCC > đặt tên xyz_cau3.pptx > Save. Khổ 16:9 hay 4:3 chọn ở Design > Slide Size (không bắt buộc)."
+      ],
+      "note": "Nên dựng Slide Master trước khi tạo nội dung để toàn bộ slide tự theo mẫu."
+     },
+     {
+      "title": "Bước 2: Định dạng Slide Master (font, kích thước tiêu đề và nội dung)",
+      "forRequirement": "Yêu cầu 2",
+      "actions": [
+       "Tab View > nhóm Master Views > Slide Master. Cột trái hiện slide mẫu lớn trên cùng (Slide Master) và các layout bên dưới.",
+       "Click vào slide mẫu lớn nhất ở trên cùng. Chọn khung tiêu đề (Click to edit Master title style) > Home > font Times New Roman, cỡ 36 (hoặc 40), Bold, màu tùy chọn; Align Left hoặc Center.",
+       "Chọn khung nội dung (Click to edit Master text styles): bôi đen từng dòng cấp 1 đến cấp 5. Đặt font Times New Roman, cỡ cấp 1 = 28, cấp 2 = 24, cấp 3 = 20, cấp 4 = 18, cấp 5 = 18.",
+       "Có thể thêm màu nền hoặc hình trang trí ở Slide Master: tab Slide Master > Background Styles; hoặc Insert > Shapes vẽ một thanh màu ở dưới. Bất cứ thứ gì thêm vào Slide Master sẽ xuất hiện trên mọi slide.",
+       "Chưa đóng Master View, tiếp tục các bước 3 và 4."
+      ],
+      "note": "Không chỉnh font tay trong từng slide; chỉ chỉnh ở Master để đáp ứng yêu cầu 'sử dụng slide master'. Các layout con kế thừa từ Slide Master."
+     },
+     {
+      "title": "Bước 3: Đánh số trang slide",
+      "forRequirement": "Yêu cầu 1",
+      "actions": [
+       "Vẫn ở Slide Master view, kiểm tra khung số trang (Slide Number placeholder, dạng <#>) ở góc dưới phải; chỉnh font Times New Roman cỡ 14, màu rõ nét, có thể kéo đổi vị trí.",
+       "Hoàn tất Bước 4 (tạo layout) rồi mới bấm Close Master View (tab Slide Master > Close Master View).",
+       "Tab Insert > nhóm Text > Slide Number (hoặc Header & Footer) > thẻ Slide: tick Slide number; tick Don't show on title slide nếu muốn trang giới thiệu không có số (không bắt buộc); bấm Apply to All.",
+       "Kiểm tra: số 1, 2, 3, ... hiện ở góc các slide."
+      ],
+      "note": "Nếu số trang không hiện thì kiểm tra khung Slide Number còn trong layout (không bị xóa) và đã bấm Apply to All. Layout mới tạo ở bước sau cũng phải có khung này (Master Layout > tick Footers)."
+     },
+     {
+      "title": "Bước 4: Tạo mới một Layout dành cho phần nội dung",
+      "forRequirement": "Yêu cầu 3",
+      "actions": [
+       "View > Slide Master. Click vào Slide Master, tab Slide Master > nhóm Edit Master > Insert Layout. Một layout mới xuất hiện cuối danh sách bên trái.",
+       "Đổi tên: chuột phải layout mới > Rename Layout... > gõ 'Noi dung' (hoặc 'Layout Nội dung') > Rename.",
+       "Trong layout mới, tab Slide Master > nhóm Master Layout > Insert Placeholder > chọn Content rồi kéo vẽ vào slide, ví dụ chiếm phần giữa; giữ khung Title ở trên. Xóa các khung chân trang thừa nếu muốn.",
+       "Trang trí riêng cho layout này (ví dụ thêm một đường kẻ hoặc hình nhỏ) để phân biệt với layout mặc định. Kiểm tra khung Slide Number vẫn có (Master Layout > tick Footers).",
+       "Tab Slide Master > Close Master View."
+      ],
+      "note": "Đây là phần thường bị bỏ sót: bắt buộc phải là layout MỚI tự tạo và dùng nó cho các slide nội dung (không dùng lại Title and Content mặc định)."
+     },
+     {
+      "title": "Bước 5: Dựng slide 1 (Trang giới thiệu)",
+      "forRequirement": "Nội dung 1",
+      "actions": [
+       "Chọn slide 1 (layout Title Slide). Ô tiêu đề (Click to add title) gõ tên tài liệu đã soạn ở Câu 1, ví dụ 'ỨNG DỤNG CÔNG NGHỆ THÔNG TIN'.",
+       "Ô phụ đề (Click to add subtitle) gõ 'Hà Nội, ngày ... tháng ... năm ...' (có thể điền ngày thực).",
+       "Không đổi font ở slide; font đã lấy từ Master."
+      ],
+      "note": ""
+     },
+     {
+      "title": "Bước 6: Dựng slide 2 (Mục lục), các slide nội dung và Kết luận",
+      "forRequirement": "Nội dung 2a, 2b, 3",
+      "actions": [
+       "Home > New Slide (mũi tên) > chọn layout mới 'Noi dung' đã tạo ở Bước 4. Tiêu đề: 'MỤC LỤC'; trong ô nội dung gõ danh sách các chương trong bài Word (ví dụ: Chương 1. Tổng quan; Chương 2. Nội dung chính; Chương 3. Ứng dụng; Kết luận).",
+       "Tạo tiếp 3 slide mới cũng dùng layout 'Noi dung' (mỗi slide tương ứng một chương trong mục lục). Mỗi slide: tiêu đề là tên chương (khớp mục lục); ô nội dung gõ 3 đến 5 gạch đầu dòng tóm tắt các đề mục của chương đó trong Word (Heading 2 và Heading 3).",
+       "Slide cuối: New Slide với layout 'Noi dung', tiêu đề 'KẾT LUẬN', nội dung 3 gạch đầu dòng tổng kết và lời cảm ơn.",
+       "Tổng cộng 6 slide: 1 Giới thiệu, 2 Mục lục, 3 đến 5 nội dung các chương, 6 Kết luận (thỏa yêu cầu >= 5 slide).",
+       "Nếu slide đã tạo bằng layout khác, đổi layout: chọn slide > Home > Layout > chọn layout mới."
+      ],
+      "note": "Nội dung các slide phải khớp tên chương trong mục lục của Word. Không nhập quá nhiều chữ (khoảng 3 đến 5 ý mỗi slide)."
+     },
+     {
+      "title": "Bước 7: Thêm ít nhất 02 hiệu ứng Animation",
+      "forRequirement": "Yêu cầu 4",
+      "actions": [
+       "Chọn slide 1, click vào khung tiêu đề > tab Animations > nhóm Animation > chọn Fade (hoặc Fly In, Zoom). Trong nhóm Timing: Start chọn After Previous hoặc On Click.",
+       "Click khung phụ đề (Hà Nội, ngày ...) > chọn hiệu ứng khác, ví dụ Fly In (Effect Options > From Bottom).",
+       "Trên slide nội dung 3: chọn khung nội dung > Animations > Wipe hoặc Appear > Effect Options > By Paragraph để các ý hiện lần lượt.",
+       "Kiểm tra: Animations > Animation Pane để xem danh sách hiệu ứng; nhấn Preview hoặc F5 (chạy từ đầu) để thử."
+      ],
+      "note": "Yêu cầu chỉ cần ít nhất 2 hiệu ứng; nên dùng hai hiệu ứng khác loại trên hai đối tượng khác nhau cho chắc."
+     },
+     {
+      "title": "Bước 8: Thêm ít nhất 02 hiệu ứng Transition",
+      "forRequirement": "Yêu cầu 5",
+      "actions": [
+       "Chọn slide 1 trong ngăn trái > tab Transitions > nhóm Transition to This Slide > chọn Fade.",
+       "Chọn slide 2 > Transitions > chọn Push (hoặc Wipe, Split).",
+       "Chọn các slide còn lại > chọn tiếp một hiệu ứng khác (ví dụ Cover), hoặc dùng Apply To All cho một hiệu ứng chung. Tùy chọn: Timing > Duration 1.0 giây; chọn On Mouse Click.",
+       "Slide nào có hiệu ứng sẽ hiện ngôi sao nhỏ bên cạnh số slide trong ngăn trái. Nhấn F5 để xem toàn bộ."
+      ],
+      "note": "Đảm bảo có tối thiểu 2 kiểu Transition khác nhau, ví dụ Fade và Push. Nếu bấm Apply To All sau cùng thì tất cả slide thành cùng một hiệu ứng, nên áp dụng riêng từng slide."
+     },
+     {
+      "title": "Bước 9: Kiểm tra lần cuối và lưu",
+      "forRequirement": "Tất cả",
+      "actions": [
+       "F5 chạy trình chiếu từ đầu: kiểm tra Transition, Animation, số trang và font.",
+       "View > Slide Master: kiểm tra layout mới còn tồn tại.",
+       "Bấm Ctrl+S để lưu xyz_cau3.pptx trong E:\\ThiCC."
+      ],
+      "note": ""
+     }
+    ],
+    "formulas": [],
+    "result": "File xyz_cau3.pptx có ít nhất 5 slide (ví dụ 6): slide 1 giới thiệu có tên tài liệu và dòng Hà Nội, ngày...tháng...năm; slide 2 là Mục lục; các slide tiếp theo mỗi slide một chương; slide cuối là Kết luận. Mọi slide có số trang; font và cỡ chữ tiêu đề và nội dung đồng nhất do Master định nghĩa; trong Slide Master có một Layout mới (đã đổi tên) được dùng cho slide nội dung; có ít nhất 2 Animation và 2 Transition khác nhau. Tự kiểm tra bằng F5 và bằng View > Slide Master."
+   },
+   "checklist": [
+    "Có từ 5 slide trở lên.",
+    "Slide 1 có tên tài liệu (trùng tài liệu Word) và dòng Hà Nội, ngày...tháng...năm.",
+    "Slide Mục lục khớp với mục lục của bài Word.",
+    "Mỗi chương trong mục lục có một slide riêng.",
+    "Có slide Kết luận.",
+    "Có đánh số trang slide (Insert > Slide Number > Apply to All).",
+    "Font và cỡ chữ tiêu đề, nội dung được thiết lập trong Slide Master.",
+    "Đã tạo một Custom Layout mới (Insert Layout) và các slide nội dung dùng layout đó.",
+    "Có ít nhất 02 hiệu ứng Animation.",
+    "Có ít nhất 02 hiệu ứng Transition."
+   ],
+   "commonMistakes": [
+    "Sửa font và cỡ chữ trực tiếp trong từng slide thay vì ở Slide Master nên không đạt yêu cầu dùng Master.",
+    "Chỉ chèn thêm layout nhưng quên áp dụng cho slide nội dung (slide vẫn dùng Title and Content).",
+    "Chọn Slide Number nhưng không bấm Apply to All hoặc layout mới không có khung số trang nên số không hiện.",
+    "Dùng Transition giống nhau cho mọi slide nên chỉ tính 1 hiệu ứng; cần có ít nhất 2 loại khác nhau.",
+    "Gán Animation cho cả slide thay vì cho từng đối tượng (Animation áp dụng cho đối tượng như tiêu đề, khung nội dung, hình).",
+    "Tên chương trong slide không khớp với mục lục Word hoặc thiếu slide cho một chương.",
+    "Quá nhiều chữ trong một slide, chữ nhỏ không đọc được.",
+    "Quên lưu đúng tên xyz_cau3.pptx trong E:\\ThiCC."
+   ],
+   "uncertain": [
+    "Đề không nêu kích thước slide cụ thể; hướng dẫn để mặc định (16:9 hoặc 4:3 tùy chọn).",
+    "Đề không nói rõ slide giới thiệu có phải hiện số trang hay không; hướng dẫn áp dụng cho mọi slide (Apply to All), có thể chọn Don't show on title slide.",
+    "Nội dung cụ thể của tài liệu Word do thí sinh tự chọn nên tên chương, tiêu đề slide trong hướng dẫn chỉ là ví dụ."
+   ]
+  }
+ ]
+}

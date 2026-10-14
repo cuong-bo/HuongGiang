@@ -34,6 +34,15 @@
         "a",
         {
           class: "nav-link",
+          href: "#/thuc-hanh",
+          "aria-current": route.name === "practical" || route.name === "task" ? "page" : false,
+        },
+        "Thực hành"
+      ),
+      h(
+        "a",
+        {
+          class: "nav-link",
           href: "#/wrong",
           "aria-current": route.name === "wrong" ? "page" : false,
         },

@@ -149,6 +149,35 @@ test("formatDuration renders mm:ss and h:mm:ss", () => {
   assert.equal(Core.formatDuration(-5), "00:00");
 });
 
+const PRACTICAL = [
+  { id: 1, tasks: [{ no: 1, app: "word" }, { no: 2, app: "excel" }, { no: 3, app: "powerpoint" }] },
+  { id: 2, tasks: [{ no: 1, app: "word" }, { no: 2, app: "excel" }] },
+];
+
+test("findTask returns the set and task, or null when missing", () => {
+  const hit = Core.findTask(PRACTICAL, 1, 2);
+  assert.equal(hit.set.id, 1);
+  assert.equal(hit.task.app, "excel");
+  assert.equal(Core.findTask(PRACTICAL, 1, 9), null);
+  assert.equal(Core.findTask(PRACTICAL, 9, 1), null);
+});
+
+test("taskNeighbors walks across sets in order", () => {
+  assert.deepEqual(Core.taskNeighbors(PRACTICAL, 1, 1), { prev: null, next: { setId: 1, no: 2 } });
+  assert.deepEqual(Core.taskNeighbors(PRACTICAL, 1, 3), {
+    prev: { setId: 1, no: 2 },
+    next: { setId: 2, no: 1 },
+  });
+  assert.deepEqual(Core.taskNeighbors(PRACTICAL, 2, 2), { prev: { setId: 2, no: 1 }, next: null });
+  assert.deepEqual(Core.taskNeighbors(PRACTICAL, 9, 9), { prev: null, next: null });
+});
+
+test("appLabel gives the product name", () => {
+  assert.equal(Core.appLabel("word"), "Word");
+  assert.equal(Core.appLabel("excel"), "Excel");
+  assert.equal(Core.appLabel("powerpoint"), "PowerPoint");
+});
+
 test("sanitizeProgress rejects malformed stored data", () => {
   assert.deepEqual(Core.sanitizeProgress(null), Core.emptyProgress());
   assert.deepEqual(Core.sanitizeProgress("junk"), Core.emptyProgress());

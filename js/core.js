@@ -130,6 +130,24 @@
     return h > 0 ? `${h}:${pad(m)}:${pad(sec)}` : `${pad(m)}:${pad(sec)}`;
   }
 
+  const APP_LABELS = { word: "Word", excel: "Excel", powerpoint: "PowerPoint" };
+  const appLabel = (app) => APP_LABELS[app] || app;
+
+  /** Looks up one practical task, or null when the set or task number is unknown. */
+  function findTask(sets, setId, no) {
+    const set = sets.find((s) => s.id === setId);
+    const task = set ? set.tasks.find((t) => t.no === no) : undefined;
+    return set && task ? { set, task } : null;
+  }
+
+  /** Previous and next task in reading order across all sets. */
+  function taskNeighbors(sets, setId, no) {
+    const flat = sets.flatMap((s) => s.tasks.map((t) => ({ setId: s.id, no: t.no })));
+    const i = flat.findIndex((t) => t.setId === setId && t.no === no);
+    if (i === -1) return { prev: null, next: null };
+    return { prev: flat[i - 1] || null, next: flat[i + 1] || null };
+  }
+
   /** Drop anything in stored data that does not match the expected shape. */
   function sanitizeProgress(raw) {
     if (!raw || typeof raw !== "object") return emptyProgress();
@@ -165,5 +183,8 @@
     addExamResult,
     formatDuration,
     sanitizeProgress,
+    appLabel,
+    findTask,
+    taskNeighbors,
   };
 });

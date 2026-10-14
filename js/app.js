@@ -61,6 +61,13 @@
       return { name: "practice", moduleId: Number(arg) };
     }
     if (name === "wrong" || name === "exam" || name === "result") return { name };
+    if (name === "thuc-hanh") {
+      if (parts.length === 1) return { name: "practical" };
+      const setId = Number(parts[1]);
+      const no = Number(parts[2]);
+      const found = window.Core.findTask(window.PRACTICAL_DATA || [], setId, no);
+      return found ? { name: "task", setId, no } : { name: "practical" };
+    }
     return { name: "home" };
   }
 
@@ -142,7 +149,19 @@
   function viewFor(route) {
     if (route.name === "home") return Views.home;
     if (route.name === "result") return Views.result;
+    if (route.name === "practical") return Views.practical;
+    if (route.name === "task") return Views.task;
     return Views.quiz;
+  }
+
+  function titleFor(route) {
+    if (route.name === "home") return TITLE;
+    if (route.name === "practical") return `Hướng dẫn thi thực hành | ${BRAND}`;
+    if (route.name === "task") {
+      const { set, task } = window.Core.findTask(window.PRACTICAL_DATA, route.setId, route.no);
+      return `Đề ${set.id}, Câu ${task.no} | ${BRAND}`;
+    }
+    return `${app.session ? app.session.title : ""} | ${BRAND}`;
   }
 
   function render(routeChanged) {
@@ -151,7 +170,7 @@
     Shell.renderHeader(app, route);
     Shell.renderFooter(app);
     main.replaceChildren(viewFor(route)(app));
-    document.title = route.name === "home" ? TITLE : `${app.session ? app.session.title : ""} | ${BRAND}`;
+    document.title = titleFor(route);
     afterRender(routeChanged);
   }
 

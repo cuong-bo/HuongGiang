@@ -1,0 +1,699 @@
+{
+ "id": 1,
+ "title": "Đề thực hành số 1",
+ "source": "de co ban 1",
+ "timeLimitMinutes": 60,
+ "generalNotes": [
+  "Đề thi cấp chứng chỉ UDCNTT cơ bản, thời gian làm bài: 60 phút (đợt thi B200229019 theo tiêu đề đề).",
+  "Đề thi gồm 3 trang; không được sử dụng tài liệu, USB và các thiết bị lưu trữ khác.",
+  "Các file bài làm để trong thư mục D:\\ThiCC, cách đặt tên file: Câu 1: sbd_cau1.docx; Câu 2: sbd_cau2.xlsx; Câu 3: sbd_cau3.pptx. Trong đó sbd là số báo danh của thí sinh.",
+  "Trên giấy đề ghi 'ĐỀ THI THỰC HÀNH SỐ 02' dù thư mục là de co ban 1."
+ ],
+ "tasks": [
+  {
+   "no": 1,
+   "app": "word",
+   "title": "Câu 1. Soạn thảo văn bản (Microsoft Word)",
+   "statement": {
+    "intro": "Sử dụng phần mềm Microsoft Word soạn thảo nội dung tài liệu trên trang 3 với các yêu cầu sau:",
+    "requirements": [
+     "1) Soạn và định dạng đầy đủ nội dung văn bản như trang 3.",
+     "2) Định dạng trang: Cỡ giấy: A4; Chiều: Portrait; Lề trên (Top): 2.5 cm, Lề dưới (Bottom): 2 cm, Lề trái (Left): 3.5 cm, Lề phải (Right): 1.5 cm; Font: Times New Roman, cỡ 13pt.",
+     "3) Sử dụng Tab để thể hiện các thông tin các nội dung cần điền vào chỗ trống.",
+     "4) Sử dụng bảng cho thông tin hàng hóa với các đường viền theo đúng mẫu.",
+     "5) Sử dụng bảng không đường viền cho phần chữ ký của các bên tham gia."
+    ],
+    "material": [
+     {
+      "kind": "text",
+      "caption": "Nội dung phần đầu phiếu (trang 3 của đề)",
+      "lines": [
+       "Đơn vị:................... Mẫu số XX - VT",
+       "Bộ phận:...............",
+       "PHIẾU XUẤT KHO",
+       "Ngày.....tháng.....năm ...... Nợ ........................",
+       "Số: .................................. Có ........................",
+       "- Họ và tên người nhận hàng: ................ Địa chỉ (bộ phận):.......................................",
+       "- Lý do xuất kho: ......................................................................",
+       "- Xuất tại kho (ngăn lô): .......................... Địa điểm: ..................................................."
+      ]
+     },
+     {
+      "kind": "table",
+      "caption": "Bảng hàng hóa của phiếu (hàng 1 và 2 là tiêu đề; ô Số lượng gộp trên hai cột Yêu cầu và Thực xuất; các ô tiêu đề khác gộp dọc hai hàng)",
+      "rows": [
+       [
+        "STT",
+        "Tên, nhãn hiệu, quy cách, phẩm chất vật tư, dụng cụ, sản phẩm, hàng hoá",
+        "Mã số",
+        "Đơn vị tính",
+        "Số lượng",
+        "",
+        "Đơn giá",
+        "Thành tiền"
+       ],
+       [
+        "",
+        "",
+        "",
+        "",
+        "Yêu cầu",
+        "Thực xuất",
+        "",
+        ""
+       ],
+       [
+        "A",
+        "B",
+        "C",
+        "D",
+        "1",
+        "2",
+        "3",
+        "4"
+       ],
+       [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+       ],
+       [
+        "",
+        "Cộng",
+        "x",
+        "x",
+        "x",
+        "x",
+        "x",
+        ""
+       ]
+      ]
+     },
+     {
+      "kind": "text",
+      "caption": "Nội dung phần cuối phiếu",
+      "lines": [
+       "- Tổng số tiền (viết bằng chữ): ..................................................................",
+       "- Số chứng từ gốc kèm theo: ......................................................................",
+       "Ngày .... tháng .... năm...",
+       "Người nhận hàng (Ký, họ tên) | Thủ kho (Ký, họ tên) | Kế toán trưởng (Hoặc bộ phận có nhu cầu nhập) (Ký, họ tên) | Giám đốc (Ký, họ tên)"
+      ]
+     }
+    ]
+   },
+   "solution": {
+    "summary": "Đặt trang A4 Portrait với lề 2.5/2/3.5/1.5 cm và font Times New Roman 13 trước, rồi gõ các dòng thông tin dùng Tab có leader dấu chấm, vẽ bảng hàng hóa 8 cột có gộp ô và đường viền đầy đủ, cuối cùng làm bảng 4 cột không viền cho phần chữ ký. Nên làm đúng thứ tự này để mọi vị trí Tab và độ rộng bảng (16 cm) khớp nhau.",
+    "steps": [
+     {
+      "title": "Tạo file mới, đặt tên và thư mục lưu",
+      "forRequirement": "Chung",
+      "actions": [
+       "Mở Microsoft Word, chọn Blank document.",
+       "Bấm Ctrl+S ngay từ đầu, chọn thư mục D:\\ThiCC, đặt tên file là sbd_cau1.docx (sbd là số báo danh của bạn, ví dụ số báo danh 123 thì đặt 123_cau1.docx), Save as type: Word Document (*.docx).",
+       "Trong lúc làm bài nên bấm Ctrl+S thường xuyên để không mất dữ liệu."
+      ],
+      "note": "Đặt sai tên hoặc lưu sai thư mục có thể bị tính sai. Nhớ tên file đúng theo đề."
+     },
+     {
+      "title": "Định dạng trang trước khi gõ nội dung",
+      "forRequirement": "2) Định dạng trang, font",
+      "actions": [
+       "Tab Page Layout > nhóm Page Setup > bấm mũi tên nhỏ ở góc dưới phải nhóm (Page Setup dialog launcher) để mở hộp thoại Page Setup. Hoặc: Margins > Custom Margins...",
+       "Tab Margins: Top = 2.5 cm; Bottom = 2 cm; Left = 3.5 cm; Right = 1.5 cm. Mục Orientation chọn Portrait. Nếu Word đang hiện đơn vị inch thì cứ gõ \"2.5 cm\", Word sẽ tự đổi.",
+       "Chuyển sang tab Paper: Paper size chọn A4 (21 cm x 29.7 cm).",
+       "Mục Apply to chọn Whole document. Bấm OK.",
+       "Đặt font mặc định: tab Home > nhóm Styles > bấm phải vào Normal > Modify... > chọn Times New Roman, cỡ 13 > bấm Format > Paragraph > Spacing Before = 0 pt, After = 0 pt, Line spacing = Single > OK > OK. Làm vậy mọi đoạn (kể cả trong bảng) sẽ là Times New Roman 13 và phiếu vừa một trang A4.",
+       "Cách nhanh hơn nếu không muốn sửa style: bấm Ctrl+A rồi đặt Font = Times New Roman, Font Size = 13 ở tab Home. Nhưng cách này phải làm lại sau khi chèn bảng để chắc chắn bảng cũng đúng font."
+      ],
+      "note": "Nên đặt lề và font trước khi gõ để vị trí Tab và độ rộng bảng khớp. Font Times New Roman 13 phải áp dụng cho toàn bộ văn bản, kể cả trong bảng."
+     },
+     {
+      "title": "Hiện thước kẻ và cách đặt Tab có leader chấm",
+      "forRequirement": "3) Sử dụng Tab",
+      "actions": [
+       "Tab View > nhóm Show > tick Ruler để hiện thước kẻ phía trên trang.",
+       "Vùng chữ rộng 16 cm (21 - 3.5 - 1.5 = 16). Vạch 0 của thước là lề trái, vạch 16 là lề phải.",
+       "Cách đặt Tab stop cho một dòng: đặt con trỏ trong dòng đó, tab Home > nhóm Paragraph > bấm mũi tên góc dưới phải để mở hộp thoại Paragraph > bấm nút Tabs... ở dưới cùng. Trong hộp thoại Tabs: nhập vị trí vào Tab stop position (đơn vị cm), chọn Alignment (Left, Center hoặc Right), chọn Leader (1 None hoặc 2 .......) rồi bấm Set. Làm lần lượt từng vị trí, cuối cùng bấm OK.",
+       "Mỗi dòng có bộ Tab stop riêng. Khi bấm Enter xuống dòng mới, dòng mới thừa hưởng Tab stop của dòng trước; nếu không cần, vào Tabs... bấm Clear All rồi đặt lại cho dòng mới.",
+       "Khi gõ, nhấn phím Tab để nhảy tới Tab stop kế tiếp. Chỗ trống có leader chấm sẽ tự được lấp đầy bằng dấu chấm."
+      ],
+      "note": "Không dùng phím Space để cách chữ và không gõ dấu chấm bằng tay. Dãy chấm phải do Tab leader tạo ra. Đây là yêu cầu 3."
+     },
+     {
+      "title": "Gõ phần đầu phiếu: Đơn vị, Bộ phận, Mẫu số",
+      "forRequirement": "1) Soạn nội dung; 3) Tab",
+      "actions": [
+       "Dòng 1: đặt hai Tab stop: 6.5 cm (Left, Leader 2 dots) và 9.5 cm (Left, Leader None). Gõ: Đơn vị: (bấm Ctrl+B để in đậm) > nhấn Tab > nhấn Tab > gõ Mẫu số XX - VT (in đậm). Kết quả: sau \"Đơn vị:\" có dãy chấm dài, bên phải là \"Mẫu số XX - VT\". Trong mẫu có dấu gạch giữa XX và VT, hãy gõ dấu gạch nối thường.",
+       "Dòng 2: đặt Tab stop 6.5 cm (Left, Leader 2 dots). Gõ: Bộ phận: (in đậm) > nhấn Tab để có dãy chấm sau chữ \"Bộ phận:\".",
+       "Nhấn Enter để chừa một dòng trống trước tiêu đề."
+      ],
+      "note": ""
+     },
+     {
+      "title": "Gõ tiêu đề PHIẾU XUẤT KHO và các dòng Ngày, Số, Nợ, Có",
+      "forRequirement": "1) Soạn nội dung; 3) Tab",
+      "actions": [
+       "Dòng tiêu đề: gõ PHIẾU XUẤT KHO, chọn dòng này, bấm Ctrl+E (căn giữa) và Ctrl+B (in đậm). Giữ cỡ 13 theo đề (có thể tăng nhẹ lên 14 nếu muốn nhưng không bắt buộc).",
+       "Dòng Ngày/Nợ: đặt các Tab stop: 3 cm Left (None), 5 cm Left (2 dots), 7.5 cm Left (2 dots), 10 cm Left (2 dots), 11 cm Left (None), 16 cm Right (2 dots). Gõ theo thứ tự: Tab, Ngày (in nghiêng Ctrl+I), Tab, tháng, Tab, năm, Tab, Tab, Nợ, Tab. Kết quả: \"Ngày......tháng......năm......\" rồi \"Nợ.........\".",
+       "Dòng Số/Có: đặt Tab stop: 3 cm Left (None), 10 cm Left (2 dots), 11 cm Left (None), 16 cm Right (2 dots). Gõ: Tab, Số:, Tab, Tab, Có, Tab.",
+       "Đặt chữ Nợ và Có cùng mốc 11 cm để chúng thẳng hàng như mẫu."
+      ],
+      "note": "Các vị trí Tab chỉ là đề xuất để vừa khung 16 cm. Miễn các dòng gọn, thẳng cột và có dãy chấm ở chỗ trống là đạt."
+     },
+     {
+      "title": "Gõ các dòng thông tin người nhận, lý do, kho",
+      "forRequirement": "1) Soạn nội dung; 3) Tab",
+      "actions": [
+       "Dòng họ tên: đặt Tab stop 8 cm Left (2 dots) và 16 cm Right (2 dots). Gõ: - Họ và tên người nhận hàng: > Tab > Địa chỉ (bộ phận): > Tab.",
+       "Dòng lý do: đặt Tab stop 16 cm Right (2 dots). Gõ: - Lý do xuất kho: > Tab.",
+       "Dòng kho: đặt Tab stop 7.5 cm Left (2 dots) và 16 cm Right (2 dots). Gõ: - Xuất tại kho (ngăn lô): > Tab > Địa điểm: > Tab.",
+       "Nếu đoạn chữ trước Tab dài hơn mốc Tab thì Tab sẽ nhảy sang mốc kế tiếp. Khi đó tăng mốc lên (ví dụ 8.5 cm)."
+      ],
+      "note": "Các dòng bắt đầu bằng dấu gạch nối \"- \" như mẫu."
+     },
+     {
+      "title": "Chèn bảng hàng hóa 8 cột, gộp ô, kẻ viền",
+      "forRequirement": "4) Bảng hàng hóa với đường viền theo đúng mẫu",
+      "actions": [
+       "Đặt con trỏ sau dòng \"Xuất tại kho\", bấm Enter chừa một dòng, rồi tab Insert > nhóm Tables > Table > Insert Table... Nhập Number of columns = 8, Number of rows = 5. Chọn Fixed column width = Auto, bấm OK.",
+       "Chọn cả bảng (bấm biểu tượng 4 mũi tên ở góc trên trái bảng) > Table Tools > tab Layout > nhóm Cell Size > AutoFit > Fixed Column Width.",
+       "Đặt độ rộng cột: chọn từng cột > Layout > nhóm Cell Size > Width: cột 1 STT 1 cm; cột 2 Tên, nhãn hiệu... 4.3 cm; cột 3 Mã số 1.4 cm; cột 4 Đơn vị tính 1.4 cm; cột 5 Yêu cầu 1.8 cm; cột 6 Thực xuất 1.8 cm; cột 7 Đơn giá 2 cm; cột 8 Thành tiền 2.3 cm. Tổng đúng 16 cm khít bề rộng trang.",
+       "Gộp ô (Merge): chọn các ô cần gộp rồi Table Tools > Layout > nhóm Merge > Merge Cells. Gộp dọc ô hàng 1 và hàng 2 cho các cột: STT, Tên..., Mã số, Đơn vị tính, Đơn giá, Thành tiền. Gộp ngang hai ô hàng 1 của cột 5 và cột 6 để tạo ô \"Số lượng\".",
+       "Nhập nội dung hàng 1: STT | Tên, nhãn hiệu, quy cách, phẩm chất vật tư, dụng cụ, sản phẩm, hàng hoá | Mã số | Đơn vị tính | Số lượng | Đơn giá | Thành tiền. Hàng 2 chỉ còn hai ô: Yêu cầu | Thực xuất.",
+       "Hàng 3: A | B | C | D | 1 | 2 | 3 | 4. Hàng 4: để trống và tăng chiều cao (Layout > Cell Size > Height khoảng 3.5 cm; nếu không có ô Height hãy kéo đường viền dưới của hàng). Hàng 5: ô STT để trống, ô thứ 2 gõ Cộng (in nghiêng Ctrl+I), gõ chữ x vào các ô Mã số, Đơn vị tính, Yêu cầu, Thực xuất, Đơn giá; ô Thành tiền để trống.",
+       "Chọn cả bảng > tab Layout > nhóm Alignment > Align Center (căn giữa cả dọc và ngang) cho các ô tiêu đề và hàng A B C D 1 2 3 4. Ô \"Cộng\" có thể để Align Center Left.",
+       "Đường viền: chọn cả bảng > Table Tools > tab Design > nhóm Table Styles > Borders > All Borders (hoặc Borders and Shading... chọn Setting All, Style đường đơn, Width 1/2 pt). Kiểm tra ô \"Số lượng\" có đường kẻ ngăn đôi Yêu cầu | Thực xuất ngay phía dưới."
+      ],
+      "note": "Bảng phải có đầy đủ đường viền (khung ngoài và lưới bên trong) giống mẫu. Hàng đầu dùng Merge để tạo ô Số lượng nằm trên hai cột nhỏ. Nếu gộp nhầm, bấm Ctrl+Z rồi làm lại."
+     },
+     {
+      "title": "Gõ các dòng cuối phiếu: Tổng số tiền, chứng từ gốc",
+      "forRequirement": "1) Soạn nội dung; 3) Tab",
+      "actions": [
+       "Bấm chuột vào đoạn văn trống ngay dưới bảng. Nếu bảng nằm cuối văn bản, Word luôn giữ một đoạn trống sau bảng; chỉ cần bấm vào đó hoặc nhấn Ctrl+End.",
+       "Dòng 1: đặt Tab stop 16 cm Right (2 dots). Gõ: - Tổng số tiền (viết bằng chữ): > Tab.",
+       "Dòng 2: đặt Tab stop 16 cm Right (2 dots). Gõ: - Số chứng từ gốc kèm theo: > Tab."
+      ],
+      "note": ""
+     },
+     {
+      "title": "Dòng Ngày tháng năm và bảng chữ ký không đường viền",
+      "forRequirement": "5) Bảng không đường viền cho phần chữ ký",
+      "actions": [
+       "Dòng ngày tháng: đặt Tab stop 10 cm Center (None). Gõ: Tab, Ngày ....tháng ....năm.... rồi chọn và bấm Ctrl+I (in nghiêng). Chữ sẽ nằm giữa cột thứ 3.",
+       "Insert > Table > Insert Table...: Columns = 4, Rows = 1. Chọn cả bảng > Layout > AutoFit > Fixed Column Width, rồi đặt Width = 4 cm cho mỗi cột (tổng 16 cm).",
+       "Cột 1: gõ Người nhận hàng (in đậm Ctrl+B), nhấn Enter, gõ (Ký, họ tên) in nghiêng. Cột 2: Thủ kho, Enter, (Ký, họ tên). Cột 3: Kế toán trưởng, Enter, (Hoặc bộ phận có nhu cầu nhập), Enter, (Ký, họ tên). Cột 4: Giám đốc, Enter, (Ký, họ tên). Phần chữ trong ngoặc in nghiêng, chức danh in đậm.",
+       "Chọn cả bảng chữ ký > Layout > nhóm Alignment > Align Top Center để căn giữa ngang.",
+       "Bỏ đường viền: chọn cả bảng > Table Tools > Design > Borders > No Border. Nếu còn thấy ô màu xám mờ, đó là View Gridlines (không in ra), không phải đường viền.",
+       "Bấm File > Print để xem toàn bộ nằm gọn một trang rồi Ctrl+S để lưu."
+      ],
+      "note": "Bảng chữ ký BẮT BUỘC là bảng KHÔNG đường viền (yêu cầu 5). Nếu chỉ dùng phím Space hoặc Tab để dàn chữ ký mà không dùng bảng thì sẽ mất điểm yêu cầu 5."
+     }
+    ],
+    "formulas": [],
+    "result": "Một trang A4 dọc duy nhất giống trang 3 của đề: đầu phiếu có Đơn vị/Bộ phận và Mẫu số XX - VT; tiêu đề PHIẾU XUẤT KHO in đậm căn giữa; các dòng Ngày, Số, Nợ, Có, họ tên, lý do, kho đều có dãy chấm dẫn bằng Tab; bảng hàng hóa 8 cột có đầy đủ đường viền (ô Số lượng gộp trên Yêu cầu và Thực xuất, hàng A B C D 1 2 3 4, hàng trống cao, hàng Cộng có chữ x); cuối phiếu có hai dòng tổng số tiền và số chứng từ, dòng Ngày tháng năm in nghiêng và bảng 4 chữ ký không viền. Tự kiểm tra: File > Print xem toàn bộ nằm trọn một trang; mở lại Page Setup xem 2.5/2/3.5/1.5 cm; Ctrl+A xem ô Font hiện Times New Roman và cỡ 13 (không bị trống); xem Print Preview thấy bảng chữ ký không có đường kẻ."
+   },
+   "checklist": [
+    "Khổ giấy A4, hướng Portrait",
+    "Lề Top 2.5 cm, Bottom 2 cm, Left 3.5 cm, Right 1.5 cm",
+    "Toàn bộ văn bản (kể cả trong bảng) là Times New Roman 13pt",
+    "Đủ nội dung như trang 3: đầu phiếu, tiêu đề, các dòng thông tin, bảng, tổng tiền, chứng từ, ngày tháng, chữ ký",
+    "Các chỗ trống điền thông tin dùng Tab với leader chấm, không gõ dấu chấm bằng tay, không dùng phím Space",
+    "Bảng hàng hóa 8 cột có gộp ô Số lượng, hàng A B C D 1 2 3 4, hàng Cộng có chữ x, có đường viền đầy đủ",
+    "Bảng chữ ký 4 cột, đã chọn No Border",
+    "Toàn bộ phiếu nằm trong 1 trang",
+    "Đã lưu đúng tên sbd_cau1.docx trong D:\\ThiCC"
+   ],
+   "commonMistakes": [
+    "Quên đặt lề hoặc đặt nhầm: lề trái 3.5 cm bị đặt thành 2.5 cm, lề dưới 2 cm bị đặt thành 2.5 cm.",
+    "Chỉ đổi font cho đoạn gõ mà quên font trong bảng, nên một phần vẫn là Calibri hoặc cỡ 11.",
+    "Dùng phím Space hoặc gõ dấu chấm tay để tạo chỗ trống thay vì Tab leader, làm sai yêu cầu 3.",
+    "Bảng chữ ký còn đường viền (quên chọn No Border).",
+    "Không gộp ô (Merge Cells) nên phần tiêu đề Số lượng - Yêu cầu - Thực xuất sai cấu trúc.",
+    "Độ rộng bảng vượt quá 16 cm làm bảng tràn khỏi lề phải.",
+    "Để khoảng cách đoạn (Spacing After) mặc định 8pt làm phiếu tràn sang trang 2.",
+    "Lưu sai tên hoặc sai thư mục, hoặc lưu định dạng .doc."
+   ],
+   "uncertain": [
+    "Đề số trên giấy in ghi 'ĐỀ THI THỰC HÀNH SỐ 02' nhưng thư mục là de co ban 1; đã chép theo ảnh trong thư mục de co ban 1.",
+    "Trang 3 là ảnh chụp mờ nên các vị trí Tab (3, 5, 7.5, 10, 11, 16 cm) là đề xuất xấp xỉ theo hình dáng mẫu, không phải số liệu bắt buộc trong đề.",
+    "Trong mẫu, chữ 'Mẫu số XX - VT' có dấu gạch giữa XX và VT; đã viết bằng dấu gạch nối thông thường.",
+    "Bài mẫu 234_Câu 1.docx có lề trái 3.5 cm đúng đề; file 'de 1.docx' lại có lề trái 3.0 cm, đã làm theo đề (3.5 cm).",
+    "Chi tiết nghiêng/đậm (Ngày tháng năm, (Ký, họ tên), Cộng in nghiêng; Đơn vị, Bộ phận, tiêu đề in đậm) suy ra từ ảnh mờ và bài mẫu, đề không nêu rõ.",
+    "Độ rộng các cột bảng (1, 4.3, 1.4, 1.4, 1.8, 1.8, 2, 2.3 cm) là đề xuất tự tính để tổng đúng 16 cm, không có trong đề."
+   ]
+  },
+  {
+   "no": 2,
+   "app": "excel",
+   "title": "Câu 2. Tạo bảng tính (Microsoft Excel)",
+   "statement": {
+    "intro": "Bảng ước tính giá thành của một cửa hàng tạp hóa thể hiện như bảng sau (hai dòng đầu minh họa). Sử dụng phần mềm Microsoft Excel tạo bảng ước tính giá thành với các yêu cầu sau:",
+    "requirements": [
+     "1) Nhập dữ liệu (giả định) cho 10 mặt hàng trên các cột: TT (thứ tự), Mã hàng, Đơn giá nhập, Số lượng: Cột Mã hàng là chuỗi 04 ký tự: 01 ký tự đầu nhận một trong hai ký tự Y (là hàng dễ vỡ) hoặc N (là hàng không dễ vỡ), 03 ký tự còn lại là các ký tự số thể hiện mã số của mặt hàng. Số lượng là một số nguyên trong khoảng [1, 100]. Kẻ khung, căn chỉnh, định dạng các kiểu dữ liệu cho phù hợp; Font: Times New Roman, cỡ 13pt.",
+     "2) Định dạng trang: Khổ giấy A4, Landscape; Top: 2.5 cm, Bottom: 2.5 cm, Left: 2.5 cm, Right: 1.5 cm. Căn chỉnh bảng tính ra giữa trang in (Horizontally).",
+     "3) Nhập công thức tính Phí vận chuyển: Biết rằng, Phí vận chuyển bằng 5% của Đơn giá nhập x Số lượng. Giá trị của Phí vận chuyển được làm tròn đến hàng nghìn.",
+     "4) Nhập công thức tính Thành tiền và Hao phí: Biết rằng, Thành tiền = Đơn giá nhập x Số lượng + Phí vận chuyển; Hao phí bằng 1% thành tiền nếu là hàng không dễ vỡ và bằng 2% thành tiền nếu là hàng dễ vỡ.",
+     "5) Nhập công thức tính Đơn giá bán để có mức lãi là 10%; Biết rằng mức lãi được tính dựa trên thành tiền và hao phí. Giá trị của Đơn giá bán được làm tròn đến hàng nghìn."
+    ],
+    "material": [
+     {
+      "kind": "table",
+      "caption": "Bảng mẫu trong đề (2 dòng đầu; các cột Phí vận chuyển, Thành tiền, Hao phí, Đơn giá bán để trống cho thí sinh tính)",
+      "rows": [
+       [
+        "TT",
+        "Mã hàng",
+        "Đơn giá nhập",
+        "Số lượng",
+        "Phí vận chuyển",
+        "Thành tiền",
+        "Hao phí",
+        "Đơn giá bán"
+       ],
+       [
+        "1",
+        "Y001",
+        "150.000",
+        "20",
+        "",
+        "",
+        "",
+        ""
+       ],
+       [
+        "2",
+        "N002",
+        "70.000",
+        "35",
+        "",
+        "",
+        "",
+        ""
+       ]
+      ]
+     },
+     {
+      "kind": "table",
+      "caption": "Dữ liệu gợi ý cho 10 mặt hàng (2 dòng đầu theo đề; 8 dòng sau là dữ liệu giả định lấy từ bài mẫu, thí sinh có thể nhập số khác miễn đúng điều kiện)",
+      "rows": [
+       [
+        "TT",
+        "Mã hàng",
+        "Đơn giá nhập",
+        "Số lượng"
+       ],
+       [
+        "1",
+        "Y001",
+        "150000",
+        "20"
+       ],
+       [
+        "2",
+        "N002",
+        "70000",
+        "35"
+       ],
+       [
+        "3",
+        "Y003",
+        "80000",
+        "35"
+       ],
+       [
+        "4",
+        "Y004",
+        "90000",
+        "10"
+       ],
+       [
+        "5",
+        "Y005",
+        "125000",
+        "13"
+       ],
+       [
+        "6",
+        "N006",
+        "135000",
+        "15"
+       ],
+       [
+        "7",
+        "N007",
+        "145000",
+        "45"
+       ],
+       [
+        "8",
+        "N008",
+        "275000",
+        "16"
+       ],
+       [
+        "9",
+        "N009",
+        "352000",
+        "17"
+       ],
+       [
+        "10",
+        "N010",
+        "236000",
+        "21"
+       ]
+      ]
+     }
+    ]
+   },
+   "solution": {
+    "summary": "Nhập 10 dòng dữ liệu giả định theo đúng quy tắc mã hàng (Y/N + 3 số) và số lượng 1 đến 100, dùng bốn công thức ROUND/IF/LEFT cho các cột E, F, G, H (viết ở dòng 2 rồi fill xuống dòng 11), sau đó kẻ khung, đặt font Times New Roman 13, rồi thiết lập trang A4 ngang với lề 2.5/2.5/2.5/1.5 cm và căn giữa ngang trang in. Lưu ý dấu phân cách đối số: nếu máy báo lỗi với dấu chấm phẩy ; thì thay bằng dấu phẩy , (hoặc ngược lại), tùy thiết lập vùng Regional của Windows.",
+    "steps": [
+     {
+      "title": "Tạo file và đặt tên",
+      "forRequirement": "Chung",
+      "actions": [
+       "Mở Microsoft Excel > Blank workbook.",
+       "Ctrl+S > lưu vào D:\\ThiCC với tên sbd_cau2.xlsx (Save as type: Excel Workbook (*.xlsx))."
+      ],
+      "note": "Đặt tên đúng theo số báo danh của bạn."
+     },
+     {
+      "title": "Nhập tiêu đề cột và 10 dòng dữ liệu",
+      "forRequirement": "1) Nhập dữ liệu 10 mặt hàng",
+      "actions": [
+       "Ở các ô A1 đến H1 nhập lần lượt: TT | Mã hàng | Đơn giá nhập | Số lượng | Phí vận chuyển | Thành tiền | Hao phí | Đơn giá bán (di chuyển bằng phím Tab).",
+       "Nhập 10 dòng dữ liệu từ A2 đến D11. Cột TT đi từ 1 đến 10 (gõ 1, 2 rồi chọn hai ô và kéo Fill Handle xuống, hoặc gõ tay). Cột Mã hàng gồm 4 ký tự: ký tự đầu là Y (hàng dễ vỡ) hoặc N (hàng không dễ vỡ), 3 ký tự sau là số (ví dụ Y001, N002). Cột Đơn giá nhập là số (ví dụ 150000), cột Số lượng là số nguyên từ 1 đến 100.",
+       "Hai dòng đầu nên dùng đúng như đề: dòng 1 = Y001, 150000, 20; dòng 2 = N002, 70000, 35. Từ dòng 3 trở đi là dữ liệu giả định của bạn (có thể lấy bảng gợi ý ở phần đề).",
+       "Chưa nhập các cột E, F, G, H (sẽ dùng công thức ở các bước sau).",
+       "Gõ mã hàng bằng chữ HOA (Y hoặc N). Mã có 3 chữ số sau chữ cái nên không bị mất số 0 đầu (ví dụ Y001 vẫn giữ nguyên)."
+      ],
+      "note": "Dữ liệu phải tuân thủ: Mã hàng đúng 4 ký tự (1 chữ Y hoặc N + 3 số); Số lượng là số nguyên trong [1, 100]. Nếu muốn, có thể vào Data > Data Validation đặt Whole number từ 1 đến 100 cho cột D, nhưng không bắt buộc."
+     },
+     {
+      "title": "Công thức Phí vận chuyển (cột E)",
+      "forRequirement": "3) Phí vận chuyển",
+      "actions": [
+       "Click ô E2. Gõ: =ROUND(5%*C2*D2;-3) rồi Enter (nếu máy dùng dấu phẩy phân cách đối số thì gõ =ROUND(5%*C2*D2,-3)).",
+       "Giải thích: 5%*C2*D2 là 5% của Đơn giá nhập nhân Số lượng; ROUND(...;-3) làm tròn đến hàng nghìn (số -3 nghĩa là làm tròn đến 3 chữ số trước dấu thập phân).",
+       "Fill xuống: chọn E2, đưa chuột vào hình vuông nhỏ ở góc dưới phải ô (Fill Handle) cho đến khi con trỏ thành dấu +, nhấp đúp chuột trái (hoặc kéo xuống đến E11)."
+      ],
+      "note": "Nếu báo lỗi, đổi dấu ; thành , (xem lưu ý dấu phân cách ở phần công thức). Phải gõ dấu trừ ngắn trước số 3."
+     },
+     {
+      "title": "Công thức Thành tiền (cột F)",
+      "forRequirement": "4) Thành tiền",
+      "actions": [
+       "Click ô F2. Gõ: =C2*D2+E2 rồi Enter.",
+       "Giải thích: Thành tiền = Đơn giá nhập x Số lượng + Phí vận chuyển.",
+       "Fill xuống đến F11."
+      ],
+      "note": "Dùng dấu cộng giữa tích và phí vận chuyển. Khối đầu của file mẫu đã dùng dấu trừ, lệch đề; hãy theo đề bài."
+     },
+     {
+      "title": "Công thức Hao phí (cột G)",
+      "forRequirement": "4) Hao phí",
+      "actions": [
+       "Click ô G2. Gõ: =IF(LEFT(B2;1)=\"N\";1%*F2;2%*F2) rồi Enter.",
+       "Giải thích: LEFT(B2;1) lấy ký tự đầu của Mã hàng. Nếu là N (hàng không dễ vỡ) thì Hao phí = 1% x Thành tiền; ngược lại (Y là hàng dễ vỡ) thì 2% x Thành tiền.",
+       "Fill xuống đến G11.",
+       "Cách viết tương đương: =IF(LEFT(B2;1)=\"Y\";2%*F2;1%*F2)."
+      ],
+      "note": "Chữ N phải nằm trong dấu nháy kép. Đề không yêu cầu làm tròn Hao phí nên không dùng ROUND ở cột này."
+     },
+     {
+      "title": "Công thức Đơn giá bán (cột H)",
+      "forRequirement": "5) Đơn giá bán",
+      "actions": [
+       "Click ô H2. Gõ: =ROUND((F2+G2)*110%;-3) rồi Enter.",
+       "Giải thích: lãi 10% tính trên (Thành tiền + Hao phí) nên giá bán = (F2+G2) x (100% + 10%) = (F2+G2) x 110%; ROUND(...;-3) làm tròn đến hàng nghìn.",
+       "Fill xuống đến H11. Có thể chọn E2:H2 rồi kéo Fill Handle xuống một lần cho cả 4 cột."
+      ],
+      "note": "Cách viết tương đương: =ROUND((F2+G2)*(1+10%);-3)."
+     },
+     {
+      "title": "Kẻ khung, căn chỉnh, định dạng kiểu dữ liệu và font",
+      "forRequirement": "1) Kẻ khung, căn chỉnh, định dạng kiểu dữ liệu, Times New Roman 13",
+      "actions": [
+       "Bấm Ctrl+A (chọn toàn bộ bảng tính) > Home > nhóm Font > ô Font chọn Times New Roman, Font Size chọn 13.",
+       "Chọn A1:H11 > Home > nhóm Font > Borders > All Borders để kẻ khung toàn bảng.",
+       "Hàng tiêu đề A1:H1: Home > nhóm Alignment > Center và Middle Align; bật Wrap Text nếu chữ dài; bấm Ctrl+B in đậm.",
+       "Cột A (TT) và cột B (Mã hàng) căn giữa (Center); cột D (Số lượng) căn giữa hoặc căn phải.",
+       "Các cột tiền C, E, F, G, H: chọn C2:C11 và E2:H11 > Home > nhóm Number > bấm Comma Style (dấu phẩy) rồi bấm Decrease Decimal hai lần để bỏ số lẻ. Hoặc bấm phải > Format Cells > tab Number > Category: Number > Decimal places: 0 > tick Use 1000 Separator (,). Số sẽ hiện 150.000 theo kiểu Việt Nam.",
+       "Cột D (Số lượng) và cột A (TT) là số nguyên: Format Cells > Number > Decimal places = 0 (hoặc General).",
+       "Tự giãn cột: chọn các cột A:H > nhấp đúp vào ranh giới giữa hai tiêu đề cột (hoặc Home > Format > AutoFit Column Width)."
+      ],
+      "note": "Nên bấm Ctrl+A để đặt font cho cả sheet, tránh sót ô ngoài vùng dữ liệu."
+     },
+     {
+      "title": "Định dạng trang in: A4, Landscape, lề, căn giữa ngang",
+      "forRequirement": "2) Định dạng trang",
+      "actions": [
+       "Tab Page Layout > nhóm Page Setup > bấm mũi tên góc dưới phải để mở hộp thoại Page Setup.",
+       "Tab Page: Orientation chọn Landscape; Paper size chọn A4.",
+       "Tab Margins: Top = 2.5; Bottom = 2.5; Left = 2.5; Right = 1.5 (đơn vị cm). Trong cùng tab, tick Horizontally ở mục Center on page.",
+       "Bấm OK. Kiểm tra bằng File > Print (Ctrl+P): bảng phải nằm giữa theo chiều ngang và vừa 1 trang.",
+       "Nhấn Ctrl+S để lưu."
+      ],
+      "note": "Chỉ tick Horizontally, không tick Vertically. Nếu Excel hiện inch thì gõ \"2.5 cm\" vào ô."
+     }
+    ],
+    "formulas": [
+     {
+      "cell": "E2",
+      "formula": "=ROUND(5%*C2*D2;-3)",
+      "meaning": "Phí vận chuyển = 5% của (Đơn giá nhập x Số lượng), làm tròn đến hàng nghìn (số -3 nghĩa là làm tròn đến nghìn). Fill xuống E11."
+     },
+     {
+      "cell": "F2",
+      "formula": "=C2*D2+E2",
+      "meaning": "Thành tiền = Đơn giá nhập x Số lượng + Phí vận chuyển. Fill xuống F11."
+     },
+     {
+      "cell": "G2",
+      "formula": "=IF(LEFT(B2;1)=\"N\";1%*F2;2%*F2)",
+      "meaning": "Hao phí: nếu ký tự đầu Mã hàng là N (không dễ vỡ) thì 1% Thành tiền, ngược lại (Y, dễ vỡ) thì 2% Thành tiền. Fill xuống G11."
+     },
+     {
+      "cell": "H2",
+      "formula": "=ROUND((F2+G2)*110%;-3)",
+      "meaning": "Đơn giá bán để có lãi 10% tính trên (Thành tiền + Hao phí) rồi làm tròn đến hàng nghìn. Fill xuống H11."
+     }
+    ],
+    "result": "Một bảng tính 8 cột (TT, Mã hàng, Đơn giá nhập, Số lượng, Phí vận chuyển, Thành tiền, Hao phí, Đơn giá bán), gồm tiêu đề và 10 dòng dữ liệu, có đủ đường viền, font Times New Roman 13, cột tiền có dấu ngăn cách hàng nghìn, trang in A4 ngang với lề 2.5/2.5/2.5/1.5 và bảng nằm giữa trang theo chiều ngang. Kiểm tra dòng 1 (Y001, 150000, 20): C*D = 3.000.000; Phí vận chuyển = 5% x 3.000.000 = 150.000; Thành tiền = 3.150.000; Hao phí (Y, dễ vỡ) = 2% x 3.150.000 = 63.000; Đơn giá bán = ROUND((3.150.000 + 63.000) x 1,1; -3) = ROUND(3.534.300; -3) = 3.534.000. Dòng 2 (N002, 70000, 35): C*D = 2.450.000; Phí vận chuyển = 122.500, làm tròn thành 123.000; Thành tiền = 2.573.000; Hao phí (N) = 1% x 2.573.000 = 25.730; Đơn giá bán = ROUND((2.573.000 + 25.730) x 1,1; -3) = ROUND(2.858.603; -3) = 2.859.000. Tự kiểm tra thêm: bấm Ctrl+` (phím dưới Esc) để xem công thức, bấm File > Print xem bảng nằm giữa một trang."
+   },
+   "checklist": [
+    "Có 10 dòng dữ liệu, cột TT từ 1 đến 10",
+    "Mã hàng đúng 4 ký tự: 1 chữ Y hoặc N + 3 số",
+    "Số lượng là số nguyên từ 1 đến 100",
+    "Toàn bộ bảng kẻ khung, căn chỉnh hợp lý, font Times New Roman cỡ 13",
+    "Cột tiền có dấu ngăn cách hàng nghìn, không có số lẻ thập phân",
+    "Trang in A4 Landscape, Top 2.5, Bottom 2.5, Left 2.5, Right 1.5 cm",
+    "Đã tick Center on page: Horizontally",
+    "Phí vận chuyển dùng công thức, làm tròn đến hàng nghìn",
+    "Thành tiền = Đơn giá nhập x Số lượng + Phí vận chuyển (dùng dấu cộng)",
+    "Hao phí dùng IF + LEFT: N là 1%, Y là 2%",
+    "Đơn giá bán = (Thành tiền + Hao phí) x 110% làm tròn đến hàng nghìn",
+    "Công thức đã fill xuống đủ 10 dòng",
+    "Đã lưu đúng tên sbd_cau2.xlsx trong D:\\ThiCC"
+   ],
+   "commonMistakes": [
+    "Gõ số cứng thay vì tham chiếu ô trong công thức (ví dụ gõ 5%*150000*20).",
+    "Dùng nhầm dấu phân cách đối số: máy cài kiểu Việt/Pháp thường dùng ; còn kiểu Anh/Mỹ dùng , nên công thức báo lỗi. Thử lại với dấu còn lại.",
+    "Làm tròn sai: dùng ROUND(...;3) thay vì ROUND(...;-3), kết quả giữ 3 số lẻ thay vì tròn nghìn.",
+    "Trừ phí vận chuyển thay vì cộng khi tính Thành tiền.",
+    "Quên đặt chữ N hoặc Y trong dấu nháy kép trong hàm IF.",
+    "Quên tick Horizontally nên bảng lệch trái khi in.",
+    "Nhầm Landscape với Portrait, hoặc để giấy Letter thay vì A4.",
+    "Đặt lề Right là 2.5 thay vì 1.5 cm.",
+    "Chỉ đặt font cho vùng dữ liệu và quên dòng tiêu đề.",
+    "Số lượng nhập số lẻ hoặc ngoài khoảng 1 đến 100; Mã hàng gõ 5 ký tự hoặc thiếu số."
+   ],
+   "uncertain": [
+    "Đề số trên giấy ghi 'SỐ 02' nhưng thư mục là de co ban 1; đã chép theo ảnh.",
+    "Ảnh 1.1 hơi mờ ở yêu cầu 4. Dòng 'lượng + Phí vận chuyển' khá mờ; đọc là 'Đơn giá nhập x Số lượng + Phí vận chuyển'. Khối thứ hai của bài mẫu cũng dùng dấu cộng nên chọn dấu cộng (khối đầu của bài mẫu dùng dấu trừ, lệch đề; đã theo đề).",
+    "Bên lề trái ảnh 1.1 có chữ viết tay: 'ROUNDDOWN(5%*(C2*D2);-3)' và 'IF(LEFT(B2;1)=\"N\";F2*1%;F2*2%)'. Đề in chỉ nói 'làm tròn đến hàng nghìn' nên dùng ROUND; nếu muốn làm tròn xuống thì thay ROUND bằng ROUNDDOWN trong cột E (và có thể cả cột H). Hai hàm chỉ khác nhau khi phần dư từ 500 trở lên. Công thức IF viết tay khớp với công thức Hao phí ở trên.",
+    "Đề không yêu cầu làm tròn Hao phí; bài mẫu ở khối đầu có làm tròn Hao phí nhưng đó là lệch đề nên không làm tròn.",
+    "Đơn giá bán tính theo (F+G)*110% đúng như bài mẫu và mô tả 'mức lãi tính dựa trên thành tiền và hao phí', không chia cho Số lượng.",
+    "Dữ liệu dòng 3 đến 10 là giả định lấy từ bài mẫu; đề cho phép nhập dữ liệu giả định miễn đúng quy tắc. Ở dòng 2 bài mẫu ghi Y002 và số lượng 25, còn đề in N002 và 35; đã theo đề.",
+    "Đề tiếp tục ở đầu ảnh 1.2 (yêu cầu 5 của Câu 2); đã gộp vào Câu 2."
+   ]
+  },
+  {
+   "no": 3,
+   "app": "powerpoint",
+   "title": "Câu 3. Tạo các trang trình chiếu (Microsoft PowerPoint)",
+   "statement": {
+    "intro": "Sử dụng phần mềm Microsoft PowerPoint thiết kế slides trình chiếu phục vụ cho bài thuyết trình giới thiệu về Bảo tàng ở Hà Nội (05 slides), thông tin đưa ra trong bài thuyết trình được thí sinh chọn lọc trong tập tin 10_BaotangHaNoi.docx, trong đó có các nội dung sau:",
+    "requirements": [
+     "- Trang 1: Giới thiệu. Tên bài thuyết trình \"Bảo tàng ở Hà Nội\".",
+     "- Trang 2: Nội dung trình bày: tên 3 bảo tàng được trình bày ở các trang tiếp theo.",
+     "- Trang 3, 4, 5: Mỗi trang trình bày về một bảo tàng: nội dung trình bày tùy vào hiểu biết của từng thí sinh, tuy nhiên mỗi di tích phải đảm bảo 3 nội dung và có hình ảnh đi kèm.",
+     "Lưu ý: Trên slides trình chiếu không chứa nội dung liên quan thông tin cá nhân của thí sinh.",
+     "Yêu cầu:",
+     "1) Trình bày và căn chỉnh 5 slide theo yêu cầu nội dung như trên. Đánh số trang tự động cho các slide (trừ slide đầu tiên).",
+     "2) Trong Master Slide, điều chỉnh tất cả font chữ về Arial, nội dung căn chỉnh 2 bên.",
+     "3) Tạo mới và sử dụng ít nhất 02 layout cho bài trình chiếu.",
+     "4) Sử dụng ít nhất 02 hiệu ứng hoạt hình khác nhau (Animation).",
+     "5) Sử dụng ít nhất 02 hiệu ứng chuyển slide khác nhau (Transition)."
+    ],
+    "material": [
+     {
+      "kind": "text",
+      "caption": "Cấu trúc 5 slide theo đề",
+      "lines": [
+       "Slide 1: BẢO TÀNG Ở HÀ NỘI",
+       "Slide 2: Nội dung trình bày: tên 3 bảo tàng (ví dụ: Bảo tàng Lịch sử Hà Nội; Bảo tàng Hà Nội; Bảo tàng Hồ Chí Minh)",
+       "Slide 3: Bảo tàng thứ nhất: 3 nội dung + hình ảnh",
+       "Slide 4: Bảo tàng thứ hai: 3 nội dung + hình ảnh",
+       "Slide 5: Bảo tàng thứ ba: 3 nội dung + hình ảnh"
+      ]
+     },
+     {
+      "kind": "text",
+      "caption": "Ví dụ nội dung theo bài mẫu tuân01.pptx (tham khảo; thí sinh tự chọn lọc từ tệp 10_BaotangHaNoi.docx, tệp này không có trong thư mục)",
+      "lines": [
+       "BẢO TÀNG LỊCH SỬ HÀ NỘI: Tọa lạc ở quận Hoàn Kiếm đã từ lâu đời, bảo tàng lịch sử quốc gia là nơi trưng bày lưu giữ và bảo quản khoảng 200.000 hiện vật, tư liệu lịch sử văn hóa Việt Nam.",
+       "BẢO TÀNG HÀ NỘI: Thủ đô cũng có riêng cho mình một địa điểm để trưng bày những nét độc đáo trong nền văn hóa của mảnh đất hơn một ngàn năm tuổi.",
+       "BẢO TÀNG HỒ CHÍ MINH: Đây là nơi lưu trữ những hiện vật gắn liền với chủ tịch Hồ Chí Minh, bạn có thể tìm thấy cả cuộc đời người lãnh tụ vĩ đại của dân tộc tại nơi này."
+      ]
+     }
+    ]
+   },
+   "solution": {
+    "summary": "Chỉnh Slide Master trước (font Arial, căn đều 2 bên, thêm ít nhất 2 layout mới), rồi tạo 5 slide dùng các layout đó, chèn số trang tự động trừ slide đầu, sau cùng gán ít nhất 2 hiệu ứng Animation và 2 hiệu ứng Transition khác nhau.",
+    "steps": [
+     {
+      "title": "Tạo file và đặt tên, chuẩn bị nội dung",
+      "forRequirement": "Chung",
+      "actions": [
+       "Mở PowerPoint > Blank Presentation.",
+       "Ctrl+S > lưu D:\\ThiCC với tên sbd_cau3.pptx.",
+       "Mở tệp 10_BaotangHaNoi.docx (đề cho sẵn) để chọn lọc nội dung. Không đưa thông tin cá nhân của thí sinh (tên, số báo danh) lên slide."
+      ],
+      "note": "Trên slide không được chứa nội dung liên quan thông tin cá nhân của thí sinh."
+     },
+     {
+      "title": "Trong Slide Master: đổi font về Arial và căn đều hai bên",
+      "forRequirement": "2) Master Slide: font Arial, nội dung căn chỉnh 2 bên",
+      "actions": [
+       "Tab View > nhóm Master Views > Slide Master.",
+       "Đổi font toàn theme: tab Slide Master > nhóm Background > Fonts > Customize Fonts... > Heading font: Arial; Body font: Arial > đặt Name (ví dụ Arial All) > Save. Nhờ đó mọi layout và mọi ô văn bản đều dùng Arial.",
+       "Nếu muốn chắc chắn, chọn từng ô văn bản trên Slide Master (ô Title, ô Click to edit Master text styles) và đặt Font = Arial ở tab Home.",
+       "Căn đều hai bên (Justify): ở slide master lớn nhất (trên cùng cột trái), click vào khung \"Click to edit Master text styles\", chọn cả khung (bấm viền khung) > Home > nhóm Paragraph > Justify (Ctrl+J). Làm tương tự cho các khung nội dung, khung văn bản trong các layout sẽ dùng. Tiêu đề có thể giữ căn giữa hoặc căn trái.",
+       "Bấm Close Master View (tab Slide Master) để quay lại."
+      ],
+      "note": "Phải làm trong Slide Master chứ không chỉ sửa từng slide. Sửa từng ô trên slide không được tính là làm trong Master Slide."
+     },
+     {
+      "title": "Tạo ít nhất 02 layout mới",
+      "forRequirement": "3) Tạo mới và sử dụng ít nhất 02 layout",
+      "actions": [
+       "Tab View > Slide Master. Trong cột trái click vào một layout, hoặc click vào khoảng trống cuối danh sách layout.",
+       "Tab Slide Master > nhóm Edit Master > Insert Layout. Một layout mới xuất hiện ở cuối (có Title và 3 ô Date, Footer, Slide Number).",
+       "Bấm Rename (nhóm Edit Master) > đặt tên, ví dụ: Gioi thieu > OK.",
+       "Chèn ô giữ chỗ: tab Slide Master > nhóm Master Layout > Insert Placeholder > chọn loại (Text, Picture, Content). Ví dụ Layout 1 \"Gioi thieu\": Title ở giữa và 1 ô Text phía dưới làm phụ đề. Layout 2 \"Bao tang va anh\": Title ở trên, ô Text bên trái (3 ý nội dung), ô Picture bên phải (hình ảnh).",
+       "Kéo, đổi kích thước các placeholder cho hợp lý. Đảm bảo ô Slide Number còn trong layout (tick Slide Number ở nhóm Master Layout nếu thiếu).",
+       "Lặp lại để có ít nhất 02 layout mới (2 layout nên có bố cục khác nhau).",
+       "Bấm Close Master View."
+      ],
+      "note": "Layout mới phải có tên riêng và được DÙNG thực sự cho slide (xem bước sau), không chỉ tạo ra rồi bỏ."
+     },
+     {
+      "title": "Tạo 5 slide và áp dụng layout",
+      "forRequirement": "3) Sử dụng layout; 1) Trình bày 5 slide",
+      "actions": [
+       "Slide 1: Home > New Slide, rồi Home > Layout > chọn layout mới \"Gioi thieu\". Gõ tiêu đề: Bảo tàng ở Hà Nội.",
+       "Slide 2: Home > New Slide > Layout > chọn Title and Content (hoặc layout mới). Gõ tiêu đề (ví dụ Nội dung trình bày) và 3 dòng tên 3 bảo tàng theo đúng thứ tự trình bày ở các slide tiếp theo, ví dụ: Bảo tàng Lịch sử Hà Nội; Bảo tàng Hà Nội; Bảo tàng Hồ Chí Minh.",
+       "Slide 3, 4, 5: mỗi slide dùng layout mới \"Bao tang va anh\": tiêu đề là tên bảo tàng; ô văn bản ghi 3 nội dung ngắn (3 ý, ví dụ: vị trí, ý nghĩa lịch sử, hiện vật tiêu biểu); chèn hình ảnh qua ô Picture (bấm biểu tượng Picture) hoặc Insert > Pictures.",
+       "Lấy nội dung từ 10_BaotangHaNoi.docx: mở Word, chọn đoạn cần, Ctrl+C; quay lại PowerPoint, click vào ô văn bản, bấm Ctrl+Alt+V và chọn Unformatted Text (hoặc Paste > Keep Text Only) để không mang font lạ vào slide.",
+       "Kiểm tra thứ tự: slide 2 liệt kê 3 bảo tàng đúng thứ tự trình bày ở slide 3, 4, 5."
+      ],
+      "note": "Mỗi slide bảo tàng phải bảo đảm 3 nội dung và có hình ảnh kèm theo. Không ghi tên thí sinh lên slide."
+     },
+     {
+      "title": "Đánh số trang tự động, trừ slide đầu",
+      "forRequirement": "1) Đánh số trang tự động (trừ slide đầu tiên)",
+      "actions": [
+       "Tab Insert > nhóm Text > Slide Number (hoặc Header & Footer).",
+       "Trong hộp thoại Header and Footer, tab Slide: tick Slide number; tick Don't show on title slide.",
+       "Bấm Apply to All.",
+       "Nếu slide 1 không dùng layout Title Slide thì \"Don't show on title slide\" sẽ không loại slide 1. Khi đó bấm chọn slide 1 > Insert > Header & Footer > bỏ tick Slide number > bấm Apply (không bấm Apply to All).",
+       "Cách của bài mẫu: số trang hiện 1 ở slide 2, nghĩa là đã đặt Design > Slide Size > Custom Slide Size... > Number slides from: 0. Đây không bắt buộc, đề chỉ yêu cầu đánh số tự động trừ slide đầu."
+      ],
+      "note": "Slide 1 không có số; slide 2 đến 5 có số tự động (không gõ số bằng tay)."
+     },
+     {
+      "title": "Thêm hiệu ứng hoạt hình (Animation) khác nhau",
+      "forRequirement": "4) Ít nhất 02 hiệu ứng hoạt hình khác nhau",
+      "actions": [
+       "Chọn một đối tượng trên slide (tiêu đề, ô văn bản hoặc hình ảnh). Tab Animations > nhóm Animation > chọn một hiệu ứng trong thư viện, ví dụ Fade.",
+       "Chọn đối tượng khác (ví dụ hình ảnh) > chọn hiệu ứng khác, ví dụ Fly In, Zoom hoặc Wipe.",
+       "Dùng Animation Pane để kiểm tra thứ tự: Animations > Advanced Animation > Animation Pane. Chọn Start: On Click hoặc After Previous trong nhóm Timing.",
+       "Làm ở ít nhất 2 slide hoặc 2 đối tượng, bảo đảm có ít nhất 2 loại hiệu ứng khác nhau trong cả bài (ví dụ Fade ở slide 3, Fly In ở slide 4, Zoom ở slide 5)."
+      ],
+      "note": "Hai hiệu ứng phải KHÁC nhau. Dùng Fade ở mọi chỗ là không đủ."
+     },
+     {
+      "title": "Thêm hiệu ứng chuyển slide (Transition) khác nhau",
+      "forRequirement": "5) Ít nhất 02 hiệu ứng chuyển slide khác nhau",
+      "actions": [
+       "Chọn slide 1 trong cột trái > tab Transitions > nhóm Transition to This Slide > chọn Split (hoặc Fade).",
+       "Chọn slide 2 > chọn Wipe; slide 3 > Circle (hoặc Push); slide 4 > Fade (bài mẫu dùng Split, Wipe, Circle, Fade).",
+       "Điều chỉnh Duration ở nhóm Timing nếu cần (ví dụ 01.00). Để On Mouse Click hoặc đặt After đều được.",
+       "Tránh dùng Apply To All cho cùng một hiệu ứng vì sẽ không đủ 2 loại khác nhau."
+      ],
+      "note": "Apply To All làm mọi slide cùng một hiệu ứng, không thỏa yêu cầu 2 hiệu ứng khác nhau."
+     },
+     {
+      "title": "Rà soát và lưu",
+      "forRequirement": "Chung",
+      "actions": [
+       "Bấm F5 (Slide Show từ đầu) để xem 5 slide, kiểm tra animation, transition, số trang.",
+       "Kiểm tra: toàn bộ font Arial; nội dung căn đều 2 bên; 5 slide đúng thứ tự; không có tên thí sinh trên slide.",
+       "Ctrl+S để lưu tệp sbd_cau3.pptx trong D:\\ThiCC."
+      ],
+      "note": ""
+     }
+    ],
+    "formulas": [],
+    "result": "Tệp sbd_cau3.pptx gồm 5 slide: slide 1 tên 'Bảo tàng ở Hà Nội' (không số trang), slide 2 liệt kê tên 3 bảo tàng, slide 3 đến 5 mỗi slide một bảo tàng có 3 nội dung và hình ảnh; toàn bộ font Arial; nội dung căn đều hai bên; có ít nhất 2 layout tự tạo và có dùng trong slide; số trang tự động từ slide 2; có ít nhất 2 loại Animation và 2 loại Transition khác nhau. Tự kiểm tra: mở View > Slide Master xem layout đã tạo; chạy F5 xem hiệu ứng; mở View > Slide Sorter, biểu tượng ngôi sao nhỏ dưới slide cho biết slide đã có hiệu ứng."
+   },
+   "checklist": [
+    "Có đúng 5 slide: slide 1 giới thiệu, slide 2 liệt kê 3 bảo tàng, slide 3 đến 5 mỗi slide một bảo tàng",
+    "Mỗi slide bảo tàng có đủ 3 nội dung và có hình ảnh",
+    "Slide 1 không hiện số trang, slide 2 đến 5 có số trang tự động",
+    "Slide Master: font Arial cho tiêu đề và nội dung",
+    "Slide Master: nội dung căn đều hai bên (Justify)",
+    "Đã tạo ít nhất 02 layout mới và đã dùng cho slide",
+    "Có ít nhất 02 hiệu ứng Animation khác nhau",
+    "Có ít nhất 02 hiệu ứng Transition khác nhau",
+    "Không có thông tin cá nhân của thí sinh trên slide",
+    "Đã lưu đúng tên sbd_cau3.pptx trong D:\\ThiCC"
+   ],
+   "commonMistakes": [
+    "Chỉnh font ở từng slide thay vì ở Slide Master, hoặc chỉ đổi font Title mà quên font Body.",
+    "Quên căn đều 2 bên (Justify) trong Master, hoặc chỉ căn đều trên một slide.",
+    "Chỉ chọn layout có sẵn mà không tạo layout mới (Insert Layout), hoặc có tạo nhưng không dùng cho slide nào.",
+    "Gõ số trang bằng tay thay vì Insert > Slide Number; hoặc quên tick Don't show on title slide làm slide đầu vẫn hiện số.",
+    "Dùng cùng một hiệu ứng Animation hoặc Transition cho tất cả (Apply To All) nên không đủ 02 loại khác nhau.",
+    "Slide bảo tàng thiếu hình ảnh hoặc chỉ có 1 đến 2 nội dung.",
+    "Ghi tên, số báo danh của thí sinh lên slide.",
+    "Lưu sai tên hoặc sai thư mục."
+   ],
+   "uncertain": [
+    "Ảnh 1.2 chụp lệch, có một trang giấy khác chồng lên phía trên (đề câu Excel khác với các dòng 'Mã SV', 'Họ tên', 'theo dõi điểm quá trình'); phần đó không thuộc đề này nên đã bỏ qua. Dòng yêu cầu 5 của Câu 2 (Đơn giá bán) nằm ở đầu ảnh này và đã được gộp vào Câu 2.",
+    "Đề không cho nội dung cụ thể từng bảo tàng và tệp 10_BaotangHaNoi.docx không có trong thư mục; phần ví dụ lấy từ bài mẫu tuân01.pptx.",
+    "Bài mẫu tuân01.pptx dùng layout dựng sẵn (Title Slide, Title Only, Content with Caption) và mỗi bảo tàng chỉ có 1 đoạn mô tả; đề yêu cầu tạo layout mới và 3 nội dung mỗi bảo tàng nên hướng dẫn làm theo đề.",
+    "Bài mẫu đánh số 1 ở slide 2 (Number slides from 0); đề chỉ yêu cầu đánh số tự động trừ slide đầu nên không bắt buộc cách này.",
+    "'Nội dung căn chỉnh 2 bên' được hiểu là căn đều hai bên (Justify)."
+   ]
+  }
+ ]
+}

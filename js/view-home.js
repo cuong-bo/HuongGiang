@@ -269,6 +269,54 @@
     );
   }
 
+  function practicalBand() {
+    const all = window.PRACTICAL_DATA || [];
+    const tasks = all.flatMap((s) => s.tasks);
+    const countOf = (app) => tasks.filter((t) => t.app === app).length;
+    const apps = [
+      ["word", "Word", "fileText"],
+      ["excel", "Excel", "table"],
+      ["powerpoint", "PowerPoint", "presentation"],
+    ];
+    return h(
+      "section",
+      { class: "section wrap", id: "practical" },
+      h(
+        "div",
+        { class: "practical-band" },
+        h(
+          "div",
+          {},
+          h("h2", { class: "section-title" }, "Hướng dẫn thi thực hành"),
+          h(
+            "p",
+            { class: "muted" },
+            `${all.length} đề, ${tasks.length} câu. Đề bài được chuyển từ ảnh chụp sang chữ, kèm hướng dẫn từng bước và công thức Excel.`
+          ),
+          h(
+            "a",
+            { class: "btn btn-primary", href: "#/thuc-hanh", "data-testid": "cta-practical" },
+            icon("exam"),
+            "Xem đề thực hành"
+          )
+        ),
+        h(
+          "ul",
+          { class: "app-list" },
+          apps.map(([key, label, iconName]) =>
+            h(
+              "li",
+              {},
+              h("span", { class: "app-badge" }, icon(iconName)),
+              h("strong", {}, label),
+              h("span", { class: "muted" }, plural(countOf(key)))
+            )
+          )
+        )
+      )
+    );
+  }
+
   window.Views = window.Views || {};
   window.Views.home = function renderHome(app) {
     const overall = Core.overallStats(app.progress, app.bank);
@@ -277,6 +325,7 @@
       { class: "home" },
       hero(app, overall),
       modules(app),
+      practicalBand(),
       h("section", { class: "section wrap mode-split" }, examPanel(app), wrongPanel(app))
     );
   };

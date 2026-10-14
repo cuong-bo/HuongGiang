@@ -1,0 +1,488 @@
+{
+ "id": 4,
+ "title": "Đề thực hành số 4",
+ "source": "de co ban 4",
+ "timeLimitMinutes": 60,
+ "generalNotes": [
+  "Đề thi cấp chứng chỉ UDCNTT cơ bản, Học viện Kỹ thuật Quân sự, Khoa Công nghệ thông tin. Đợt thi: B191214013. Thời gian: 60 phút.",
+  "Đề thi gồm 3 trang; không được sử dụng tài liệu, USB và các thiết bị lưu trữ khác.",
+  "Các file bài làm để trong thư mục D:\\ThiCC, cách đặt tên file: Câu 1: sbd_cau1.docx; Câu 2: sbd_cau2.xlsx; Câu 3: sbd_cau3.pptx. Trong đó sbd là số báo danh của thí sinh."
+ ],
+ "tasks": [
+  {
+   "no": 1,
+   "app": "word",
+   "title": "Câu 1. Soạn thảo văn bản (Microsoft Word)",
+   "statement": {
+    "intro": "Sử dụng phần mềm Microsoft Word soạn thảo nội dung tài liệu trên trang 3 với các yêu cầu sau:",
+    "requirements": [
+     "1) Soạn và định dạng đầy đủ nội dung văn bản như trang 3.",
+     "2) Định dạng trang: Cỡ giấy: A4; Chiều: Portrait; Lề trên (Top): 2.5 cm, Lề dưới (Bottom): 2 cm, Lề trái (Left): 3.5 cm, Lề phải (Right): 1.5 cm; Font: Times New Roman, cỡ 13.",
+     "3) Sử dụng tab để thể hiện các vị trí cần điền vào chỗ trống.",
+     "4) Sử dụng công cụ insert để thêm ô có nội dung đối với ảnh người làm đơn.",
+     "5) Sử dụng bảng 1 dòng, 2 cột, không đường viền để thể hiện thông tin của phần xác nhận của đơn vị và phần người viết đơn."
+    ],
+    "material": [
+     {
+      "kind": "text",
+      "caption": "Nội dung văn bản (trang 3 của đề). [Tab] là chỗ nhấn phím Tab để ra dãy dấu chấm; ô ảnh nằm ở góc trên trái.",
+      "lines": [
+       "CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM",
+       "Độc lập - Tự do - Hạnh phúc",
+       "(ô góc trên trái, trong ô ghi: ẢNH 4x6)",
+       "ĐƠN XIN CHUYỂN ĐỊA ĐIỂM HỌC TẬP",
+       "Kính gửi: [Tab]",
+       "Tên tôi là: [Tab] Ngày sinh: [Tab]",
+       "Số điện thoại liên hệ: [Tab]",
+       "Mã SV: [Tab] Ngành: [Tab] Lớp [Tab]",
+       "Địa điểm học [Tab]",
+       "Nay tôi làm đơn này xin chuyển sang địa điểm:",
+       "Địa điểm học tại: [Tab]",
+       "cho phù hợp với hoàn cảnh công tác và nguyện vọng cá nhân của mình.",
+       "Kính mong lãnh đạo Khoa xem xét cho tôi được chuyển địa điểm học để tôi có điều kiện học tập tốt hơn.",
+       "Tôi xin chân thành cảm ơn!",
+       "..........., ngày ...... tháng ..... năm 20....",
+       "XÁC NHẬN LÃNH ĐẠO KHOA | NGƯỜI VIẾT ĐƠN (bảng 1 dòng 2 cột, không viền)"
+      ]
+     }
+    ]
+   },
+   "solution": {
+    "summary": "Đặt trang A4 Portrait với lề đúng yêu cầu và font Times New Roman 13 trước, rồi gõ nội dung; các chỗ trống làm bằng tab stop có leader dấu chấm, ô ảnh làm bằng Insert > Text Box, phần ký tên làm bằng bảng 1 dòng 2 cột bỏ viền.",
+    "steps": [
+     {
+      "title": "Bước 1. Tạo file và lưu đúng tên",
+      "forRequirement": "Ghi chú chung",
+      "actions": [
+       "Mở Microsoft Word, chọn Blank document.",
+       "Nhấn Ctrl+S (hoặc File > Save As > Browse). Chọn thư mục D:\\ThiCC, ở ô File name gõ sbd_cau1 (thay sbd bằng số báo danh của bạn, ví dụ 123_cau1), ở ô Save as type chọn Word Document (*.docx), nhấn Save.",
+       "Trong lúc làm bài nhấn Ctrl+S thường xuyên."
+      ],
+      "note": "Tên file phải đúng dạng sbd_cau1.docx và nằm trong D:\\ThiCC."
+     },
+     {
+      "title": "Bước 2. Định dạng trang (làm trước khi gõ nội dung)",
+      "forRequirement": "2",
+      "actions": [
+       "Tab Layout (Word 2007/2010 là Page Layout) > nhóm Page Setup, bấm mũi tên nhỏ ở góc dưới bên phải để mở hộp thoại Page Setup.",
+       "Thẻ Margins: Top nhập 2.5 cm, Bottom nhập 2 cm, Left nhập 3.5 cm, Right nhập 1.5 cm. Gutter để 0. Mục Orientation chọn Portrait. Mục Apply to chọn Whole document.",
+       "Thẻ Paper: ở Paper size chọn A4 (21 cm x 29.7 cm).",
+       "Bấm OK. Nếu Word cảnh báo lề nằm ngoài vùng in của máy in thì chọn Ignore để giữ đúng số đo đề yêu cầu."
+      ],
+      "note": "Nếu ô hiển thị inch thì cứ gõ '2.5 cm', Word tự đổi đơn vị."
+     },
+     {
+      "title": "Bước 3. Đặt font Times New Roman cỡ 13 cho toàn bài",
+      "forRequirement": "2",
+      "actions": [
+       "Ngay khi còn trang trắng: Home > bấm mũi tên góc nhóm Font (hoặc Ctrl+D) > chọn Font: Times New Roman, Size: 13 > bấm Set As Default > chọn 'This document only' > OK. Khi đó mọi đoạn mới gõ đều là Times New Roman 13.",
+       "Hoặc làm sau khi gõ xong: nhấn Ctrl+A, rồi Home > nhóm Font: chọn Times New Roman ở ô font và 13 ở ô cỡ chữ.",
+       "Cuối bài, nhấn Ctrl+A một lần nữa và kiểm tra ô font vẫn là Times New Roman, cỡ 13 (ô font trống nghĩa là còn đoạn khác font)."
+      ],
+      "note": "Chữ trong Text Box (ô ảnh) và trong bảng cũng phải là Times New Roman 13; kiểm tra riêng từng nơi."
+     },
+     {
+      "title": "Bước 4. Gõ phần tiêu đề (quốc hiệu, tiêu ngữ, tên đơn)",
+      "forRequirement": "1",
+      "actions": [
+       "Dòng 1: gõ CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM, nhấn Ctrl+E để căn giữa, Ctrl+B để in đậm. Nhấn Enter.",
+       "Dòng 2: gõ Độc lập - Tự do - Hạnh phúc, Ctrl+E căn giữa, Ctrl+B in đậm. Nhấn Enter.",
+       "Gạch dưới tiêu ngữ giống mẫu: Insert > Shapes > chọn Line, giữ phím Shift và kéo chuột ngay dưới dòng 2 một đoạn bằng độ dài chữ tiêu ngữ. (Có thể thay bằng bôi đen dòng 2 và nhấn Ctrl+U, nhưng đường Line giống mẫu hơn.)",
+       "Nhấn Enter, để một dòng trống, rồi gõ ĐƠN XIN CHUYỂN ĐỊA ĐIỂM HỌC TẬP, căn giữa (Ctrl+E), in đậm (Ctrl+B).",
+       "Nhấn Enter thêm 1 dòng trống trước khi sang phần nội dung đơn."
+      ],
+      "note": "Dùng Unikey bật tiếng Việt và soát lại dấu thanh, dấu mũ của từng dòng trước khi sang dòng sau."
+     },
+     {
+      "title": "Bước 5. Dùng Tab để tạo chỗ trống điền thông tin (dấu chấm dẫn)",
+      "forRequirement": "3",
+      "actions": [
+       "Ý tưởng: mỗi dòng cần điền được đặt điểm dừng Tab (tab stop) có Leader là dãy dấu chấm. Khi nhấn phím Tab, Word tự vẽ dãy chấm tới điểm dừng, không phải gõ tay dấu chấm.",
+       "Cách đặt: để con trỏ trong dòng cần làm (hoặc bôi đen nhiều dòng cùng kiểu). Home > nhóm Paragraph > bấm mũi tên góc dưới phải > bấm nút Tabs... ở góc dưới bên trái hộp thoại.",
+       "Trong hộp Tabs: ở 'Tab stop position' nhập vị trí (cm), Alignment chọn Left, Leader chọn 2 (....), bấm Set. Lặp lại cho từng điểm dừng rồi bấm OK. Vị trí đo từ lề trái; vùng soạn thảo rộng 21 - 3.5 - 1.5 = 16 cm nên điểm dừng cuối đặt khoảng 15.5 cm, không đặt quá 16 cm.",
+       "Dòng 'Kính gửi': gõ Tab (điểm dừng 3.5 cm, Leader 1 None để thụt vào), gõ Kính gửi: (in đậm), nhấn Tab (điểm dừng 12.5 cm, Leader 2).",
+       "Dòng 'Tên tôi là': gõ Tên tôi là:, Tab (điểm dừng 8.5 cm), gõ Ngày sinh:, Tab (điểm dừng 15.5 cm). Cả hai Leader 2.",
+       "Dòng 'Số điện thoại liên hệ': gõ Số điện thoại liên hệ:, Tab (điểm dừng 15.5 cm, Leader 2).",
+       "Dòng 'Mã SV': gõ Mã SV:, Tab (7 cm), gõ Ngành:, Tab (12 cm), gõ Lớp:, Tab (15.5 cm). Cả ba Leader 2.",
+       "Dòng 'Địa điểm học': gõ Địa điểm học:, Tab (15.5 cm, Leader 2).",
+       "Dòng 'Nay tôi làm đơn này xin chuyển sang địa điểm:' gõ bình thường.",
+       "Dòng 'Địa điểm học tại': gõ Địa điểm học tại:, Tab (15.5 cm, Leader 2).",
+       "Dòng 'cho phù hợp với hoàn cảnh công tác và nguyện vọng cá nhân của mình.' gõ bình thường.",
+       "Hai đoạn 'Kính mong lãnh đạo Khoa xem xét cho tôi được chuyển địa điểm học để tôi có điều kiện học tập tốt hơn.' và 'Tôi xin chân thành cảm ơn!': thụt đầu dòng bằng Paragraph > Indentation > Special: First line 1.25 cm (hoặc nhấn Tab đầu đoạn). Chữ 'Tôi xin chân thành cảm ơn!' in nghiêng (Ctrl+I).",
+       "Dòng ngày tháng: căn phải (Ctrl+R) rồi gõ ........, ngày ...... tháng ..... năm 20.... hoặc dùng Tab (điểm dừng có leader chấm) để tạo các chỗ trống, giống mẫu.",
+       "Kiểm tra: bật Home > nút Show/Hide (Ctrl+Shift+8) sẽ thấy ký hiệu mũi tên Tab ở mỗi chỗ trống thay vì dấu chấm gõ tay."
+      ],
+      "note": "Điểm chấm của yêu cầu 3 là các chỗ trống dùng phím Tab. Không gõ liền tay dãy dấu chấm và không dùng nhiều dấu cách để căn."
+     },
+     {
+      "title": "Bước 6. Chèn ô ảnh bằng công cụ Insert (Text Box)",
+      "forRequirement": "4",
+      "actions": [
+       "Tab Insert > nhóm Text > Text Box > chọn Draw Text Box.",
+       "Kéo chuột ở góc trên trái, ngang tầm các dòng quốc hiệu, vẽ ô chữ nhật khoảng 2.5 cm x 3.5 cm. Chỉnh chính xác: tab Format (Drawing Tools) > nhóm Size > nhập Height và Width.",
+       "Gõ trong ô: dòng 1 ẢNH, dòng 2 4x6. Bôi đen, căn giữa (Ctrl+E), in đậm (Ctrl+B), font Times New Roman 13.",
+       "Giữ đường viền đen (Format > Shape Outline > Black) và không tô nền (Shape Fill > No Fill).",
+       "Nhấp chọn ô > Format > Wrap Text > chọn In Front of Text hoặc Square để ô không làm xô lệch dòng chữ, rồi kéo ô vào góc trên trái như mẫu."
+      ],
+      "note": "Phải tạo bằng Insert (Text Box hoặc Shapes), không dùng bảng hay gõ ký tự để vẽ khung."
+     },
+     {
+      "title": "Bước 7. Tạo bảng 1 dòng 2 cột không đường viền cho phần xác nhận và người viết đơn",
+      "forRequirement": "5",
+      "actions": [
+       "Đặt con trỏ ở dòng mới sau dòng ngày tháng.",
+       "Insert > nhóm Tables > Table > Insert Table..., nhập Number of columns: 2, Number of rows: 1 > OK.",
+       "Ô trái gõ XÁC NHẬN LÃNH ĐẠO KHOA, ô phải gõ NGƯỜI VIẾT ĐƠN. Bôi đen cả bảng, nhấn Ctrl+B để in đậm và Ctrl+E để căn giữa từng ô.",
+       "Bỏ đường viền: bấm vào biểu tượng chọn bảng (dấu thập ở góc trên trái bảng) để chọn cả bảng > Home > nhóm Paragraph > mũi tên của nút Borders > chọn No Border (hoặc Table Tools > Design > Borders > No Border).",
+       "Tùy chọn: Table Tools > Layout > Distribute Columns để hai cột bằng nhau; tăng chiều cao hàng hoặc nhấn Enter thêm trong ô để có chỗ ký tên."
+      ],
+      "note": "Phải đúng 1 dòng và 2 cột, không còn đường viền nào. Nếu vẫn thấy khung thì chưa chọn cả bảng khi bấm No Border (đường lưới xám hiện trên màn hình là View Gridlines, không in ra)."
+     },
+     {
+      "title": "Bước 8. Kiểm tra và lưu",
+      "forRequirement": "1, 2, 3, 4, 5",
+      "actions": [
+       "Ctrl+A, kiểm tra font là Times New Roman, cỡ 13.",
+       "Mở lại Page Setup kiểm tra A4, Portrait, Top 2.5, Bottom 2, Left 3.5, Right 1.5.",
+       "File > Print (Ctrl+P) xem trước: toàn bộ đơn gọn trong 1 trang, các dãy dấu chấm kết thúc cùng một mép phải, bảng không viền ở cuối trang.",
+       "Ctrl+S lưu lần cuối."
+      ],
+      "note": ""
+     }
+    ],
+    "formulas": [],
+    "result": "Một trang A4 giống trang 3 của đề: quốc hiệu và tiêu ngữ căn giữa in đậm (có đường kẻ dưới tiêu ngữ), ô 'ẢNH 4x6' có viền ở góc trên trái, tiêu đề đơn căn giữa in đậm, các dòng điền thông tin có dấu chấm chạy đều tới gần lề phải nhờ dùng Tab, cuối đơn là dòng ngày tháng và bảng không viền gồm 'XÁC NHẬN LÃNH ĐẠO KHOA' và 'NGƯỜI VIẾT ĐƠN'. Tự kiểm tra: bật Show/Hide thấy ký hiệu Tab ở các chỗ trống; Page Setup đúng số đo; Ctrl+A thấy Times New Roman 13; bấm vào bảng thấy 1 hàng 2 cột và không có đường viền."
+   },
+   "checklist": [
+    "Đã lưu file tên sbd_cau1.docx trong D:\\ThiCC",
+    "Khổ giấy A4, hướng Portrait",
+    "Lề Top 2.5 cm, Bottom 2 cm, Left 3.5 cm, Right 1.5 cm",
+    "Toàn bộ văn bản font Times New Roman cỡ 13",
+    "Đủ nội dung văn bản như trang 3, tiêu đề căn giữa, in đậm đúng chỗ",
+    "Các chỗ trống điền thông tin được tạo bằng phím Tab với leader dấu chấm (không gõ tay dấu chấm)",
+    "Có ô ảnh tạo bằng Insert (Text Box) chứa chữ ẢNH 4x6",
+    "Có bảng 1 dòng 2 cột, không đường viền, chứa XÁC NHẬN LÃNH ĐẠO KHOA và NGƯỜI VIẾT ĐƠN",
+    "Văn bản vừa trong 1 trang"
+   ],
+   "commonMistakes": [
+    "Gõ tay dãy dấu chấm hoặc dùng dấu cách để căn thay vì dùng Tab và tab stop có leader",
+    "Nhầm lề: đặt lề trái 2.5 thay vì 3.5, hoặc lề dưới 2.5 thay vì 2",
+    "Chỉ đổi font cho một phần văn bản, quên font trong Text Box và bảng",
+    "Vẽ ô ảnh bằng cách gõ ký tự hoặc dùng bảng thay vì Insert > Text Box/Shapes",
+    "Bảng vẫn còn đường viền vì chỉ chọn một ô khi bấm No Border; hoặc tạo bảng 2 dòng 1 cột thay vì 1 dòng 2 cột",
+    "Đặt điểm dừng tab vượt quá chiều rộng vùng soạn thảo (16 cm) làm dòng bị xuống hàng",
+    "Lưu sai tên hoặc sai thư mục"
+   ],
+   "uncertain": [
+    "Ảnh chụp trang 3 khá rõ nên nội dung được chép đầy đủ. Dòng ngày tháng trong ảnh là '...........,ngày ...... tháng ....năm 20....'; số lượng dấu chấm chỉ là gần đúng.",
+    "Đề không nêu kích thước ô ảnh; trong mẫu ô cao khoảng 3 đến 4 cm. Hướng dẫn dùng khoảng 2.5 cm x 3.5 cm làm ví dụ.",
+    "File mẫu 234_CÂU1.docx dùng Text Box và một đường Line dưới tiêu ngữ nhưng KHÔNG dùng bảng 1 dòng 2 cột cho phần ký tên (dùng tab); đề yêu cầu bảng nên hướng dẫn làm theo đề. File mẫu cũng ghi 'nguyện vọng cá nhân mình' và 'lien hệ' (sai chính tả); hướng dẫn chép theo ảnh đề: 'nguyện vọng cá nhân của mình' và 'liên hệ'.",
+    "Các vị trí tab stop (3.5, 8.5, 12.5, 15.5 cm...) lấy từ file mẫu để dòng chấm gọn; đề không quy định số đo cụ thể."
+   ]
+  },
+  {
+   "no": 2,
+   "app": "excel",
+   "title": "Câu 2. Tạo bảng tính (Microsoft Excel)",
+   "statement": {
+    "intro": "Danh sách điểm danh sinh viên của Lớp 12057623 thể hiện như bảng sau (bảng mẫu có các cột TT, Mã SV, Họ tên, Buổi 1 đến Buổi 10, KP, CP, CC; dòng ví dụ: 1 | 1619001 | Nguyễn Văn A | x, 0, x, 1, x, x, x, 0, x, x). Sử dụng phần mềm Microsoft Excel tạo bảng theo dõi học tập với các yêu cầu sau:",
+    "requirements": [
+     "1) Nhập dữ liệu (giả định) cho 05 sinh viên trên các cột: TT (thứ tự), Mã SV (Mã sinh viên), Họ tên, Buổi 1, Buổi 2,..., Buổi 10: các cột Buổi 1, Buổi 2,..., Buổi 10 nhận một trong các giá trị: x nếu đi học, 0 nếu nghỉ học không phép và 1 nếu nghỉ học có phép. Kẻ khung, căn chỉnh, định dạng các kiểu dữ liệu cho phù hợp; Font: Times New Roman, cỡ 13pt.",
+     "2) Định dạng trang: Khổ giấy A4, Landscape; Top: 2.5 cm, Bottom: 2.5 cm; Left: 2.5 cm, Right: 1.5 cm. Căn chỉnh bảng tính ra giữa trang in (Horizontally).",
+     "3) Nhập công thức tính Số ngày nghỉ học không phép vào cột KP.",
+     "4) Nhập công thức tính Số ngày nghỉ học có phép vào cột CP.",
+     "5) Nhập công thức tính Điểm chuyên cần vào cột CC; Biết rằng nếu KP < 3 và CP < 5 thì CC = 10 - KP - 0.5*CP ngược lại CC = 0."
+    ],
+    "material": [
+     {
+      "kind": "table",
+      "caption": "Dữ liệu gợi ý cho 5 sinh viên (đề cho tự nhập giả định; dữ liệu và kết quả KP, CP, CC lấy theo file mẫu để đối chiếu)",
+      "rows": [
+       [
+        "TT",
+        "Mã SV",
+        "Họ tên",
+        "Buổi 1",
+        "Buổi 2",
+        "Buổi 3",
+        "Buổi 4",
+        "Buổi 5",
+        "Buổi 6",
+        "Buổi 7",
+        "Buổi 8",
+        "Buổi 9",
+        "Buổi 10",
+        "KP",
+        "CP",
+        "CC"
+       ],
+       [
+        "1",
+        "1619001",
+        "Nguyễn Văn A",
+        "x",
+        "x",
+        "x",
+        "0",
+        "1",
+        "x",
+        "x",
+        "1",
+        "x",
+        "x",
+        "1",
+        "2",
+        "8"
+       ],
+       [
+        "2",
+        "1619002",
+        "Trần Đức Đạt",
+        "x",
+        "x",
+        "x",
+        "0",
+        "x",
+        "x",
+        "0",
+        "x",
+        "x",
+        "x",
+        "2",
+        "0",
+        "8"
+       ],
+       [
+        "3",
+        "1619003",
+        "Nguyễn Văn Thiện",
+        "x",
+        "x",
+        "x",
+        "x",
+        "x",
+        "1",
+        "x",
+        "x",
+        "x",
+        "1",
+        "0",
+        "2",
+        "9"
+       ],
+       [
+        "4",
+        "1619004",
+        "Hà Tuấn Dũng",
+        "x",
+        "0",
+        "x",
+        "0",
+        "x",
+        "x",
+        "x",
+        "x",
+        "x",
+        "x",
+        "2",
+        "0",
+        "8"
+       ],
+       [
+        "5",
+        "1619005",
+        "Nguyễn Đức Hải",
+        "x",
+        "x",
+        "0",
+        "1",
+        "x",
+        "1",
+        "0",
+        "1",
+        "0",
+        "x",
+        "3",
+        "3",
+        "0"
+       ]
+      ]
+     }
+    ]
+   },
+   "solution": {
+    "summary": "Nhập bảng A1:P6, kẻ khung và đặt font Times New Roman 13, đặt trang A4 ngang với lề và căn giữa theo chiều ngang, rồi dùng COUNTIF cho KP và CP, IF kết hợp AND cho CC và kéo công thức xuống.",
+    "steps": [
+     {
+      "title": "Bước 1. Tạo file và lưu",
+      "forRequirement": "Ghi chú chung",
+      "actions": [
+       "Mở Microsoft Excel, chọn Blank workbook.",
+       "Nhấn Ctrl+S, chọn thư mục D:\\ThiCC, đặt tên sbd_cau2 (ví dụ 123_cau2), kiểu Excel Workbook (*.xlsx), nhấn Save."
+      ],
+      "note": "sbd là số báo danh của thí sinh."
+     },
+     {
+      "title": "Bước 2. Nhập tiêu đề cột và dữ liệu cho 05 sinh viên",
+      "forRequirement": "1",
+      "actions": [
+       "Ô A1 gõ TT, B1 gõ Mã SV, C1 gõ Họ tên. Từ D1 đến M1 gõ lần lượt Buổi 1, Buổi 2, ..., Buổi 10. Ô N1 gõ KP, O1 gõ CP, P1 gõ CC. Dùng phím Tab để sang ô bên phải.",
+       "Hàng 2 đến hàng 6 nhập 5 sinh viên (dữ liệu giả định): TT gõ 1 đến 5; Mã SV gõ 1619001 đến 1619005; Họ tên gõ tên bất kỳ.",
+       "Các cột Buổi 1 đến Buổi 10 chỉ nhập một trong các giá trị: x (đi học), 0 (nghỉ không phép), 1 (nghỉ có phép).",
+       "Nên cho ít nhất một sinh viên có KP từ 3 trở lên (hoặc CP từ 5 trở lên) để kiểm tra trường hợp CC = 0."
+      ],
+      "note": "Chữ x gõ chữ thường; nếu Excel tự đổi thành X cũng không ảnh hưởng vì công thức chỉ đếm số 0 và số 1."
+     },
+     {
+      "title": "Bước 3. Kẻ khung, căn chỉnh, định dạng kiểu dữ liệu và font",
+      "forRequirement": "1",
+      "actions": [
+       "Bôi đen cả bảng A1:P6. Tab Home > nhóm Font: chọn font Times New Roman, cỡ 13.",
+       "Kẻ khung: giữ vùng đang chọn, Home > nhóm Font > nút Borders (mũi tên) > All Borders. Hoặc Ctrl+1 > thẻ Border > Outline và Inside > OK.",
+       "Hàng tiêu đề A1:P1: bôi đen, Home > nhóm Alignment > Center và Middle Align, nhấn Ctrl+B để in đậm; bật Wrap Text nếu chữ dài.",
+       "Căn giữa các cột TT, Mã SV, Buổi 1 đến Buổi 10, KP, CP, CC (Home > Alignment > Center). Cột Họ tên căn trái (Align Left).",
+       "Định dạng kiểu dữ liệu: cột TT, KP, CP là Number (0 chữ số thập phân); cột CC là Number với 1 chữ số thập phân vì có thể có 0.5 (chọn cột CC > Ctrl+1 > Number > Decimal places 1); cột Mã SV và Họ tên là Text hoặc General.",
+       "Chỉnh độ rộng cột: chọn các cột A đến P, nhấp đúp vào ranh giới giữa hai tiêu đề cột để tự khít (AutoFit), hoặc Home > Format > AutoFit Column Width. Cột Buổi nên hẹp để bảng vừa một trang."
+      ],
+      "note": "Nếu muốn giữ Mã SV đúng dạng văn bản thì đặt ô là Text (Format Cells > Text) trước khi nhập."
+     },
+     {
+      "title": "Bước 4. Định dạng trang in",
+      "forRequirement": "2",
+      "actions": [
+       "Tab Page Layout > nhóm Page Setup > bấm mũi tên góc dưới bên phải để mở hộp thoại Page Setup.",
+       "Thẻ Page: Orientation chọn Landscape; Paper size chọn A4.",
+       "Thẻ Margins: Top nhập 2.5, Bottom nhập 2.5, Left nhập 2.5, Right nhập 1.5 (cm). Ở mục 'Center on page' đánh dấu chọn Horizontally để căn bảng giữa trang theo chiều ngang.",
+       "Nhấn OK. Xem trước bằng File > Print (Ctrl+P) để chắc chắn bảng nằm giữa trang."
+      ],
+      "note": "Nếu máy hiển thị inch thì gõ '2.5 cm' vào ô, Excel tự đổi (0.98 inch). Nếu bảng tràn sang trang 2 thì thu hẹp độ rộng các cột."
+     },
+     {
+      "title": "Bước 5. Công thức cột KP (số ngày nghỉ học không phép)",
+      "forRequirement": "3",
+      "actions": [
+       "Chọn ô N2 và gõ: =COUNTIF(D2:M2,0) rồi nhấn Enter.",
+       "Công thức đếm số ô trong khoảng D2:M2 có giá trị bằng 0 (nghỉ không phép).",
+       "Sao chép xuống: nhấp ô N2, đưa chuột vào chấm vuông nhỏ ở góc dưới bên phải ô cho thành dấu cộng đen, nhấp đúp (hoặc kéo xuống tới hàng 6)."
+      ],
+      "note": "Nếu máy dùng dấu chấm phẩy làm phân cách đối số thì gõ =COUNTIF(D2:M2;0). Nếu gõ dấu phẩy mà Excel báo lỗi thì đổi sang dấu chấm phẩy, và ngược lại."
+     },
+     {
+      "title": "Bước 6. Công thức cột CP (số ngày nghỉ học có phép)",
+      "forRequirement": "4",
+      "actions": [
+       "Chọn ô O2 và gõ: =COUNTIF(D2:M2,1) rồi nhấn Enter.",
+       "Công thức đếm số ô trong khoảng D2:M2 có giá trị bằng 1 (nghỉ có phép).",
+       "Sao chép xuống các hàng 3 đến 6 bằng cách nhấp đúp vào chấm vuông ở góc dưới phải ô O2."
+      ],
+      "note": ""
+     },
+     {
+      "title": "Bước 7. Công thức cột CC (điểm chuyên cần)",
+      "forRequirement": "5",
+      "actions": [
+       "Chọn ô P2 và gõ: =IF(AND(N2<3,O2<5),10-N2-0.5*O2,0) rồi nhấn Enter.",
+       "Giải thích: AND(N2<3,O2<5) kiểm tra đồng thời KP nhỏ hơn 3 và CP nhỏ hơn 5. Nếu đúng thì CC = 10 - KP - 0.5*CP, nếu sai thì CC = 0.",
+       "Sao chép xuống các hàng 3 đến 6.",
+       "Chọn cột CC, Ctrl+1 > Number > Decimal places 1 để số hiển thị đồng đều (ví dụ 8.0, 9.0, 0.0)."
+      ],
+      "note": "Không viết số 0 trong dấu ngoặc kép vì kết quả sẽ là chữ chứ không phải số. Nếu máy dùng dấu phẩy thập phân thì hệ số viết 0,5 và các đối số ngăn cách bằng dấu chấm phẩy."
+     },
+     {
+      "title": "Bước 8. Kiểm tra và lưu",
+      "forRequirement": "1 đến 5",
+      "actions": [
+       "Đối chiếu tay vài hàng: đếm số 0 và số 1 trong hàng rồi so với KP và CP.",
+       "Xem trước in (Ctrl+P): hướng ngang, bảng nằm giữa trang theo chiều ngang.",
+       "Nhấn Ctrl+S lưu file."
+      ],
+      "note": ""
+     }
+    ],
+    "formulas": [
+     {
+      "cell": "N2",
+      "formula": "=COUNTIF(D2:M2,0)",
+      "meaning": "Đếm số buổi nghỉ không phép (ô có giá trị 0) trong 10 buổi của sinh viên ở hàng 2. Kéo xuống cho N3:N6. Nếu máy dùng dấu ; thì viết =COUNTIF(D2:M2;0)."
+     },
+     {
+      "cell": "O2",
+      "formula": "=COUNTIF(D2:M2,1)",
+      "meaning": "Đếm số buổi nghỉ có phép (ô có giá trị 1). Kéo xuống cho O3:O6."
+     },
+     {
+      "cell": "P2",
+      "formula": "=IF(AND(N2<3,O2<5),10-N2-0.5*O2,0)",
+      "meaning": "Nếu KP < 3 và CP < 5 thì điểm chuyên cần = 10 - KP - 0.5*CP, ngược lại bằng 0. Kéo xuống cho P3:P6."
+     }
+    ],
+    "result": "Bảng 6 hàng (1 hàng tiêu đề, 5 sinh viên) x 16 cột có khung, font Times New Roman 13. Với dữ liệu gợi ý: KP lần lượt 1, 2, 0, 2, 3; CP lần lượt 2, 0, 2, 0, 3; CC lần lượt 8, 8, 9, 8, 0 (sinh viên thứ 5 có KP = 3 nên CC = 0). Xem trước in thấy trang A4 ngang, bảng nằm giữa trang theo chiều ngang. Tự kiểm tra bằng cách chọn ô N2, O2, P2 và xem thanh công thức."
+   },
+   "checklist": [
+    "Đã lưu file tên sbd_cau2.xlsx trong D:\\ThiCC",
+    "Có đủ cột TT, Mã SV, Họ tên, Buổi 1 đến Buổi 10, KP, CP, CC và 5 dòng sinh viên",
+    "Các cột Buổi chỉ chứa x, 0 hoặc 1",
+    "Bảng có kẻ khung, căn chỉnh hợp lý; font Times New Roman cỡ 13",
+    "Khổ giấy A4, Landscape; lề Top 2.5, Bottom 2.5, Left 2.5, Right 1.5 cm",
+    "Đã bật căn giữa theo chiều ngang (Center on page: Horizontally)",
+    "Cột KP dùng công thức COUNTIF đếm số 0",
+    "Cột CP dùng công thức COUNTIF đếm số 1",
+    "Cột CC dùng IF và AND đúng điều kiện KP < 3 và CP < 5, trường hợp ngược lại kết quả là số 0"
+   ],
+   "commonMistakes": [
+    "Dùng dấu phẩy thay cho dấu chấm phẩy (hoặc ngược lại) nên Excel báo lỗi công thức",
+    "Đếm sai vùng: phải đếm trong D:M của đúng hàng, không phải cả cột",
+    "Viết điều kiện CC bằng OR thay vì AND, hoặc dùng <= thay cho <",
+    "Viết \"0\" trong ngoặc kép làm CC thành chữ",
+    "Khóa nhầm bằng dấu $ (ví dụ $D$2:$M$2) nên kéo xuống các hàng đều ra kết quả của hàng 2",
+    "Quên bật Horizontally, chọn nhầm Portrait hoặc ghi lề Right là 2.5",
+    "Nhập chữ O thay cho số 0 (số 0 phải là chữ số 0)",
+    "Bảng quá rộng nên tràn sang trang thứ hai khi in"
+   ],
+   "uncertain": [
+    "Trang 2 của đề và toàn bộ Câu 3 KHÔNG có trong ảnh. Ảnh 4.1.jpg chỉ chụp trang 1 (Câu 1 và Câu 2 yêu cầu 1 đến 5; yêu cầu 5 kết thúc ở cuối trang bằng 'ngược lại CC = 0.'). Có thể còn yêu cầu khác của Câu 2 nằm ở trang 2 mà không thể biết.",
+    "Dữ liệu 5 sinh viên trong đề là 'giả định'; bảng gợi ý lấy từ file mẫu 234_câu 2.xlsx (vùng A29:P34, Mã SV 1619001 đến 1619005); họ tên chỉ để tham khảo.",
+    "Số liệu dòng ví dụ (x 0 x 1 x x x 0 x x) và số lớp 12057623 đọc được rõ từ ảnh.",
+    "File mẫu có vùng dùng COUNTIF(D30:M30,\"0\") và vùng khác dùng COUNTIF(D2:M2,0), đều cho kết quả đúng; hướng dẫn chọn dạng số 0 và 1 không có ngoặc kép. Một vùng của file mẫu còn dùng \"0\" trong ngoặc kép ở nhánh sai của IF, hướng dẫn dùng số 0 thật."
+   ]
+  },
+  {
+   "no": 3,
+   "app": "powerpoint",
+   "title": "Câu 3. Trình chiếu (Microsoft PowerPoint)",
+   "statement": {
+    "intro": "Không có trong ảnh. Hai ảnh được cung cấp (4.1.jpg và 4.3.jpg) chỉ gồm trang 1 và trang 3 của đề; Câu 3 PowerPoint nằm ở trang 2 chưa được chụp, và thư mục cũng không có file mẫu PowerPoint.",
+    "requirements": [],
+    "material": []
+   },
+   "solution": {
+    "summary": "Chưa có đề nên không thể viết lời giải cụ thể. Dưới đây chỉ là bước chung về lưu file, cần bổ sung khi có ảnh trang 2.",
+    "steps": [
+     {
+      "title": "Bước chung. Tạo và lưu file",
+      "forRequirement": "Ghi chú chung",
+      "actions": [
+       "Mở PowerPoint, chọn Blank Presentation.",
+       "Nhấn Ctrl+S, chọn thư mục D:\\ThiCC, đặt tên sbd_cau3 (ví dụ 123_cau3), kiểu PowerPoint Presentation (*.pptx), nhấn Save.",
+       "Sau đó làm theo từng yêu cầu của đề khi có nội dung (Slide Master, bố cục, Animations, Transitions, đánh số slide qua Insert > Slide Number...)."
+      ],
+      "note": "Cần bổ sung hướng dẫn chi tiết sau khi có ảnh trang 2 của đề."
+     }
+    ],
+    "formulas": [],
+    "result": "Chưa xác định vì chưa có đề. Chỉ biết file phải lưu tên sbd_cau3.pptx trong D:\\ThiCC."
+   },
+   "checklist": [
+    "Đã lưu file tên sbd_cau3.pptx trong D:\\ThiCC",
+    "Thực hiện đầy đủ các yêu cầu ở trang 2 của đề (cần bổ sung)"
+   ],
+   "commonMistakes": [
+    "Lưu sai tên hoặc sai thư mục",
+    "Bỏ sót yêu cầu vì chưa đọc hết trang 2 của đề"
+   ],
+   "uncertain": [
+    "Toàn bộ nội dung Câu 3 (PowerPoint) nằm ở trang 2 của đề, không có trong ảnh; không có file PowerPoint mẫu trong thư mục. Cần chụp bổ sung trang 2 để hoàn thiện."
+   ]
+  }
+ ]
+}

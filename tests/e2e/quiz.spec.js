@@ -179,3 +179,69 @@ test("the last question of a module offers a finish action", async ({ page }) =>
   await expect(page.getByTestId("option-1")).toBeVisible();
   await expect(page.getByTestId("option-2")).toHaveCount(0);
 });
+
+test.describe("practical exams", () => {
+  test("the home page links to the list of seven sets and 21 tasks", async ({ page }) => {
+    await page.getByTestId("cta-practical").click();
+    await expect(page).toHaveURL(/#\/thuc-hanh$/);
+    await expect(page.getByRole("heading", { level: 1 })).toHaveText("Hướng dẫn thi thực hành");
+    await expect(page.getByTestId("de-grid").locator("article")).toHaveCount(7);
+    await expect(page.locator("[data-testid^=task-link-]")).toHaveCount(21);
+    await expect(page.getByRole("link", { name: "Thực hành" })).toHaveAttribute("aria-current", "page");
+  });
+
+  test("a task shows the transcribed statement, ordered steps and Excel formulas", async ({ page }) => {
+    await page.goto("/#/thuc-hanh");
+    await page.getByTestId("task-link-5-2").click();
+    await expect(page.getByRole("heading", { level: 1 })).toContainText("Câu 2. Tạo bảng tính");
+    await expect(page.getByText("Quá trình học tập môn Lập trình cơ bản")).toBeVisible();
+    expect(await page.getByTestId("step").count()).toBeGreaterThanOrEqual(8);
+    await expect(page.getByTestId("formula").first()).toContainText("=ROUND(AVERAGE(D3:F3),1)");
+    await expect(page.getByRole("heading", { name: "Tự kiểm tra" })).toBeVisible();
+    await expect(page).toHaveTitle(/Đề 5, Câu 2/);
+  });
+
+  test("copying a formula confirms to the user", async ({ page, context }) => {
+    await context.grantPermissions(["clipboard-read", "clipboard-write"]);
+    await page.goto("/#/thuc-hanh/5/2");
+    const first = page.getByTestId("formula").first();
+    await first.getByTestId("copy-formula").click();
+    await expect(first.getByTestId("copy-formula")).toContainText("Đã chép");
+  });
+
+  test("previous and next walk across tasks and the back link returns to the list", async ({ page }) => {
+    await page.goto("/#/thuc-hanh/5/2");
+    await page.getByTestId("next-task").click();
+    await expect(page).toHaveURL(/#\/thuc-hanh\/5\/3$/);
+    await page.getByTestId("prev-task").click();
+    await expect(page).toHaveURL(/#\/thuc-hanh\/5\/2$/);
+    await page.getByTestId("back-to-list").click();
+    await expect(page).toHaveURL(/#\/thuc-hanh$/);
+  });
+
+  test("a task whose statement image is missing says so honestly", async ({ page }) => {
+    await page.goto("/#/thuc-hanh/4/3");
+    await expect(page.getByTestId("missing-notice")).toContainText("chưa có");
+  });
+
+  test("tasks with unreadable image parts list them in a notes section", async ({ page }) => {
+    await page.goto("/#/thuc-hanh/1/2");
+    const notes = page.getByTestId("uncertain");
+    await expect(notes).toBeVisible();
+    await notes.locator("summary").click();
+    await expect(notes.locator("li").first()).toBeVisible();
+  });
+
+  test("an unknown task falls back to the list", async ({ page }) => {
+    await page.goto("/#/thuc-hanh/99/1");
+    await expect(page.getByTestId("de-grid")).toBeVisible();
+  });
+
+  test("the detail page does not scroll sideways on a phone", async ({ page }) => {
+    await page.setViewportSize({ width: 375, height: 800 });
+    await page.goto("/#/thuc-hanh/5/2");
+    await expect(page.getByTestId("formula").first()).toBeVisible();
+    const overflow = await page.evaluate(() => document.documentElement.scrollWidth > window.innerWidth);
+    expect(overflow).toBe(false);
+  });
+});

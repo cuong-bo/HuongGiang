@@ -1,0 +1,706 @@
+{
+ "id": 5,
+ "title": "Đề thực hành số 5",
+ "source": "de co ban 5",
+ "timeLimitMinutes": 60,
+ "generalNotes": [
+  "Đề thi cấp chứng chỉ Ứng dụng CNTT cơ bản, Học viện Kỹ thuật Quân sự, Khoa Công nghệ thông tin. Đợt thi B191101009. Thời gian làm bài: 60 phút.",
+  "Đề thi gồm 2 trang (trang 1 là đề bài 3 câu, trang 2 là tài liệu mẫu 'Sơ yếu lý lịch' để soạn thảo ở Câu 1).",
+  "Không được sử dụng tài liệu, USB và các thiết bị lưu trữ khác.",
+  "Các file bài làm để trong thư mục D:\\ThiCC. Câu 1: xyz_cau1.docx. Câu 2: xyz_cau2.xlsx. Câu 3: xyz_cau3.pptx. Trong đó xyz là số báo danh của thí sinh (ví dụ số báo danh 015 thì đặt tên 015_cau1.docx, 015_cau2.xlsx, 015_cau3.pptx).",
+  "Gợi ý phân bổ thời gian cho 60 phút: Câu 1 (Word) khoảng 20 phút, Câu 2 (Excel) khoảng 20 phút, Câu 3 (PowerPoint) khoảng 20 phút. Nên lưu file ngay sau khi tạo (Ctrl+S) và lưu lại thường xuyên.",
+  "Mở thư mục D:\\ThiCC bằng hộp thoại Save As (File > Save As), gõ đúng tên file kèm phần mở rộng đúng loại (.docx, .xlsx, .pptx). Kiểm tra lại tên file và vị trí lưu trước khi hết giờ.",
+  "Trong Câu 3, các slide tuyệt đối không được ghi thông tin liên quan đến thí sinh (họ tên, số báo danh, lớp, đơn vị...).",
+  "Hướng dẫn dưới đây viết cho Microsoft Office 2010 trở lên (giao diện tiếng Anh). Nếu máy dùng giao diện tiếng Việt, tên tab và nút tương ứng được ghi kèm gợi ý tiếng Việt."
+ ],
+ "tasks": [
+  {
+   "no": 1,
+   "app": "word",
+   "title": "Câu 1. Soạn thảo văn bản (Microsoft Word)",
+   "statement": {
+    "intro": "Sử dụng phần mềm Microsoft Word soạn thảo nội dung tài liệu trên trang 2 với các yêu cầu sau:",
+    "requirements": [
+     "1) Soạn và định dạng đầy đủ nội dung văn bản như trang 2.",
+     "2) Định dạng trang: Cỡ giấy: A4; Chiều: Portrait; Lề trên (Top): 2.5 cm, Lề dưới (Bottom): 2 cm, Lề trái (Left): 3.5 cm, Lề phải (Right): 1.5 cm; Font: Times New Roman, cỡ 13.",
+     "3) Sử dụng tab để thể hiện các vị trí cần điền vào chỗ trống.",
+     "4) Sử dụng bảng để thể hiện thông tin về quá trình học tập và làm việc. Sử dụng nét đứt cho dòng kẻ ngang bên trong của bảng.",
+     "5) Sử dụng công cụ chèn để chèn thêm ảnh vào góc trái của Sơ yếu lý lịch."
+    ],
+    "material": [
+     {
+      "kind": "text",
+      "caption": "Nội dung trang 2 của đề (mẫu Sơ yếu lý lịch) mà thí sinh phải soạn, theo thứ tự từ trên xuống",
+      "lines": [
+       "[Khung ảnh ở góc trái phía trên, trong đề ghi:] ẢNH",
+       "[Khung ảnh] 4X6",
+       "[Khung ảnh] (Đóng dấu giáp lai của cơ quan xác nhận lý lịch)",
+       "CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM",
+       "Độc lập - Tự do - Hạnh phúc",
+       "----------0o0----------",
+       "SƠ YẾU LÝ LỊCH",
+       "I- PHẦN BẢN THÂN",
+       "Họ và tên khai sinh: ................ (Nam, Nữ): ................",
+       "Tên thường gọi: ................ Bí danh: ................",
+       "Ngày sinh: ................",
+       "Nơi sinh: ................",
+       "Hộ khẩu thường trú: ................",
+       "II- QUÁ TRÌNH HỌC TẬP VÀ LÀM VIỆC",
+       "[Bảng 4 cột, xem mục bảng bên dưới]",
+       "Tôi xin cam đoan những nội dung khai trên đây là đúng sự thật, nếu sai tôi xin chịu hoàn toàn trách nhiệm trước pháp luật.",
+       "............. , ngày ... tháng ....năm ............",
+       "Người khai",
+       "(Ký và ghi rõ họ tên)",
+       "[Dòng ghi chú chìm ở cuối trang 2 của đề: '(không soạn thảo nội dung này)  Trang 2'. Dòng này KHÔNG phải soạn.]"
+      ]
+     },
+     {
+      "kind": "table",
+      "caption": "Bảng Quá trình học tập và làm việc (dòng đầu là tiêu đề, kèm 4 dòng trống để điền)",
+      "rows": [
+       [
+        "Ngày, tháng, năm",
+        "Học tập hoặc làm việc gì",
+        "Ở đâu",
+        "Thành tích học và làm việc"
+       ],
+       [
+        "",
+        "",
+        "",
+        ""
+       ],
+       [
+        "",
+        "",
+        "",
+        ""
+       ],
+       [
+        "",
+        "",
+        "",
+        ""
+       ],
+       [
+        "",
+        "",
+        "",
+        ""
+       ]
+      ]
+     }
+    ]
+   },
+   "solution": {
+    "summary": "Thiết lập trang và font trước, gõ từng khối nội dung theo đúng thứ tự trang 2, dùng Tab có leader chấm cho các chỗ điền, tạo bảng 4 cột 5 dòng với đường ngang bên trong dạng nét đứt, rồi chèn ảnh ở góc trái trên cùng.",
+    "steps": [
+     {
+      "title": "Bước 1. Tạo file và lưu đúng tên, đúng thư mục",
+      "forRequirement": "Chung (tên file)",
+      "actions": [
+       "Mở Microsoft Word, chọn Blank document (Tài liệu trống).",
+       "Nhấn Ctrl+S (hoặc File > Save As). Trong hộp thoại, đi tới ổ D:, chọn thư mục ThiCC (D:\\ThiCC).",
+       "Ở ô File name gõ xyz_cau1 (thay xyz bằng số báo danh), ở ô Save as type chọn Word Document (*.docx), bấm Save."
+      ],
+      "note": "Nên lưu ngay từ đầu, sau đó cứ vài phút nhấn Ctrl+S một lần."
+     },
+     {
+      "title": "Bước 2. Định dạng trang: A4, Portrait, lề trên 2.5, dưới 2, trái 3.5, phải 1.5",
+      "forRequirement": "2) Định dạng trang",
+      "actions": [
+       "Chọn tab Page Layout (Bố cục trang) > nhóm Page Setup > bấm mũi tên nhỏ ở góc dưới bên phải nhóm (Dialog Launcher) để mở hộp thoại Page Setup.",
+       "Tab Margins: gõ Top = 2.5 cm, Bottom = 2 cm, Left = 3.5 cm, Right = 1.5 cm. Mục Gutter để 0. Mục Orientation chọn Portrait (khổ đứng).",
+       "Tab Paper: mục Paper size chọn A4 (hiển thị 21 cm x 29.7 cm).",
+       "Mục Apply to chọn Whole document, bấm OK."
+      ],
+      "note": "Nếu ô nhập hiển thị đơn vị inch thì gõ kèm đơn vị, ví dụ 3.5 cm, Word sẽ tự quy đổi. Có thể đổi đơn vị mặc định ở File > Options > Advanced > mục Display > Show measurements in units of: Centimeters."
+     },
+     {
+      "title": "Bước 3. Đặt font Times New Roman, cỡ 13 và khoảng cách dòng gọn cho toàn bài",
+      "forRequirement": "2) Font Times New Roman cỡ 13",
+      "actions": [
+       "Cách chắc chắn nhất: trong tab Home > nhóm Styles, bấm chuột phải vào kiểu Normal > Modify... Trong hộp thoại Modify Style đặt Font = Times New Roman, Size = 13, bấm nút Format > Paragraph... đặt Line spacing = Single, Spacing Before = 0 pt, After = 0 pt, bấm OK hai lần. Như vậy mọi đoạn văn và nội dung trong bảng đều dùng Times New Roman 13.",
+       "Cách nhanh khác: khi văn bản còn trống, nhấn Ctrl+A, rồi tab Home > nhóm Font chọn Times New Roman và cỡ (Font Size) 13; hoặc nhấn Ctrl+D mở hộp thoại Font và chọn Times New Roman, Size 13. Sau đó nhớ kiểm tra lại các đoạn gõ mới có đúng font không.",
+       "Việc đặt Spacing After = 0 pt giúp cả tài liệu (gồm ảnh, bảng và phần ký tên) vừa gọn trong một trang A4 như đề."
+      ],
+      "note": "Tiêu đề 'SƠ YẾU LÝ LỊCH' trong đề có chữ lớn hơn các dòng khác, sẽ tăng riêng ở Bước 4. Toàn bộ phần nội dung còn lại để cỡ 13."
+     },
+     {
+      "title": "Bước 4. Soạn phần quốc hiệu, tiêu ngữ và tiêu đề",
+      "forRequirement": "1) Soạn và định dạng đầy đủ nội dung",
+      "actions": [
+       "Gõ dòng 1: CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM. Nhấn Enter.",
+       "Gõ dòng 2: Độc lập - Tự do - Hạnh phúc. Nhấn Enter. Gõ dòng 3: ----------0o0---------- (10 dấu gạch nối, 0o0, 10 dấu gạch nối). Nhấn Enter.",
+       "Gõ dòng 4: SƠ YẾU LÝ LỊCH. Nhấn Enter.",
+       "Bôi đen 4 dòng vừa gõ. Nhấn Ctrl+E để căn giữa (Center) và Ctrl+B để in đậm. Bôi riêng dòng 'SƠ YẾU LÝ LỊCH', đặt cỡ chữ 18 (Home > Font Size).",
+       "Tạo khoảng cách bằng Paragraph chứ không nhấn Enter nhiều lần: bôi dòng 'SƠ YẾU LÝ LỊCH' > Home > nhóm Paragraph > Dialog Launcher > đặt Spacing Before = 12 pt, After = 12 pt.",
+       "Gõ tiếp dòng: I- PHẦN BẢN THÂN, nhấn Ctrl+L để căn trái, Ctrl+B để in đậm, đặt Spacing After = 6 pt. Nhấn Enter rồi tắt in đậm (Ctrl+B)."
+      ],
+      "note": "Dòng 'Độc lập - Tự do - Hạnh phúc' gõ bằng dấu gạch nối thường (-), có khoảng trắng hai bên."
+     },
+     {
+      "title": "Bước 5a. Dòng 'Họ và tên khai sinh' dùng Tab có đường dẫn chấm (leader)",
+      "forRequirement": "3) Sử dụng tab để thể hiện các chỗ cần điền",
+      "actions": [
+       "Bấm vào dòng trống mới (căn trái, không in đậm). Nhấn Ctrl+L. Mở tab Home > nhóm Paragraph > Dialog Launcher > nút Tabs... (ở góc dưới bên trái hộp thoại Paragraph) để mở hộp thoại Tabs.",
+       "Trong hộp thoại Tabs: ô Tab stop position gõ 9.5 cm; mục Alignment chọn Left; mục Leader chọn 2 (........ đường chấm); bấm Set.",
+       "Tiếp tục: ô Tab stop position gõ 16 cm; mục Alignment chọn Right; mục Leader chọn 2 (đường chấm); bấm Set. Bấm OK.",
+       "Gõ: Họ và tên khai sinh: (có khoảng trắng sau dấu hai chấm), nhấn phím Tab một lần. Đường chấm tự điền tới vị trí 9.5 cm. Gõ: (Nam, Nữ): rồi nhấn phím Tab lần nữa. Đường chấm tự điền tới sát lề phải. Nhấn Enter."
+      ],
+      "note": "Vị trí tab đo từ mép lề trái. Vùng chữ rộng 21 - 3.5 - 1.5 = 16 cm nên tab phải ở 16 cm là sát lề phải. Không được gõ tay dấu chấm bằng phím, vì đề yêu cầu dùng tab."
+     },
+     {
+      "title": "Bước 5b. Dòng 'Tên thường gọi' và 'Bí danh'",
+      "forRequirement": "3) Sử dụng tab",
+      "actions": [
+       "Đoạn mới thừa hưởng tab của dòng trước. Mở lại hộp thoại Tabs (Home > Paragraph > Dialog Launcher > Tabs...), bấm Clear All để xóa tab cũ.",
+       "Đặt tab 1: Tab stop position = 8.5 cm, Alignment = Left, Leader = 2, bấm Set. Đặt tab 2: Tab stop position = 16 cm, Alignment = Right, Leader = 2, bấm Set. Bấm OK.",
+       "Gõ: Tên thường gọi: rồi nhấn Tab, gõ Bí danh: rồi nhấn Tab. Nhấn Enter."
+      ],
+      "note": ""
+     },
+     {
+      "title": "Bước 5c. Các dòng 'Ngày sinh', 'Nơi sinh', 'Hộ khẩu thường trú'",
+      "forRequirement": "3) Sử dụng tab",
+      "actions": [
+       "Mở hộp thoại Tabs, bấm Clear All. Đặt một tab duy nhất: Tab stop position = 16 cm, Alignment = Right, Leader = 2, bấm Set, OK.",
+       "Gõ: Ngày sinh: rồi nhấn Tab. Nhấn Enter. Gõ: Nơi sinh: rồi nhấn Tab. Nhấn Enter. Gõ: Hộ khẩu thường trú: rồi nhấn Tab. Nhấn Enter.",
+       "Để nhanh: sau khi gõ xong dòng 'Ngày sinh', các dòng sau tự giữ tab 16 cm, chỉ cần gõ nhãn và nhấn Tab."
+      ],
+      "note": "Nếu đường chấm bị xuống dòng, kiểm tra tab phải có nằm trong vùng chữ (không lớn hơn 16 cm) và nhãn không quá dài."
+     },
+     {
+      "title": "Bước 6. Gõ tiêu đề phần II và tạo bảng",
+      "forRequirement": "4) Sử dụng bảng để thể hiện quá trình học tập và làm việc",
+      "actions": [
+       "Ở đoạn mới, mở Tabs > Clear All > OK để xóa tab thừa. Gõ: II- QUÁ TRÌNH HỌC TẬP VÀ LÀM VIỆC. Bôi đen dòng này, nhấn Ctrl+B in đậm. Home > Paragraph > đặt Spacing Before = 12 pt, After = 6 pt. Nhấn Enter, tắt in đậm.",
+       "Tab Insert > nhóm Tables > Table > Insert Table... Nhập Number of columns = 4, Number of rows = 5 (1 dòng tiêu đề + 4 dòng trống). Chọn Fixed column width: Auto. Bấm OK.",
+       "Gõ tiêu đề 4 ô của dòng đầu: ô 1 'Ngày, tháng, năm'; ô 2 'Học tập' rồi nhấn Shift+Enter (xuống dòng mềm) rồi gõ 'hoặc làm việc gì'; ô 3 'Ở đâu'; ô 4 'Thành tích học' Shift+Enter 'và làm việc'. Dùng phím Tab để chuyển ô.",
+       "Bôi đen dòng tiêu đề: nhấn Ctrl+B in đậm; tab Table Tools > Layout > nhóm Alignment > Align Center (căn giữa theo cả chiều ngang và dọc).",
+       "Chỉnh độ rộng cột: bấm vào bảng > Table Tools > Layout > nhóm Cell Size. Đặt Table Column Width lần lượt: cột 1 = 2.5 cm, cột 2 = 5.5 cm, cột 3 = 4 cm, cột 4 = 4 cm (tổng 16 cm bằng vùng chữ). Chọn các dòng và đặt Table Row Height khoảng 0.8 cm cho dòng trống.",
+       "Kẻ khung: bấm vào bảng > Table Tools > Design > nhóm Table Styles > chọn Table Grid (khung đơn toàn bộ) nếu bảng chưa có khung."
+      ],
+      "note": "Bảng gồm 4 cột với tiêu đề đúng như đề: 'Ngày, tháng, năm' / 'Học tập hoặc làm việc gì' / 'Ở đâu' / 'Thành tích học và làm việc'."
+     },
+     {
+      "title": "Bước 7. Đặt nét đứt cho các đường kẻ ngang bên trong bảng",
+      "forRequirement": "4) Nét đứt cho dòng kẻ ngang bên trong của bảng",
+      "actions": [
+       "Quét chọn 4 dòng trống của bảng (rê chuột từ ô đầu của dòng trống thứ nhất tới ô cuối của dòng trống thứ tư). Không chọn dòng tiêu đề.",
+       "Bấm chuột phải vào vùng chọn > Borders and Shading... (hoặc tab Table Tools > Design > nhóm Table Styles > mũi tên của nút Borders > Borders and Shading...) để mở hộp thoại Borders and Shading.",
+       "Tab Borders: ở cột Setting chọn Custom. Ở danh sách Style cuộn chọn kiểu nét đứt (dấu gạch ngắn hoặc chấm vuông, ví dụ - - - - hoặc ......). Color để Automatic, Width để 1/2 pt.",
+       "Trong khung Preview, bấm vào đường ngang ở giữa (hoặc bấm nút Inside Horizontal Border ở bên cạnh khung Preview) để áp nét đứt cho đường kẻ ngang bên trong. Mục Apply to chọn Cell. Bấm OK.",
+       "Cách khác nhanh hơn: chọn 4 dòng trống > tab Design > nhóm Draw Borders > Pen Style (hoặc Line Style) chọn nét đứt > bấm mũi tên nút Borders > chọn Inside Horizontal Border.",
+       "Kiểm tra: đường viền ngoài và đường dưới dòng tiêu đề vẫn là nét liền; các đường ngang giữa 4 dòng trống là nét đứt; các đường dọc vẫn là nét liền."
+      ],
+      "note": "Nếu đường ngang dưới dòng tiêu đề cũng bị đứt, chọn dòng tiêu đề > Design > Pen Style chọn nét liền > Borders > Bottom Border để làm liền lại."
+     },
+     {
+      "title": "Bước 8. Soạn lời cam đoan và phần ngày tháng, người khai",
+      "forRequirement": "1) Soạn và định dạng đầy đủ nội dung",
+      "actions": [
+       "Bấm vào đoạn trống dưới bảng (nếu bảng nằm cuối văn bản, Word luôn để sẵn một đoạn trống sau bảng). Home > Paragraph > Dialog Launcher > Tabs... > Clear All, rồi OK.",
+       "Gõ: Tôi xin cam đoan những nội dung khai trên đây là đúng sự thật, nếu sai tôi xin chịu hoàn toàn trách nhiệm trước pháp luật. Nhấn Ctrl+J để căn đều hai bên (Justify). Đặt Spacing Before = 12 pt. Nhấn Enter.",
+       "Đoạn tiếp theo (dòng ngày tháng): Home > Paragraph > Indentation > Left = 8 cm. Mở Tabs, Clear All rồi đặt 4 tab: 9.7 cm (Left, Leader 2), 12 cm (Left, Leader 2), 14.3 cm (Left, Leader 2), 16 cm (Right, Leader 2). Bấm OK.",
+       "Gõ theo thứ tự: nhấn Tab, gõ ', ngày ' , nhấn Tab, gõ ' tháng ', nhấn Tab, gõ 'năm ', nhấn Tab. Bôi đen cả dòng, nhấn Ctrl+I để in nghiêng. Nhấn Enter.",
+       "Dòng tiếp theo: Mở Tabs > Clear All > OK. Gõ: Người khai, nhấn Ctrl+E (căn giữa) và Ctrl+B (in đậm); thụt lề trái 8 cm (Left = 8 cm), Right = 0. Nhấn Enter. Tắt in đậm.",
+       "Dòng cuối: gõ (Ký và ghi rõ họ tên), nhấn Ctrl+E căn giữa, Ctrl+I in nghiêng, thụt lề trái 8 cm. Không gõ thêm gì phía dưới.",
+       "Không gõ dòng '(không soạn thảo nội dung này)  Trang 2' vì đó là ghi chú của đề, không thuộc nội dung phải soạn."
+      ],
+      "note": "Khối ngày tháng và ký tên thụt vào bên phải khoảng 8 cm. Vị trí tab ở đây chỉ gần đúng, có thể kéo lệch vài mm cho cân đối với thước kẻ (View > Ruler)."
+     },
+     {
+      "title": "Bước 9. Chèn ảnh vào góc trái của Sơ yếu lý lịch",
+      "forRequirement": "5) Dùng công cụ chèn để chèn ảnh vào góc trái",
+      "actions": [
+       "Bấm vào đầu tài liệu. Tab Insert > nhóm Illustrations > Picture. Chọn một file ảnh có sẵn trên máy (ví dụ trong thư mục Pictures/Sample Pictures hoặc ảnh chân dung bất kỳ) rồi bấm Insert. Nếu máy có Clip Art thì có thể dùng Insert > Clip Art.",
+       "Bấm vào ảnh để chọn. Tab Picture Tools > Format > nhóm Size: bỏ chọn Lock aspect ratio nếu cần và đặt kích thước khoảng Width = 2.5 cm, Height = 3.5 cm (cỡ ảnh thẻ trong đề).",
+       "Tab Picture Tools > Format > nhóm Arrange > Wrap Text > chọn In Front of Text (hoặc Square). Nếu dùng Square, chữ dòng đầu sẽ dạt sang phải ảnh, vẫn chấp nhận được.",
+       "Tab Picture Tools > Format > Arrange > Position > More Layout Options... > tab Position: Horizontal Alignment = Left relative to Margin; Vertical Absolute position = 0 cm below Margin (hoặc Position > 'Position in Top Left with Square Text Wrapping'). Bấm OK.",
+       "Ảnh nằm ở góc trái phía trên, ngang hàng với dòng quốc hiệu, không đè lên chữ.",
+       "Tùy chọn (nếu còn thời gian): giống đề, vẽ khung chữ chứa các dòng 'ẢNH', '4X6', '(Đóng dấu giáp lai của cơ quan xác nhận lý lịch)': Insert > Text Box > Draw Text Box, gõ nội dung, chữ in đậm cỡ 9 đến 10, căn giữa. Có thể đặt khung này vào đúng vị trí ảnh, hoặc đặt ảnh chồng lên khung."
+      ],
+      "note": "Yêu cầu 5 chỉ nói 'chèn thêm ảnh vào góc trái' nên cần chèn bằng Insert > Picture, không dán ảnh chụp màn hình hoặc vẽ hình thay thế."
+     },
+     {
+      "title": "Bước 10. Kiểm tra bố cục và lưu bài",
+      "forRequirement": "1) đến 5)",
+      "actions": [
+       "Mở File > Print để xem trang in (Print Preview). Toàn bộ nội dung phải nằm trong 1 trang A4 và giống trang 2 của đề: ảnh ở góc trái, quốc hiệu và tiêu đề căn giữa, 5 dòng chấm điền, bảng, lời cam đoan, khối ký tên.",
+       "Bật View > Ruler, nhấn vào từng dòng chấm điền để kiểm tra dấu tab trên thước (có các dấu chữ L hoặc ngược L tại các vị trí đã đặt).",
+       "Nhấn Ctrl+S để lưu. Kiểm tra file đã nằm trong D:\\ThiCC với tên xyz_cau1.docx."
+      ],
+      "note": ""
+     }
+    ],
+    "formulas": [],
+    "result": "File xyz_cau1.docx là một trang A4 đứng, lề 2.5 / 2 / 3.5 / 1.5 cm, toàn bộ chữ Times New Roman cỡ 13 (riêng tiêu đề SƠ YẾU LÝ LỊCH có thể lớn hơn). Có ảnh ở góc trái phía trên. Quốc hiệu, tiêu ngữ, tiêu đề căn giữa. Năm dòng thông tin bản thân có đường chấm kéo dài tới sát lề phải do Tab tạo ra. Bảng 4 cột có tiêu đề in đậm căn giữa và 4 dòng trống, viền ngoài nét liền, các đường ngang bên trong nét đứt. Lời cam đoan căn đều hai bên, khối ngày tháng và ký tên ở bên phải. Tự kiểm tra: Page Layout > Margins xem số liệu; bấm vào từng dòng chấm điền xem dấu tab trên thước; File > Print xem toàn bộ nằm gọn 1 trang."
+   },
+   "checklist": [
+    "File lưu tại D:\\ThiCC với tên xyz_cau1.docx",
+    "Khổ giấy A4, hướng Portrait",
+    "Lề: Top 2.5 cm, Bottom 2 cm, Left 3.5 cm, Right 1.5 cm",
+    "Toàn bộ văn bản dùng font Times New Roman cỡ 13 (tiêu đề lớn hơn được chấp nhận)",
+    "Có đủ các dòng quốc hiệu, tiêu ngữ, ----------0o0----------, SƠ YẾU LÝ LỊCH, I- PHẦN BẢN THÂN, II- QUÁ TRÌNH HỌC TẬP VÀ LÀM VIỆC",
+    "Các chỗ điền (Họ và tên khai sinh, Nam/Nữ, Tên thường gọi, Bí danh, Ngày sinh, Nơi sinh, Hộ khẩu thường trú) có đường chấm tạo bằng Tab và leader, không gõ tay dấu chấm",
+    "Bảng có 4 cột đúng tiêu đề và 4 dòng trống",
+    "Đường kẻ ngang bên trong bảng là nét đứt, viền ngoài vẫn nét liền",
+    "Lời cam đoan được căn đều hai bên",
+    "Có dòng ngày tháng năm, 'Người khai', '(Ký và ghi rõ họ tên)' ở bên phải",
+    "Có ảnh chèn bằng Insert > Picture ở góc trái phía trên",
+    "Không có dòng '(không soạn thảo nội dung này)' trong file",
+    "Toàn bộ nội dung nằm trong 1 trang"
+   ],
+   "commonMistakes": [
+    "Gõ dấu chấm bằng bàn phím hoặc nhấn dấu cách nhiều lần thay vì dùng Tab với Leader chấm.",
+    "Đặt lề trái 3 cm (mặc định của nhiều mẫu) thay vì 3.5 cm theo đề. File mẫu tuan05.docx có lề trái 3.0 cm nên không dùng làm chuẩn.",
+    "Quên đặt font Times New Roman cỡ 13 cho phần bảng hoặc các đoạn mới; quên đổi Spacing After khiến nội dung tràn sang trang 2.",
+    "Chọn Custom nhưng áp nét đứt cho toàn bộ khung (Box) khiến cả viền ngoài và đường dọc cũng đứt; chỉ được đứt các đường ngang bên trong.",
+    "Quên chọn Apply to: Cell hoặc chọn nhầm dòng tiêu đề nên đường ngang dưới tiêu đề cũng thành nét đứt.",
+    "Chèn ảnh nhưng để dạng In Line with Text nên ảnh nằm giữa dòng, đẩy chữ lệch, không ở góc trái.",
+    "Dùng Enter nhiều lần để tạo khoảng trống thay vì đặt Spacing Before/After.",
+    "Gõ cả dòng chú thích '(không soạn thảo nội dung này) Trang 2' của đề vào file.",
+    "Đặt tab phải vượt quá 16 cm làm đường chấm xuống dòng, hoặc quên Clear All tab cũ khiến dòng sau bị tab thừa.",
+    "Lưu nhầm tên (cau1.docx, thiếu số báo danh) hoặc nhầm thư mục."
+   ],
+   "uncertain": [
+    "Đề ghi 'Font: Times New Roman, cỡ 13' cho toàn bài, nhưng bản mẫu trang 2 có tiêu đề 'SƠ YẾU LÝ LỊCH' chữ to hơn. Đã giả định đặt riêng tiêu đề 18 pt, phần còn lại 13 pt.",
+    "Khung 'ẢNH 4X6 (Đóng dấu giáp lai của cơ quan xác nhận lý lịch)' trong bản mẫu là một khung chữ nhỏ ở góc trái. Yêu cầu chỉ ghi 'chèn thêm ảnh vào góc trái', nên đã hướng dẫn chèn ảnh và để khung chữ làm tùy chọn.",
+    "Đường chấm trong file PDF xuất hiện lẫn dấu chấm và ký tự '…', đã chép thành '................' để thể hiện leader. Các vị trí tab cụ thể (9.5, 8.5, 16 cm, v.v.) do đo gần đúng từ hình trang 2, không phải số liệu chính thức của đề.",
+    "Dòng ghi chú chìm '(không soạn thảo nội dung này)  Trang 2' ở cuối trang 2 của đề được hiểu là chú thích, không phải nội dung soạn.",
+    "Bản mẫu tuan05.docx có lề trái 3.0 cm (khác đề 3.5 cm) và gõ sai chính tả một vài chỗ; đã làm theo đề bài (PDF), không theo bản mẫu."
+   ]
+  },
+  {
+   "no": 2,
+   "app": "excel",
+   "title": "Câu 2. Tạo bảng tính (Microsoft Excel)",
+   "statement": {
+    "intro": "Quá trình học tập môn Lập trình cơ bản của Lớp 12057623 thể hiện như bảng sau (xem bảng mẫu ở phần tài liệu). Sử dụng phần mềm Microsoft Excel tạo bảng theo dõi học tập với các yêu cầu sau:",
+    "requirements": [
+     "1) Nhập dữ liệu (giả định) cho 10 sinh viên trên các cột: TT (thứ tự), Mã SV (Mã sinh viên), Họ tên, B1 (bài tập 1), B2 (bài tập 2), B3 (Bài tập 3), L1 (Lần 1), L2 (Lần 2) , L3 (Lần 3); các cột B1, B2, B3, L1, L2, L3 nhận giá trị nguyên từ 0 đến 10. Kẻ khung, căn chỉnh, định dạng các kiểu dữ liệu cho phù hợp; Font: Times New Roman, cỡ 13pt.",
+     "2) Định dạng trang: Khổ giấy A4, Landscape; Top: 2.5, Bottom: 2.5; Left: 2.5, Right: 1.5. Căn chỉnh bảng tính ra giữa trang in (Horizontally).",
+     "3) Nhập công thức tính Điểm bài tập vào cột Đ1; Biết rằng Điểm bài tập là trung bình cộng của 3 cột B1, B2, B3. Đ1 được làm tròn 1 chữ số sau dấu phẩy.",
+     "4) Nhập công thức tính Điểm lý thuyết vào cột Đ2; Biết rằng Điểm lý thuyết là trung bình cộng của 2 lần có điểm cao nhất trong 3 lần làm bài lý thuyết. Đ2 được làm tròn 1 chữ số sau dấu phẩy.",
+     "5) Nhập công thức tính Điểm quá trình vào cột QT; Biết rằng nếu Đ1 >= 5.5 và giá trị của B1, B2, B3 không có cột nào dưới 5 thì QT = Đ1 ngược lại QT = Đ2."
+    ],
+    "material": [
+     {
+      "kind": "table",
+      "caption": "Bảng mẫu theo dõi học tập môn Lập trình cơ bản, Lớp 12057623 (hai dòng tiêu đề; 'Điểm Bài tập' gộp trên B1 B2 B3, 'Điểm Lý thuyết' gộp trên L1 L2 L3; các cột TT, Mã SV, Họ tên, Đ1, Đ2, QT đều nằm trên cả hai dòng tiêu đề)",
+      "rows": [
+       [
+        "TT",
+        "Mã SV",
+        "Họ tên",
+        "Điểm Bài tập",
+        "",
+        "",
+        "Điểm Lý thuyết",
+        "",
+        "",
+        "Đ1",
+        "Đ2",
+        "QT"
+       ],
+       [
+        "",
+        "",
+        "",
+        "B1",
+        "B2",
+        "B3",
+        "L1",
+        "L2",
+        "L3",
+        "",
+        "",
+        ""
+       ],
+       [
+        "1",
+        "1619001",
+        "Nguyễn Văn A",
+        "5",
+        "10",
+        "7",
+        "8",
+        "7",
+        "9",
+        "",
+        "",
+        ""
+       ],
+       [
+        "…",
+        "…",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+       ]
+      ]
+     }
+    ]
+   },
+   "solution": {
+    "summary": "Dựng bảng 12 cột (A đến L) với hai dòng tiêu đề, nhập 10 dòng dữ liệu bắt đầu từ dòng 3, đặt Data Validation cho vùng điểm, định dạng font 13, kẻ khung, đặt trang in A4 ngang rồi nhập ba công thức Đ1, Đ2, QT ở dòng 3 và kéo xuống dòng 12.",
+    "steps": [
+     {
+      "title": "Bước 1. Tạo file và lưu đúng tên",
+      "forRequirement": "Chung (tên file)",
+      "actions": [
+       "Mở Microsoft Excel, chọn Blank workbook (Sổ làm việc trống).",
+       "Nhấn Ctrl+S, chọn D:\\ThiCC, đặt tên xyz_cau2 (xyz là số báo danh), kiểu Excel Workbook (*.xlsx), bấm Save."
+      ],
+      "note": ""
+     },
+     {
+      "title": "Bước 2. Tạo cấu trúc tiêu đề bảng (hai dòng tiêu đề)",
+      "forRequirement": "1) Nhập dữ liệu, kẻ khung, căn chỉnh",
+      "actions": [
+       "Ở dòng 1 nhập: A1 = TT, B1 = Mã SV, C1 = Họ tên, D1 = Điểm Bài tập, G1 = Điểm Lý thuyết, J1 = Đ1, K1 = Đ2, L1 = QT.",
+       "Ở dòng 2 nhập: D2 = B1, E2 = B2, F2 = B3, G2 = L1, H2 = L2, I2 = L3.",
+       "Gộp ô: chọn A1:A2 > tab Home > nhóm Alignment > Merge & Center. Làm tương tự cho B1:B2, C1:C2, J1:J2, K1:K2, L1:L2 (gộp theo chiều dọc).",
+       "Gộp ô: chọn D1:F1 > Merge & Center (tiêu đề 'Điểm Bài tập'). Chọn G1:I1 > Merge & Center (tiêu đề 'Điểm Lý thuyết').",
+       "Chọn A1:L2 > Home > Alignment > Center (căn giữa ngang) và Middle Align (căn giữa dọc). Bấm Bold (Ctrl+B) cho hai dòng tiêu đề."
+      ],
+      "note": "Dữ liệu 10 sinh viên nằm ở các dòng 3 đến 12. Bảng dùng các cột A đến L: A=TT, B=Mã SV, C=Họ tên, D:F=B1 đến B3, G:I=L1 đến L3, J=Đ1, K=Đ2, L=QT."
+     },
+     {
+      "title": "Bước 3. Cài đặt kiểm tra dữ liệu: B1 đến L3 chỉ nhận số nguyên từ 0 đến 10",
+      "forRequirement": "1) các cột B1, B2, B3, L1, L2, L3 nhận giá trị nguyên từ 0 đến 10",
+      "actions": [
+       "Chọn vùng D3:I12 (10 dòng, 6 cột điểm). Tab Data > nhóm Data Tools > Data Validation > Data Validation...",
+       "Tab Settings: mục Allow chọn Whole number; mục Data chọn between; Minimum = 0; Maximum = 10.",
+       "Tab Error Alert: tích Show error alert after invalid data is entered; Style = Stop; Title = Lỗi; Error message = Chỉ nhập số nguyên từ 0 đến 10. Bấm OK.",
+       "Kiểm thử: gõ 11 hoặc 5.5 vào một ô điểm sẽ có hộp thoại báo lỗi, nhấn Cancel để bỏ."
+      ],
+      "note": "Đề yêu cầu cột điểm nhận giá trị nguyên từ 0 đến 10; Data Validation là cách chuẩn để ràng buộc điều đó. Nếu quên làm trước khi nhập, vẫn có thể làm sau, nhưng cần tự kiểm tra các số đã nhập."
+     },
+     {
+      "title": "Bước 4. Nhập dữ liệu giả định cho 10 sinh viên",
+      "forRequirement": "1) Nhập dữ liệu (giả định) cho 10 sinh viên",
+      "actions": [
+       "Nhập TT = 1 đến 10 ở A3:A12 (gõ 1, 2 rồi chọn hai ô kéo ô điều khiển Fill Handle xuống, hoặc gõ từng số).",
+       "Nhập Mã SV, Họ tên và các cột điểm theo gợi ý (có thể thay bằng dữ liệu khác, miễn là điểm nguyên từ 0 đến 10):",
+       "Dòng 3: 1 | 1619001 | Nguyễn Văn A | B1=5, B2=10, B3=7 | L1=8, L2=7, L3=9 (dòng mẫu của đề)",
+       "Dòng 4: 2 | 1619002 | Hà Xuân Định | 7, 9, 6 | 8, 6, 8",
+       "Dòng 5: 3 | 1619003 | Đỗ Đức Huy | 9, 6, 8 | 6, 7, 6",
+       "Dòng 6: 4 | 1619004 | Nguyễn Văn An | 8, 4, 9 | 9, 8, 5",
+       "Dòng 7: 5 | 1619005 | Hồ Thị Thoa | 5, 8, 4 | 6, 9, 8",
+       "Dòng 8: 6 | 1619006 | Lý Văn Nhị | 7, 5, 6 | 4, 5, 6",
+       "Dòng 9: 7 | 1619007 | Hoa Văn Thái | 8, 9, 3 | 9, 7, 4",
+       "Dòng 10: 8 | 1619008 | Cao Ngọc Tuấn | 6, 6, 7 | 8, 9, 9",
+       "Dòng 11: 9 | 1619009 | Thái Cao Văn | 8, 7, 8 | 6, 5, 8",
+       "Dòng 12: 10 | 1619010 | Ngô Tất Đoàn | 9, 8, 5 | 6, 7, 7",
+       "Mã SV 1619001... gõ như số bình thường. Nếu muốn giữ nguyên dạng mã, có thể định dạng cột B là Text trước khi nhập."
+      ],
+      "note": "Các giá trị gợi ý trên khớp với dòng mẫu của đề (dòng 1: 5, 10, 7, 8, 7, 9) và có đủ trường hợp để kiểm thử cả hai nhánh của công thức QT."
+     },
+     {
+      "title": "Bước 5. Định dạng font, căn chỉnh, định dạng kiểu số, kẻ khung",
+      "forRequirement": "1) Kẻ khung, căn chỉnh, định dạng các kiểu dữ liệu, Font Times New Roman 13pt",
+      "actions": [
+       "Nhấn Ctrl+A (chọn toàn bộ sheet). Tab Home > nhóm Font: chọn font Times New Roman, cỡ 13.",
+       "Chọn A3:B12 và D3:I12 > Home > Alignment > Center (căn giữa) cho TT, Mã SV và các cột điểm. Cột Họ tên (C3:C12) để căn trái (Align Left).",
+       "Chọn J3:L12 > nhấn Ctrl+1 (Format Cells) > tab Number > Category = Number, Decimal places = 1 > OK. Căn giữa J3:L12. Nhờ vậy 7.3, 6.0, 8.5 hiển thị đều 1 chữ số thập phân.",
+       "Chọn D3:I12 > Ctrl+1 > Number > Category = Number, Decimal places = 0 để điểm là số nguyên.",
+       "Chỉnh độ rộng cột: chọn cả cột A:L > Home > Cells > Format > AutoFit Column Width, sau đó kéo rộng cột C (Họ tên) thêm cho vừa họ tên dài nhất. Tăng chiều cao dòng tiêu đề (Format > Row Height = 22).",
+       "Kẻ khung: chọn A1:L12 > Home > nhóm Font > nút Borders (hình ô vuông chia 4) > All Borders. Có thể chọn thêm Thick Outside Borders để khung ngoài đậm hơn."
+      ],
+      "note": "Dữ liệu kiểu số (điểm, TT) nên căn giữa hoặc phải; dữ liệu chữ (họ tên) căn trái."
+     },
+     {
+      "title": "Bước 6. Định dạng trang in: A4, Landscape, lề, căn giữa trang theo chiều ngang",
+      "forRequirement": "2) Định dạng trang",
+      "actions": [
+       "Tab Page Layout > nhóm Page Setup > bấm Dialog Launcher (mũi tên nhỏ góc dưới phải) để mở hộp thoại Page Setup.",
+       "Tab Page: mục Orientation chọn Landscape (nằm ngang); mục Paper size chọn A4.",
+       "Tab Margins: Top = 2.5, Bottom = 2.5, Left = 2.5, Right = 1.5 (đơn vị cm). Trong mục Center on page tích chọn Horizontally. Giữ nguyên Header/Footer.",
+       "Bấm OK. Nhấn Ctrl+F2 (hoặc File > Print) xem trước: bảng nằm giữa trang theo chiều ngang, nằm trọn trên một trang."
+      ],
+      "note": "Nếu hộp thoại hiển thị inch, gõ kèm 'cm' (ví dụ 2.5 cm) hoặc đổi đơn vị ở File > Options > Advanced > Display > Ruler units. Bảng 12 cột cần vừa trong một trang ngang; nếu bị tràn, giảm độ rộng cột chứ không giảm cỡ chữ."
+     },
+     {
+      "title": "Bước 7. Nhập công thức cột Đ1 (điểm bài tập)",
+      "forRequirement": "3) Công thức tính Điểm bài tập vào cột Đ1",
+      "actions": [
+       "Bấm vào ô J3. Gõ: =ROUND(AVERAGE(D3:F3),1) rồi nhấn Enter.",
+       "AVERAGE(D3:F3) tính trung bình cộng 3 điểm B1, B2, B3. ROUND(...,1) làm tròn kết quả 1 chữ số sau dấu phẩy.",
+       "Chọn lại ô J3, rê chuột vào ô vuông nhỏ ở góc dưới bên phải ô (Fill Handle), kéo xuống J12 (hoặc nháy đúp) để sao chép công thức cho 10 dòng."
+      ],
+      "note": "Nếu máy báo lỗi công thức khi dùng dấu phẩy, đổi dấu ngăn cách tham số thành dấu chấm phẩy (;). Dấu ngăn cách phụ thuộc vào Region của Windows: máy cài kiểu Việt Nam/Châu Âu thường dùng ; còn kiểu Mỹ dùng ,. Quy ước này áp dụng cho mọi công thức bên dưới."
+     },
+     {
+      "title": "Bước 8. Nhập công thức cột Đ2 (điểm lý thuyết)",
+      "forRequirement": "4) Công thức tính Điểm lý thuyết vào cột Đ2",
+      "actions": [
+       "Bấm vào ô K3. Cách 1 (dùng hàm LARGE với mảng hằng): =ROUND(AVERAGE(LARGE(G3:I3,{1,2})),1) rồi Enter.",
+       "Giải thích: LARGE(G3:I3,{1,2}) trả về hai giá trị lớn nhất (lớn nhất và lớn nhì) của 3 lần thi lý thuyết L1, L2, L3. AVERAGE lấy trung bình cộng của hai giá trị đó, ROUND làm tròn 1 chữ số thập phân.",
+       "Cách 2 (không dùng mảng hằng, dễ gõ và không phụ thuộc dấu ngăn cách): =ROUND((SUM(G3:I3)-MIN(G3:I3))/2,1). Giải thích: lấy tổng 3 điểm trừ điểm thấp nhất còn lại hai điểm cao nhất, chia 2 được trung bình của hai điểm cao nhất.",
+       "Cách 3: =ROUND((LARGE(G3:I3,1)+LARGE(G3:I3,2))/2,1). Giải thích: cộng điểm cao nhất và điểm cao nhì rồi chia 2.",
+       "Chỉ cần dùng một trong ba cách. Sao chép công thức xuống K12 bằng Fill Handle."
+      ],
+      "note": "Trên máy dùng dấu ; làm dấu ngăn cách tham số, mảng hằng có thể phải viết {1;2} thay cho {1,2}. Cách 2 và cách 3 không có vấn đề này nên khuyến nghị dùng khi đi thi."
+     },
+     {
+      "title": "Bước 9. Nhập công thức cột QT (điểm quá trình)",
+      "forRequirement": "5) Công thức tính Điểm quá trình vào cột QT",
+      "actions": [
+       "Bấm vào ô L3. Gõ: =IF(AND(J3>=5.5,MIN(D3:F3)>=5),J3,K3) rồi Enter.",
+       "Giải thích: điều kiện đề cho là 'Đ1 >= 5.5 và B1, B2, B3 không có cột nào dưới 5'. J3>=5.5 kiểm tra Đ1. MIN(D3:F3)>=5 nghĩa là điểm nhỏ nhất trong B1, B2, B3 vẫn không dưới 5, tức là cả ba đều không dưới 5. AND(...) đòi cả hai điều kiện cùng đúng. Nếu đúng thì QT = Đ1 (J3), ngược lại QT = Đ2 (K3).",
+       "Cách viết khác tương đương: =IF(AND(J3>=5.5,D3>=5,E3>=5,F3>=5),J3,K3).",
+       "Sao chép công thức xuống L12 bằng Fill Handle. Các ô J3:L12 phải đã định dạng 1 chữ số thập phân (Bước 5)."
+      ],
+      "note": ""
+     },
+     {
+      "title": "Bước 10. Kiểm tra kết quả và lưu bài",
+      "forRequirement": "1) đến 5)",
+      "actions": [
+       "Đối chiếu dòng mẫu của đề (5, 10, 7 | 8, 7, 9): Đ1 = 7.3, Đ2 = 8.5, QT = 7.3.",
+       "Đối chiếu với dữ liệu gợi ý: dòng 'Nguyễn Văn An' (8, 4, 9 | 9, 8, 5) có Đ1 = 7.0 nhưng B2 = 4 dưới 5 nên QT lấy Đ2 = 8.5. Dòng 'Hà Xuân Định' (7, 9, 6 | 8, 6, 8) có Đ1 = 7.3, Đ2 = 8.0, QT = 7.3.",
+       "Nhấn Ctrl+F2 xem trước khi in: bảng nằm giữa trang, 1 trang ngang A4. Lưu bằng Ctrl+S. Kiểm tra file D:\\ThiCC\\xyz_cau2.xlsx."
+      ],
+      "note": ""
+     }
+    ],
+    "formulas": [
+     {
+      "cell": "J3",
+      "formula": "=ROUND(AVERAGE(D3:F3),1)",
+      "meaning": "Đ1 = trung bình cộng của B1, B2, B3 (D3:F3), làm tròn 1 chữ số thập phân. Kéo xuống J12."
+     },
+     {
+      "cell": "K3 (cách 1)",
+      "formula": "=ROUND(AVERAGE(LARGE(G3:I3,{1,2})),1)",
+      "meaning": "Đ2 = trung bình của hai điểm lý thuyết cao nhất trong L1, L2, L3. LARGE với {1,2} lấy giá trị lớn nhất và lớn nhì. Trên máy dùng ; làm dấu ngăn cách có thể phải viết {1;2}."
+     },
+     {
+      "cell": "K3 (cách 2, khuyến nghị)",
+      "formula": "=ROUND((SUM(G3:I3)-MIN(G3:I3))/2,1)",
+      "meaning": "Đ2 = (tổng 3 điểm trừ điểm thấp nhất) chia 2, tức trung bình hai điểm cao nhất, không dùng mảng hằng."
+     },
+     {
+      "cell": "K3 (cách 3)",
+      "formula": "=ROUND((LARGE(G3:I3,1)+LARGE(G3:I3,2))/2,1)",
+      "meaning": "Đ2 = (điểm cao nhất + điểm cao nhì) chia 2, làm tròn 1 chữ số."
+     },
+     {
+      "cell": "L3",
+      "formula": "=IF(AND(J3>=5.5,MIN(D3:F3)>=5),J3,K3)",
+      "meaning": "QT = Đ1 nếu Đ1 từ 5.5 trở lên và điểm nhỏ nhất trong B1, B2, B3 không dưới 5; ngược lại QT = Đ2."
+     },
+     {
+      "cell": "L3 (cách viết khác)",
+      "formula": "=IF(AND(J3>=5.5,D3>=5,E3>=5,F3>=5),J3,K3)",
+      "meaning": "Tương đương công thức trên, kiểm tra riêng từng cột B1, B2, B3 không dưới 5."
+     }
+    ],
+    "result": "Bảng 12 cột có hai dòng tiêu đề đã gộp ô, 10 dòng dữ liệu (dòng 3 đến 12) có khung đầy đủ, chữ Times New Roman 13. Các cột điểm B1 đến L3 là số nguyên từ 0 đến 10 (có Data Validation). Cột Đ1, Đ2, QT hiển thị 1 chữ số thập phân. Dòng mẫu của đề cho Đ1 = 7.3, Đ2 = 8.5, QT = 7.3. Với bộ dữ liệu gợi ý: Hà Xuân Định Đ1 7.3, Đ2 8.0, QT 7.3; Đỗ Đức Huy Đ1 7.7, Đ2 6.5, QT 7.7; Nguyễn Văn An Đ1 7.0, Đ2 8.5, QT 8.5 (vì B2 = 4); Hồ Thị Thoa Đ1 5.7, Đ2 8.5, QT 8.5 (vì B3 = 4); Lý Văn Nhị Đ1 6.0, Đ2 5.5, QT 6.0; Hoa Văn Thái Đ1 6.7, Đ2 8.0, QT 8.0 (vì B3 = 3). Trang in A4 ngang, lề 2.5/2.5/2.5/1.5 cm, bảng nằm giữa trang theo chiều ngang. Tự kiểm tra bằng cách bấm vào ô công thức xem tham chiếu đúng dòng và xem Ctrl+F2."
+   },
+   "checklist": [
+    "File lưu tại D:\\ThiCC với tên xyz_cau2.xlsx",
+    "Có đủ các cột TT, Mã SV, Họ tên, B1, B2, B3, L1, L2, L3, Đ1, Đ2, QT; tiêu đề 'Điểm Bài tập' và 'Điểm Lý thuyết' gộp ô phía trên",
+    "Có dữ liệu cho 10 sinh viên",
+    "Các cột B1, B2, B3, L1, L2, L3 chỉ chứa số nguyên từ 0 đến 10 (có Data Validation)",
+    "Toàn bảng có khung, căn chỉnh hợp lý, font Times New Roman cỡ 13",
+    "Giấy A4, Landscape, lề Top 2.5, Bottom 2.5, Left 2.5, Right 1.5 cm",
+    "Đã tích Horizontally trong Center on page",
+    "Đ1 dùng ROUND(AVERAGE(...),1) trên D:F",
+    "Đ2 là trung bình của hai điểm cao nhất trong G:I và làm tròn 1 chữ số",
+    "QT dùng IF + AND + MIN đúng điều kiện Đ1 >= 5.5 và B1, B2, B3 không dưới 5",
+    "Ba cột Đ1, Đ2, QT có công thức ở cả 10 dòng, hiển thị 1 chữ số thập phân",
+    "Dòng mẫu 5, 10, 7 | 8, 7, 9 cho Đ1 = 7.3, Đ2 = 8.5, QT = 7.3"
+   ],
+   "commonMistakes": [
+    "Quên ROUND mà chỉ giảm số chữ số thập phân hiển thị (giá trị thực vẫn dài, sẽ sai khi so sánh Đ1 >= 5.5).",
+    "Làm tròn nhầm 0 hoặc 2 chữ số thay vì 1.",
+    "Tính Đ2 bằng trung bình của cả ba lần thi hoặc lấy lần thi cuối, thay vì trung bình hai lần cao nhất.",
+    "Dùng mảng hằng {1,2} trên máy dùng dấu ; làm dấu ngăn cách nên báo lỗi công thức; nên dùng cách (SUM-MIN)/2 hoặc LARGE(...,1)+LARGE(...,2).",
+    "Viết sai điều kiện QT: dùng Đ1 > 5.5 thay vì >= 5.5, hoặc dùng MIN(D3:F3)>5 thay vì >=5 (đề nói 'không dưới 5').",
+    "Dùng OR thay cho AND làm QT lấy Đ1 sai ở những sinh viên có một bài dưới 5.",
+    "Tham chiếu sai dòng khi kéo công thức (ví dụ sao chép công thức dòng 3 sang bảng khác khiến tham chiếu D1 lệch). File mẫu tuan05.xlsx (Sheet2, bảng thứ hai) có lỗi này: công thức QT tham chiếu D1, D2... thay vì D18, D19...",
+    "Dùng ngưỡng 5 cho Đ1 thay vì 5.5 (file mẫu Book2.xlsx dùng J3>=5, khác với đề).",
+    "Nhập điểm có phần thập phân hoặc ngoài khoảng 0 đến 10, hoặc nhập điểm dưới dạng text (ô hiện dấu tam giác xanh).",
+    "Quên đặt Landscape, nhập sai lề, hoặc quên tích Horizontally; bảng bị tràn sang trang thứ hai.",
+    "Quên đặt font Times New Roman 13 cho toàn sheet, chỉ đặt cho vùng dữ liệu."
+   ],
+   "uncertain": [
+    "Đề cho dữ liệu 'giả định' cho 10 sinh viên nên bộ dữ liệu trong hướng dẫn chỉ là gợi ý, riêng dòng 1 lấy theo dòng mẫu của đề (1619001, Nguyễn Văn A, 5 10 7 8 7 9).",
+    "Đề yêu cầu 'Top: 2.5, Bottom: 2.5; Left: 2.5, Right: 1.5' không ghi đơn vị; giả định là cm.",
+    "Cấu trúc hai dòng tiêu đề (gộp ô 'Điểm Bài tập' trên B1 B2 B3 và 'Điểm Lý thuyết' trên L1 L2 L3) lấy theo bảng mẫu trong đề và theo file mẫu tuan05.xlsx; cột Đ1, Đ2, QT đặt sau L3.",
+    "Công thức Đ2 bằng cách trừ điểm nhỏ nhất rồi chia 2 cho kết quả giống 'trung bình hai lần cao nhất' kể cả khi có hai điểm bằng nhau.",
+    "File mẫu Book2.xlsx dùng điều kiện J3>=5 (không phải 5.5) và dòng tiêu đề có thêm cột; đã làm theo đề bài (>= 5.5), không theo Book2.xlsx. Sheet2 của tuan05.xlsx có bảng thứ hai với công thức QT tham chiếu sai ô, không dùng làm chuẩn.",
+    "Việc dùng Data Validation (0 đến 10, số nguyên) là cách đề xuất để thỏa 'nhận giá trị nguyên từ 0 đến 10'; đề không nêu rõ phải dùng công cụ nào."
+   ]
+  },
+  {
+   "no": 3,
+   "app": "powerpoint",
+   "title": "Câu 3. Tạo các trang trình chiếu (Microsoft PowerPoint)",
+   "statement": {
+    "intro": "Sử dụng phần mềm Microsoft PowerPoint hãy thiết kế 05 slides trình bày về Danh lam thắng cảnh Hà Nội. Trong các slide không được chứa thông tin liên quan đến thí sinh:",
+    "requirements": [
+     "1) Đánh số trang cho các slide (trừ slide đầu tiên).",
+     "2) Trong Master Slide, điều chỉnh tất cả font chữ về Arial, nội dung căn chỉnh 2 bên.",
+     "3) Tạo mới và sử dụng ít nhất 02 layout cho bài trình chiếu.",
+     "4) Sử dụng ít nhất 02 hiệu ứng hoạt hình (Animation).",
+     "5) Sử dụng ít nhất 02 hiệu ứng chuyển slide (Transition)."
+    ],
+    "material": []
+   },
+   "solution": {
+    "summary": "Làm Slide Master trước (đổi font Arial, căn đều hai bên, tạo 2 layout mới), sau đó tạo 5 slide dùng các layout đó, bật đánh số trang với 'Don't show on title slide', rồi gán animation và transition.",
+    "steps": [
+     {
+      "title": "Bước 1. Tạo file, lập 5 slide và lưu đúng tên",
+      "forRequirement": "Chung; Yêu cầu '05 slides'",
+      "actions": [
+       "Mở Microsoft PowerPoint, chọn Blank Presentation. Nhấn Ctrl+S, chọn D:\\ThiCC, đặt tên xyz_cau3, kiểu PowerPoint Presentation (*.pptx), bấm Save.",
+       "Tab Home > nhóm Slides > New Slide để thêm slide cho đủ đúng 5 slide (slide đầu là Title Slide).",
+       "Lưu ý: trong cả 5 slide tuyệt đối không gõ họ tên, số báo danh, lớp hoặc bất kỳ thông tin thí sinh nào (kể cả trong Footer)."
+      ],
+      "note": "Nên làm Bước 2 đến Bước 4 (Slide Master và layout) trước khi nhập nội dung để các slide kế thừa đúng font và căn chỉnh."
+     },
+     {
+      "title": "Bước 2. Slide Master: đổi toàn bộ font chữ về Arial",
+      "forRequirement": "2) Trong Master Slide, điều chỉnh tất cả font chữ về Arial",
+      "actions": [
+       "Tab View > nhóm Master Views > Slide Master để vào chế độ chỉnh Slide Master. Ở khung bên trái, bấm vào slide to nhất trên cùng (Slide Master, các slide con phía dưới là layout).",
+       "Tab Slide Master > nhóm Edit Theme > Fonts (hộp thả xuống có chữ Aa) > kéo xuống chọn Customize Fonts...",
+       "Trong hộp thoại Create New Theme Fonts: Heading font = Arial, Body font = Arial. Ở ô Name gõ 'Arial' > bấm Save. Từ lúc này font chủ đề (Heading và Body) đều là Arial cho toàn bộ master và mọi layout.",
+       "Kiểm tra: bấm vào từng khung trên Slide Master (tiêu đề, nội dung, ngày tháng, chân trang, số trang). Hộp Font ở Home hiển thị 'Arial (Headings)' hoặc 'Arial (Body)', không còn Calibri hay font khác. Nếu có chữ nào đặt font riêng (không phải font chủ đề), chọn khung đó và chọn lại Arial."
+      ],
+      "note": "Đề yêu cầu 'tất cả font chữ về Arial', nên đổi ở Slide Master chứ không đổi tay từng slide. Hộp văn bản (Text Box) tự thêm sau này cũng dùng font Body của chủ đề nên là Arial."
+     },
+     {
+      "title": "Bước 3. Slide Master: căn đều hai bên (Justify) cho nội dung",
+      "forRequirement": "2) nội dung căn chỉnh 2 bên",
+      "actions": [
+       "Vẫn ở Slide Master (bấm vào slide master trên cùng). Bấm vào đường viền của khung nội dung 'Click to edit Master text styles' để chọn cả khung (không chọn chữ bên trong).",
+       "Tab Home > nhóm Paragraph > bấm Justify (hoặc nhấn Ctrl+J). Nút Justify nằm cạnh nút Align Text Right. Thao tác này áp dụng cho cả 5 cấp gạch đầu dòng của khung.",
+       "Bấm vào từng layout con sẽ dùng (Title Slide, Title and Content và các layout mới tạo ở Bước 4), chọn khung nội dung/văn bản của layout đó và kiểm tra nút Justify sáng. Nếu layout bị ghi đè căn trái, chọn khung > Ctrl+J.",
+       "Tiêu đề (Title) có thể để căn giữa hoặc căn trái như mặc định; phần 'nội dung' mới cần căn đều hai bên."
+      ],
+      "note": "Layout Title Slide có phụ đề (subtitle) căn giữa theo mặc định; nếu muốn chắc chắn, chọn khung phụ đề trên layout Title Slide và đặt Justify. Hộp văn bản chèn thủ công (Insert > Text Box) không theo master nên nhớ nhấn Ctrl+J cho từng hộp."
+     },
+     {
+      "title": "Bước 4. Tạo mới ít nhất 02 layout trong Slide Master",
+      "forRequirement": "3) Tạo mới và sử dụng ít nhất 02 layout",
+      "actions": [
+       "Ở Slide Master view, bấm vào layout cuối cùng trong khung trái (hoặc bấm vào Slide Master). Tab Slide Master > nhóm Edit Master > Insert Layout. Một layout mới xuất hiện.",
+       "Đổi tên layout: bấm chuột phải vào layout mới > Rename Layout... > gõ 'Hình và mô tả' > Rename. Trong tab Slide Master > nhóm Master Layout > Insert Placeholder, bấm vào mũi tên để thêm khung: chọn Picture (kéo vẽ khung bên trái slide) và Text (kéo vẽ khung bên phải slide). Tiêu đề (Title) có sẵn ở trên.",
+       "Chèn thêm layout thứ hai: Insert Layout lần nữa. Đổi tên 'Tiêu đề và nội dung 2 cột'. Thêm Insert Placeholder > Content (hai khung nội dung bên trái và bên phải), hoặc Content và Text. Chỉnh kích thước các khung bằng cách kéo viền.",
+       "Với mỗi layout mới: chọn khung văn bản và nhấn Ctrl+J (Justify) nếu chưa có. Đảm bảo tab Slide Master > nhóm Master Layout có tích chọn Footers (Date, Footer, Slide Number) để layout có khung đánh số trang.",
+       "Bấm Close Master View (tab Slide Master > nhóm Close) để thoát về chế độ thường."
+      ],
+      "note": "Đề ghi 'Tạo mới và sử dụng ít nhất 02 layout'. Để an toàn: vừa tạo 2 layout mới trong Slide Master, vừa dùng ít nhất 2 layout khác nhau trong bài (xem Bước 5). Ở file mẫu tuan05.pptx chỉ dùng layout có sẵn (Title Slide, Title and Content, Content with Caption)."
+     },
+     {
+      "title": "Bước 5. Áp dụng layout cho các slide và soạn nội dung",
+      "forRequirement": "3) sử dụng ít nhất 02 layout; yêu cầu 05 slide về Danh lam thắng cảnh Hà Nội",
+      "actions": [
+       "Slide 1: chọn slide 1 > Home > Layout > Title Slide. Tiêu đề: 'Danh lam thắng cảnh Hà Nội'. Phụ đề gợi ý: 'Thủ đô nghìn năm văn hiến'. Không ghi tên thí sinh.",
+       "Slide 2 (Hồ Hoàn Kiếm): Home > Layout > chọn layout mới 'Hình và mô tả'. Tiêu đề 'Hồ Hoàn Kiếm'. Gợi ý nội dung: nằm ở trung tâm Hà Nội; Tháp Rùa trên đảo nhỏ giữa hồ; cầu Thê Húc dẫn vào đền Ngọc Sơn; gắn với truyền thuyết vua Lê Lợi trả gươm thần. Chèn ảnh vào khung Picture (bấm biểu tượng ảnh trong khung hoặc Insert > Picture).",
+       "Slide 3 (Văn Miếu - Quốc Tử Giám): layout 'Hình và mô tả'. Gợi ý: xây dựng năm 1070 dưới thời vua Lý Thánh Tông; Quốc Tử Giám lập năm 1076, được xem là trường đại học đầu tiên của Việt Nam.",
+       "Slide 4 (Chùa Một Cột): layout 'Tiêu đề và nội dung 2 cột'. Gợi ý: xây dựng năm 1049 dưới thời vua Lý Thái Tông; kiến trúc giống đóa sen nở trên mặt nước; là biểu tượng của Thủ đô.",
+       "Slide 5 (Lăng Chủ tịch Hồ Chí Minh): layout 'Tiêu đề và nội dung 2 cột'. Gợi ý: nằm ở Quảng trường Ba Đình; khánh thành năm 1975; nơi đặt thi hài Chủ tịch Hồ Chí Minh.",
+       "Cách đổi layout cho slide đã tạo: chọn slide ở khung bên trái, bấm chuột phải > Layout > chọn layout, hoặc Home > Layout.",
+       "Chèn ảnh minh họa nếu có sẵn trên máy (Insert > Picture). Nếu không có ảnh, có thể dùng Insert > Shapes hoặc Clip Art; ảnh không phải là yêu cầu bắt buộc của đề."
+      ],
+      "note": "Nội dung 5 slide về danh lam thắng cảnh là gợi ý để tham khảo; đề chỉ yêu cầu 5 slide về chủ đề Danh lam thắng cảnh Hà Nội, có thể chọn địa danh khác (Hồ Tây, Hoàng thành Thăng Long, Nhà thờ Lớn...). Không đưa thông tin thí sinh vào bất cứ slide nào."
+     },
+     {
+      "title": "Bước 6. Đánh số trang cho các slide, trừ slide đầu tiên",
+      "forRequirement": "1) Đánh số trang cho các slide (trừ slide đầu tiên)",
+      "actions": [
+       "Tab Insert > nhóm Text > Header & Footer. Trong hộp thoại, chọn tab Slide.",
+       "Tích chọn Slide number. Tích chọn Don't show on title slide (không hiển thị trên slide tiêu đề).",
+       "Bấm Apply to All (không bấm Apply). Slide 1 (dùng layout Title Slide) sẽ không hiện số; slide 2 hiện số 2, slide 3 hiện 3, và tiếp tục.",
+       "Kiểm tra từng slide: slide 1 không có số trang; slide 2 đến 5 có số trang ở góc dưới bên phải.",
+       "Nếu slide 1 vẫn hiện số (do không dùng layout Title Slide): chọn slide 1 > Insert > Header & Footer > bỏ tích Slide number > bấm Apply (không bấm Apply to All).",
+       "Nếu slide dùng layout mới không hiện số: vào Slide Master view, chọn layout đó, tab Slide Master > tích chọn Footers hoặc bấm Insert Placeholder > Slide Number rồi đặt khung này cùng vị trí như các layout khác."
+      ],
+      "note": "Hộp 'Don't show on title slide' chỉ có tác dụng với slide dùng layout Title Slide. Trong phần Footer đừng gõ tên hoặc số báo danh."
+     },
+     {
+      "title": "Bước 7. Thêm ít nhất 02 hiệu ứng hoạt hình (Animation)",
+      "forRequirement": "4) Sử dụng ít nhất 02 hiệu ứng hoạt hình",
+      "actions": [
+       "Chọn slide 2. Bấm chọn khung tiêu đề (hoặc hình ảnh). Tab Animations > nhóm Animation > chọn hiệu ứng Fade (hoặc Fly In, Appear). Đây là hiệu ứng thứ nhất.",
+       "Chọn đối tượng thứ hai (ví dụ khung nội dung hoặc ảnh) trong cùng slide. Tab Animations > chọn hiệu ứng khác như Wipe, Zoom hoặc Fly In. Đây là hiệu ứng thứ hai.",
+       "Nếu muốn hiệu ứng thứ hai chạy tự động: tab Animations > nhóm Timing > Start = After Previous (hoặc With Previous), Duration khoảng 0.50 đến 1.00 giây.",
+       "Làm thêm tương tự cho các slide 3 hoặc 4 (ví dụ chọn ảnh > Zoom, chọn khung chữ > Fly In) để chắc chắn có từ 2 hiệu ứng trở lên.",
+       "Kiểm tra: tab Animations > Animation Pane, danh sách hiện các hiệu ứng đã gán. Trên slide, các đối tượng có hiệu ứng có số thứ tự nhỏ ở bên trái. Nhấn Preview để xem thử."
+      ],
+      "note": "Mỗi đối tượng có hiệu ứng riêng thì mới được tính là đã gán hiệu ứng. Để hai hiệu ứng trên hai đối tượng khác nhau thì dễ kiểm tra hơn."
+     },
+     {
+      "title": "Bước 8. Thêm ít nhất 02 hiệu ứng chuyển slide (Transition)",
+      "forRequirement": "5) Sử dụng ít nhất 02 hiệu ứng chuyển slide",
+      "actions": [
+       "Chọn slide 2 ở khung trái. Tab Transitions > nhóm Transition to This Slide > chọn Fade.",
+       "Chọn slide 3 > Transitions > chọn Push (hoặc Wipe). Chọn slide 4 > Transitions > chọn Cover hoặc Split.",
+       "Nên dùng ít nhất 2 kiểu khác nhau (ví dụ Fade, Push, Wipe) trên các slide khác nhau; không dùng Apply To All nếu muốn các kiểu khác nhau.",
+       "Kiểm tra: ở khung trái các slide có chuyển trang sẽ có ngôi sao nhỏ phía dưới số thứ tự slide. Bấm Preview hoặc F5 để xem."
+      ],
+      "note": "Có thể đặt thêm Transition cho slide 1 (ví dụ Fade). Mục Duration ở nhóm Timing để mặc định hoặc 1 giây."
+     },
+     {
+      "title": "Bước 9. Kiểm tra toàn bộ và lưu bài",
+      "forRequirement": "1) đến 5)",
+      "actions": [
+       "Nhấn F5 để chạy trình chiếu từ slide 1: kiểm tra có đủ 5 slide, hiệu ứng, chuyển trang, số trang (không có trên slide 1) và không có thông tin thí sinh.",
+       "Vào View > Slide Sorter để thấy cả 5 slide cùng lúc; kiểm tra biểu tượng chuyển trang và số thứ tự.",
+       "Vào View > Slide Master một lần nữa kiểm tra: font Arial, các layout mới tạo vẫn còn trong danh sách. Close Master View.",
+       "Nhấn Ctrl+S để lưu. Kiểm tra file D:\\ThiCC\\xyz_cau3.pptx."
+      ],
+      "note": "Có thể xóa thông tin tác giả trong file: File > Info > Properties, xóa tên tác giả, để file cũng không chứa thông tin thí sinh (tùy chọn)."
+     }
+    ],
+    "formulas": [],
+    "result": "File xyz_cau3.pptx có đúng 5 slide về danh lam thắng cảnh Hà Nội: slide 1 là tiêu đề (không có số trang), slide 2 đến 5 có số trang 2 đến 5 ở góc. Trong Slide Master font chủ đề là Arial và khung nội dung căn đều hai bên; có ít nhất 2 layout mới (ví dụ 'Hình và mô tả', 'Tiêu đề và nội dung 2 cột') đang được các slide sử dụng. Có ít nhất 2 hiệu ứng Animation (xem trong Animation Pane) và ít nhất 2 hiệu ứng Transition khác nhau (có biểu tượng ngôi sao ở khung trái). Không slide nào chứa tên hay số báo danh thí sinh. Tự kiểm tra bằng F5 và View > Slide Sorter."
+   },
+   "checklist": [
+    "File lưu tại D:\\ThiCC với tên xyz_cau3.pptx",
+    "Bài có đúng 5 slide về Danh lam thắng cảnh Hà Nội",
+    "Không slide nào chứa thông tin thí sinh (họ tên, số báo danh, lớp...)",
+    "Slide 1 không có số trang; các slide 2 đến 5 có số trang",
+    "Font chủ đề trong Slide Master (Heading và Body) là Arial; không còn font khác trên master",
+    "Khung nội dung trong Slide Master (và các layout dùng) được căn đều hai bên (Justify)",
+    "Có ít nhất 2 layout mới tạo qua Insert Layout trong Slide Master",
+    "Các slide thực sự dùng ít nhất 2 layout khác nhau",
+    "Có ít nhất 2 hiệu ứng Animation (Animation Pane liệt kê)",
+    "Có ít nhất 2 hiệu ứng Transition (khuyến nghị kiểu khác nhau)"
+   ],
+   "commonMistakes": [
+    "Đổi font từng slide thay vì đổi ở Slide Master; hoặc chỉ đổi font tiêu đề mà quên font nội dung.",
+    "Áp dụng Justify cho một đoạn văn bản trên slide chứ không phải trong Slide Master.",
+    "Chọn 'Apply' thay vì 'Apply to All' khi đánh số trang nên chỉ một slide có số; hoặc quên tích 'Don't show on title slide' nên slide 1 vẫn hiện số 1.",
+    "Slide 1 không dùng layout Title Slide nên 'Don't show on title slide' không có tác dụng.",
+    "Layout tự tạo không có khung Slide Number nên slide dùng layout đó không hiện số trang.",
+    "Chỉ chọn layout có sẵn (Title and Content...) mà không tạo layout mới (Insert Layout) trong Slide Master.",
+    "Chỉ có một hiệu ứng hoặc chỉ dùng Transition 'Apply To All' cùng một kiểu rồi tưởng là hai hiệu ứng.",
+    "Ghi tên, số báo danh hoặc lớp vào slide đầu hoặc vào Footer.",
+    "Gõ sai chính tả các địa danh (ví dụ 'Chùa Một Cột', 'Văn Miếu - Quốc Tử Giám'); file mẫu tuan05.pptx có nhiều lỗi chính tả nên cần soát lại.",
+    "Lưu nhầm định dạng (.ppt hoặc .pptm) hoặc nhầm tên, nhầm thư mục."
+   ],
+   "uncertain": [
+    "Đề không nêu danh lam thắng cảnh cụ thể nào, nên nội dung các slide trong hướng dẫn chỉ là gợi ý (Hồ Hoàn Kiếm, Văn Miếu - Quốc Tử Giám, Chùa Một Cột, Lăng Chủ tịch Hồ Chí Minh). File mẫu tuan05.pptx dùng Bảo tàng Hà Nội, Chùa Một Cột, Lăng Chủ tịch Hồ Chí Minh.",
+    "Câu 'Tạo mới và sử dụng ít nhất 02 layout' có thể hiểu là tạo layout mới trong Slide Master hoặc dùng ít nhất 2 layout khác nhau; hướng dẫn thực hiện cả hai để đảm bảo. File mẫu tuan05.pptx chỉ dùng layout có sẵn (Title Slide, Title and Content, Content with Caption).",
+    "'Nội dung căn chỉnh 2 bên' được hiểu là căn đều hai bên (Justify) cho khung nội dung/văn bản trong Slide Master; không áp dụng cho tiêu đề.",
+    "'Đánh số trang (trừ slide đầu tiên)': hiểu là slide 1 không hiển thị số, các slide sau hiển thị số thứ tự thật của slide (2, 3, 4, 5). File mẫu tuan05.pptx đánh số slide 2 là 1 (số gõ tay) nên không dùng làm chuẩn.",
+    "Đề yêu cầu 'ít nhất 02 hiệu ứng hoạt hình' và 'ít nhất 02 hiệu ứng chuyển slide' nhưng không nêu loại hiệu ứng cụ thể; các hiệu ứng nêu trong hướng dẫn (Fade, Wipe, Zoom, Push...) chỉ là gợi ý."
+   ]
+  }
+ ]
+}
