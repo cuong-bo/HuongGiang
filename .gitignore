@@ -2,3 +2,7 @@ node_modules/
 test-results/
 playwright-report/
 screenshots/
+
+# Script chup thu cong (nhap, chi giu thu vien lib.ps1 va scan-toast.ps1)
+tools/office-shots/x*.ps1
+tools/office-shots/p[0-9A-Z]*.ps1
