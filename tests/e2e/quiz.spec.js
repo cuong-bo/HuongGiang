@@ -201,6 +201,32 @@ test.describe("practical exams", () => {
     await expect(page).toHaveTitle(/Đề 5, Câu 2/);
   });
 
+  test("a step with real screenshots shows them with captions and an enlarge link", async ({ page }) => {
+    await page.goto("/#/thuc-hanh/1/1");
+    const shots = page.getByTestId("shot");
+    await expect(shots).toHaveCount(30);
+    const first = shots.first();
+    await expect(first.locator("img")).toHaveAttribute("src", /assets\/img\/practical\/de1-c1\/b1-1\.png$/);
+    await expect(first.locator("a")).toHaveAttribute("target", "_blank");
+    await expect(first.locator("figcaption")).not.toBeEmpty();
+    await first.locator("img").scrollIntoViewIfNeeded();
+    const loaded = await first.locator("img").evaluate((img) => img.complete && img.naturalWidth > 0);
+    expect(loaded).toBe(true);
+  });
+
+  test("a task without screenshots shows no empty image blocks", async ({ page }) => {
+    await page.goto("/#/thuc-hanh/5/2");
+    await expect(page.getByTestId("shot")).toHaveCount(0);
+  });
+
+  test("screenshots do not make the page scroll sideways on a phone", async ({ page }) => {
+    await page.setViewportSize({ width: 375, height: 800 });
+    await page.goto("/#/thuc-hanh/1/1");
+    await expect(page.getByTestId("shot").first()).toBeVisible();
+    const overflow = await page.evaluate(() => document.documentElement.scrollWidth > window.innerWidth);
+    expect(overflow).toBe(false);
+  });
+
   test("copying a formula confirms to the user", async ({ page, context }) => {
     await context.grantPermissions(["clipboard-read", "clipboard-write"]);
     await page.goto("/#/thuc-hanh/5/2");

@@ -11,6 +11,7 @@ const SETS = fs
   .map((f) => JSON.parse(fs.readFileSync(path.join(DIR, f), "utf8")))
   .sort((a, b) => a.id - b.id);
 
+const IMG_DIR = path.join(__dirname, "..", "..", "assets", "img", "practical");
 const APPS = new Set(["word", "excel", "powerpoint"]);
 const DASHES = /[–—]/;
 
@@ -20,6 +21,15 @@ function allStrings(value, out = []) {
   else if (value && typeof value === "object") Object.values(value).forEach((v) => allStrings(v, out));
   return out;
 }
+
+test("set 1 is fully illustrated: every step of all three tasks has screenshots", () => {
+  const set1 = SETS.find((s) => s.id === 1);
+  for (const task of set1.tasks) {
+    for (const step of task.solution.steps) {
+      assert.ok((step.shots || []).length > 0, `set 1 task ${task.no} step "${step.title}" has no screenshots`);
+    }
+  }
+});
 
 test("there are seven sets numbered 1 to 7", () => {
   assert.deepEqual(
@@ -77,6 +87,20 @@ for (const set of SETS) {
         assert.ok(["text", "table"].includes(block.kind));
         if (block.kind === "text") assert.ok(block.lines.length > 0);
         else assert.ok(block.rows.length > 0 && block.rows.every((r) => Array.isArray(r)));
+      }
+    }
+  });
+
+  test(`set ${set.id}: screenshots of steps point at real files with captions`, () => {
+    for (const task of set.tasks) {
+      for (const step of task.solution.steps) {
+        for (const shot of step.shots || []) {
+          const file = path.join(IMG_DIR, `de${set.id}-c${task.no}`, shot.file);
+          assert.ok(fs.existsSync(file), `missing image ${file}`);
+          assert.ok(shot.caption.length > 0, `no caption for ${shot.file}`);
+          assert.ok(Number.isInteger(shot.w) && shot.w > 0, `bad width for ${shot.file}`);
+          assert.ok(Number.isInteger(shot.h) && shot.h > 0, `bad height for ${shot.file}`);
+        }
       }
     }
   });

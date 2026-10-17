@@ -32,3 +32,14 @@ giải chi tiết theo từng công cụ, công thức Excel (có nút chép), d
 - Đề được chuyển từ ảnh chụp mờ và file bài làm mẫu. Chỗ đọc không chắc chắn được ghi trong mục
   "Ghi chú về độ chính xác của đề" của từng câu. Đề 4 thiếu ảnh trang 2 nên Câu 3 chưa có đề bài.
 - `tests/unit/practical-data.test.js` kiểm tra cấu trúc dữ liệu và quy ước trình bày của cả 7 đề.
+
+### Ảnh chụp từng bước
+
+Mỗi bước giải có thể kèm ảnh chụp thật từ Word, Excel hoặc PowerPoint, vùng cần bấm được khoanh đỏ.
+
+- Ảnh nằm ở `assets/img/practical/de<số đề>-c<số câu>/`, đặt tên `b<bước>-<thứ tự>.png`.
+- Mỗi bước trong `deN.json` khai báo `shots: [{ "file", "caption", "w", "h" }]`. Bước không có ảnh thì bỏ trường này.
+- Đã có ảnh đầy đủ cho Đề 1: Câu 1 Word (30 ảnh), Câu 2 Excel (20 ảnh), Câu 3 PowerPoint (31 ảnh). Các đề còn lại chưa có ảnh; làm lần lượt từng đề, đủ 3 câu rồi mới sang đề kế tiếp.
+- `tools/office-shots/lib.ps1` là thư viện PowerShell dùng để chụp: mở hộp thoại, đọc vị trí nút bằng UI Automation,
+  chụp màn hình bỏ thanh tiêu đề và vẽ khoanh đỏ. Chỉ chạy trên Windows có cài Office.
+- Khi chụp, không đưa vào ảnh màn hình File của Word (có danh sách file gần đây), thanh tiêu đề và tên người dùng.

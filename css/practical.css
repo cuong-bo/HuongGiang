@@ -368,6 +368,42 @@
   color: var(--accent);
   font-weight: 700;
 }
+.shots {
+  grid-template-columns: minmax(0, 1fr);
+  display: grid;
+  gap: 14px;
+  margin-top: 14px;
+}
+.shots-hint {
+  font-size: 0.875rem;
+}
+.shot {
+  margin: 0;
+}
+.shot a {
+  display: block;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: var(--r-sm);
+  background: var(--surface-2);
+  transition: border-color 150ms ease, box-shadow 150ms ease;
+}
+.shot a:hover,
+.shot a:focus-visible {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-soft);
+}
+.shot img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.shot figcaption {
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: 0.9375rem;
+  line-height: 1.5;
+}
 .note {
   margin-top: 12px;
   padding: 10px 14px;

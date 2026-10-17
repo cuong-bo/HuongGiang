@@ -127,7 +127,21 @@
     );
   }
 
-  function stepCard(step, index) {
+  function shotFigure(where, shot) {
+    const src = `assets/img/practical/de${where.setId}-c${where.no}/${shot.file}`;
+    return h(
+      "figure",
+      { class: "shot", "data-testid": "shot" },
+      h(
+        "a",
+        { href: src, target: "_blank", rel: "noopener", "aria-label": `Mở ảnh cỡ lớn: ${shot.caption}` },
+        h("img", { src, alt: shot.caption, width: shot.w, height: shot.h, loading: "lazy", decoding: "async" })
+      ),
+      h("figcaption", {}, shot.caption)
+    );
+  }
+
+  function stepCard(where, step, index) {
     return h(
       "li",
       { class: "step", "data-testid": "step" },
@@ -139,18 +153,26 @@
         step.forRequirement ? h("span", { class: "step-for" }, `Cho yêu cầu: ${step.forRequirement}`) : null
       ),
       h("ol", { class: "actions" }, step.actions.map((a) => h("li", {}, a))),
+      step.shots && step.shots.length > 0
+        ? h(
+            "div",
+            { class: "shots", "data-testid": "shots" },
+            h("p", { class: "shots-hint muted" }, "Ảnh chụp thật từ phần mềm, vùng khoanh đỏ là chỗ cần bấm. Bấm vào ảnh để xem cỡ lớn."),
+            step.shots.map((shot) => shotFigure(where, shot))
+          )
+        : null,
       step.note ? h("p", { class: "note" }, h("strong", {}, "Lưu ý: "), step.note) : null
     );
   }
 
-  function solutionSection(task) {
+  function solutionSection(where, task) {
     const sol = task.solution;
     return h(
       "section",
       { class: "panel", id: "sec-solution", tabindex: "-1" },
       h("h2", {}, "Hướng dẫn giải"),
       h("p", { class: "statement-intro" }, sol.summary),
-      h("ol", { class: "steps" }, sol.steps.map(stepCard))
+      h("ol", { class: "steps" }, sol.steps.map((step, index) => stepCard(where, step, index)))
     );
   }
 
@@ -316,7 +338,7 @@
           "div",
           { class: "task-main" },
           statementSection(task),
-          solutionSection(task),
+          solutionSection({ setId, no: task.no }, task),
           formulasSection(app, task),
           resultSection(task),
           checklistSection(task),
