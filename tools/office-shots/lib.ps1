@@ -260,3 +260,20 @@ function Get-PRect($App, $Shape) {
   $x1 = [double]$w.PointsToScreenPixelsX($Shape.Left + $Shape.Width); $y1 = [double]$w.PointsToScreenPixelsY($Shape.Top + $Shape.Height)
   [System.Drawing.Rectangle]::new([int]$x0, [int]$y0, [int]($x1 - $x0), [int]($y1 - $y0))
 }
+
+# Ghep cac anh PNG trong mot thu muc thanh 1 anh nho (de kiem tra nhanh)
+function New-ContactSheet([string]$Dir, [string]$Out, [string]$Match = '.', [int]$Cols = 3, [int]$Tw = 620) {
+  $files = Get-ChildItem $Dir -Filter *.png | Where-Object { $_.Name -match $Match -and $_.Name -notlike '_*' } | Sort-Object { [regex]::Replace($_.Name, '\d+', { param($m) $m.Value.PadLeft(4, '0') }) }
+  $th = [int]($Tw * 0.56); $rows = [Math]::Ceiling($files.Count / $Cols)
+  $bmp = New-Object System.Drawing.Bitmap(($Cols * $Tw), ($rows * ($th + 22))); $g = [System.Drawing.Graphics]::FromImage($bmp)
+  $g.Clear([System.Drawing.Color]::White); $g.InterpolationMode = 'HighQualityBicubic'
+  $font = New-Object System.Drawing.Font('Arial', 11, [System.Drawing.FontStyle]::Bold)
+  $i = 0
+  foreach ($f in $files) {
+    $img = [System.Drawing.Image]::FromFile($f.FullName)
+    $x = ($i % $Cols) * $Tw; $y = [Math]::Floor($i / $Cols) * ($th + 22)
+    $g.DrawString($f.BaseName, $font, [System.Drawing.Brushes]::Black, $x + 4, $y + 2)
+    $g.DrawImage($img, $x + 2, $y + 20, $Tw - 4, $th - 2); $img.Dispose(); $i++
+  }
+  $bmp.Save($Out, [System.Drawing.Imaging.ImageFormat]::Png); $g.Dispose(); $bmp.Dispose()
+}

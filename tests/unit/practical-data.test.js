@@ -22,11 +22,15 @@ function allStrings(value, out = []) {
   return out;
 }
 
-test("set 1 is fully illustrated: every step of all three tasks has screenshots", () => {
-  const set1 = SETS.find((s) => s.id === 1);
-  for (const task of set1.tasks) {
-    for (const step of task.solution.steps) {
-      assert.ok((step.shots || []).length > 0, `set 1 task ${task.no} step "${step.title}" has no screenshots`);
+const ILLUSTRATED_SETS = [1, 2];
+
+test("illustrated sets have screenshots on every step of all three tasks", () => {
+  for (const id of ILLUSTRATED_SETS) {
+    const set = SETS.find((s) => s.id === id);
+    for (const task of set.tasks) {
+      for (const step of task.solution.steps) {
+        assert.ok((step.shots || []).length > 0, `set ${id} task ${task.no} step "${step.title}" has no screenshots`);
+      }
     }
   }
 });

@@ -112,19 +112,53 @@
        "Bấm Ctrl+S, chọn thư mục D:\\ThiCC, đặt tên file là sbd_cau1.docx (sbd là số báo danh của bạn, ví dụ 123_cau1.docx), bấm Save.",
        "Trong lúc làm, thỉnh thoảng bấm Ctrl+S để tránh mất bài."
       ],
-      "note": "Lưu ngay từ đầu. Nhớ đúng thư mục D:\\ThiCC và đuôi .docx."
+      "note": "Lưu ngay từ đầu. Nhớ đúng thư mục D:\\ThiCC và đuôi .docx.",
+      "shots": [
+       {
+        "file": "b1-1.png",
+        "caption": "Mở Word, chọn Blank document. Tab File (khoanh đỏ) mở menu lưu file.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b1-2.png",
+        "caption": "File, Save As (khoanh đỏ) hoặc Ctrl+S. Chọn thư mục D:ThiCC, đặt tên sbd_cau1.docx rồi bấm Save.",
+        "w": 200,
+        "h": 600
+       }
+      ]
      },
      {
       "title": "Định dạng trang: khổ A4, Portrait, 4 lề",
       "forRequirement": "2",
       "actions": [
-       "Chọn tab Page Layout (Bố cục trang).",
+       "Chọn tab Layout (bản Office cũ gọi là Page Layout).",
        "Ở nhóm Page Setup, bấm mũi tên nhỏ ở góc dưới bên phải nhóm (Dialog Launcher) để mở hộp thoại Page Setup.",
        "Tab Margins: nhập Top = 2.5 cm, Bottom = 2 cm, Left = 3.5 cm, Right = 1.5 cm. Gutter để 0 cm. Mục Orientation chọn Portrait (hướng đứng). Mục Apply to: Whole document.",
        "Chuyển sang tab Paper: ở ô Paper size chọn A4 (21 cm x 29.7 cm). Kiểm tra Width = 21 cm, Height = 29.7 cm.",
        "Bấm OK. Nếu Word hỏi về lề nằm ngoài vùng in thì chọn Ignore."
       ],
-      "note": "Nếu ô hiển thị đơn vị inch, gõ kèm chữ cm sau số, ví dụ 2.5 cm, Word sẽ tự đổi. Máy dùng dấu phẩy thập phân thì gõ 2,5."
+      "note": "Nếu ô hiển thị đơn vị inch, gõ kèm chữ cm sau số, ví dụ 2.5 cm, Word sẽ tự đổi. Máy dùng dấu phẩy thập phân thì gõ 2,5.",
+      "shots": [
+       {
+        "file": "b2-1.png",
+        "caption": "Tab Layout, bấm mũi tên nhỏ ở góc dưới phải nhóm Page Setup (khoanh đỏ) để mở hộp thoại Page Setup.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b2-2.png",
+        "caption": "Tab Margins: Top 2.5 cm, Bottom 2 cm, Left 3.5 cm, Right 1.5 cm và chọn Portrait (các ô khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b2-3.png",
+        "caption": "Tab Paper: Paper size chọn A4 (khoanh đỏ), khổ 21 x 29.7 cm, rồi bấm OK.",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Đặt font Times New Roman 13pt và giãn dòng gọn",
@@ -134,7 +168,21 @@
        "Trong hộp thoại Modify Style, mục Formatting chọn Font = Times New Roman, Size = 13. Bấm nút Format (góc dưới trái) > Paragraph, đặt Spacing Before = 0 pt, After = 0 pt, Line spacing = Single, bấm OK hai lần.",
        "Cuối bài, bấm Ctrl+A rồi kiểm tra ô Font (Home) hiển thị Times New Roman và ô cỡ chữ hiển thị 13. Nếu có nội dung nào khác thì chọn lại Times New Roman, 13."
       ],
-      "note": "Từ Word 2007 trở lên, mặc định After = 10pt và Line spacing = 1.15, nếu không chỉnh thì chữ trong ô dễ bị cắt khi đặt chiều cao Exactly 1.5 cm."
+      "note": "Từ Word 2007 trở lên, mặc định After = 10pt và Line spacing = 1.15, nếu không chỉnh thì chữ trong ô dễ bị cắt khi đặt chiều cao Exactly 1.5 cm.",
+      "shots": [
+       {
+        "file": "b3-1.png",
+        "caption": "Tab Home, bấm phải vào kiểu Normal trong nhóm Styles, chọn Modify... (khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b3-2.png",
+        "caption": "Hộp thoại Modify Style: Font Times New Roman, cỡ 13 (khoanh đỏ). Bấm Format (khoanh đỏ), chọn Paragraph... để đặt giãn đoạn Before 0, After 0, Line spacing Single.",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Tạo bảng 1 dòng 2 cột không viền cho 2 dòng đầu",
@@ -144,10 +192,36 @@
        "Ô trái: gõ 'BỘ GIÁO DỤC VÀ ĐÀO TẠO', bấm Enter, gõ 'TRƯỜNG ĐẠI HỌC ABC', bôi đen dòng này và bấm Ctrl+B để in đậm.",
        "Ô phải: gõ 'CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM', Enter, 'Độc lập - Tự do - Hạnh phúc'. Bôi đen cả hai dòng, bấm Ctrl+B in đậm.",
        "Chọn cả bảng: đưa chuột vào bảng, bấm dấu chữ thập 4 mũi tên ở góc trên trái bảng. Bấm Ctrl+E để căn giữa nội dung trong ô.",
-       "Bỏ đường viền: khi bảng vẫn đang chọn, vào tab Home > nhóm Paragraph > nút Borders (hình ô vuông) > chọn No Border. (Hoặc Table Tools > Design > Borders > No Border.)",
-       "Kiểm tra: tab Table Tools > Layout > View Gridlines chỉ là đường kẻ ảo để dễ nhìn. Bấm Ctrl+P xem trước, sẽ không còn đường viền nào."
+       "Bỏ đường viền: khi bảng vẫn đang chọn, vào tab Home > nhóm Paragraph > nút Borders (hình ô vuông) > chọn No Border. (Hoặc tab Table Design > Borders > No Border.)",
+       "Kiểm tra: tab tab Table Layout > View Gridlines chỉ là đường kẻ ảo để dễ nhìn. Bấm Ctrl+P xem trước, sẽ không còn đường viền nào."
       ],
-      "note": "Hai dòng đầu tiên của văn bản chính là hai dòng nằm trong bảng này, không gõ chúng ngoài bảng."
+      "note": "Hai dòng đầu tiên của văn bản chính là hai dòng nằm trong bảng này, không gõ chúng ngoài bảng.",
+      "shots": [
+       {
+        "file": "b4-1.png",
+        "caption": "Tab Insert, bấm Table rồi chọn Insert Table... (khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b4-2.png",
+        "caption": "Nhập Number of columns 2, Number of rows 1 (khoanh đỏ) rồi bấm OK.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b4-3.png",
+        "caption": "Gõ nội dung hai ô, in đậm các dòng cần đậm (nút B), chọn cả bảng và bấm Center (các nút khoanh đỏ) để căn giữa.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b4-4.png",
+        "caption": "Chọn cả bảng, tab Home, bấm mũi tên cạnh nút Borders (khoanh đỏ) rồi chọn No Border (khoanh đỏ) để bỏ đường viền.",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Gõ tiêu đề văn bản",
@@ -157,7 +231,15 @@
        "Gõ 'THỜI GIAN TỐI THIỂU THỰC HIỆN CHƯƠNG TRÌNH ĐÀO TẠO TỪ XA CHO TỪNG TRÌNH ĐỘ VÀ NGÀNH ĐÀO TẠO'.",
        "Bôi đen tiêu đề, bấm Ctrl+B (in đậm) và Ctrl+E (căn giữa). Có thể đặt Spacing Before/After = 6 pt cho thoáng."
       ],
-      "note": ""
+      "note": "",
+      "shots": [
+       {
+        "file": "b5-1.png",
+        "caption": "Gõ tiêu đề dưới bảng, in đậm (nút B) và căn giữa (nút Center), các nút khoanh đỏ; tiêu đề nằm trong vùng khoanh đỏ.",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Chèn bảng thời gian đào tạo 9 dòng x 3 cột",
@@ -166,33 +248,75 @@
        "Bấm Enter cuối tiêu đề để tạo đoạn mới. Tab Insert > Table > Insert Table, nhập Number of columns = 3, Number of rows = 9, bấm OK.",
        "Gõ dòng tiêu đề: ô 1 'TT', ô 2 'Trình độ và ngành đầu vào', ô 3 'Thời gian tối thiểu hoàn thành chương trình ĐTTX các ngành'. Bôi đen dòng này, in đậm (Ctrl+B), căn giữa (Ctrl+E).",
        "Gõ nội dung cột 2 và cột 3 của 8 dòng dữ liệu đúng như đề. Cột TT để trống ở bước này (sẽ đánh số bằng danh sách).",
-       "Chỉnh độ rộng cột: kéo đường kẻ dọc hoặc dùng Table Tools > Layout > nhóm Cell Size > Width. Gợi ý: cột 1 = 1.5 cm, cột 2 = 8 cm, cột 3 = 6.5 cm (tổng 16 cm = vùng soạn thảo rộng 21 - 3.5 - 1.5 = 16 cm).",
-       "Căn chỉnh: cột 1 và cột 3 căn giữa (Ctrl+E), cột 2 căn trái (Ctrl+L). Canh giữa theo chiều dọc: chọn cả bảng > Table Tools > Layout > nhóm Alignment > Align Center Left (cột 2) hoặc Align Center (cột 1, 3)."
+       "Chỉnh độ rộng cột: kéo đường kẻ dọc hoặc dùng tab Table Layout > nhóm Cell Size > Width. Gợi ý: cột 1 = 1.5 cm, cột 2 = 8 cm, cột 3 = 6.5 cm (tổng 16 cm = vùng soạn thảo rộng 21 - 3.5 - 1.5 = 16 cm).",
+       "Căn chỉnh: cột 1 và cột 3 căn giữa (Ctrl+E), cột 2 căn trái (Ctrl+L). Canh giữa theo chiều dọc: chọn cả bảng > tab Table Layout > nhóm Alignment > Align Center Left (cột 2) hoặc Align Center (cột 1, 3)."
       ],
-      "note": "Dòng tiêu đề cột 3 khá dài nên có thể xuống 3 dòng. Với Exactly 1.5 cm, 3 dòng chữ 13pt vẫn vừa nếu Spacing Before/After = 0 và Line spacing = Single. Nếu bị cắt thì nới rộng cột 3."
+      "note": "Dòng tiêu đề cột 3 khá dài nên có thể xuống 3 dòng. Với Exactly 1.5 cm, 3 dòng chữ 13pt vẫn vừa nếu Spacing Before/After = 0 và Line spacing = Single. Nếu bị cắt thì nới rộng cột 3.",
+      "shots": [
+       {
+        "file": "b6-1.png",
+        "caption": "Bấm Enter dưới tiêu đề, Insert, Table, Insert Table...: Number of columns 3, Number of rows 9 (khoanh đỏ), bấm OK.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b6-2.png",
+        "caption": "Gõ nội dung, đặt độ rộng cột trong tab Table Layout, ô Width (khoanh đỏ): cột 1 rộng 1.5 cm, cột 2 rộng 8 cm, cột 3 rộng 6.5 cm.",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Trộn ô (Merge Cells) cho cột Thời gian",
       "forRequirement": "4",
       "actions": [
        "Cặp 1: bôi đen 2 ô '1,5 năm' ở cột 3 của dòng (2) và dòng (3) (hai ô liền nhau trong cùng một cột).",
-       "Bấm chuột phải vào vùng đã chọn > Merge Cells, hoặc tab Table Tools > Layout > nhóm Merge > Merge Cells.",
+       "Bấm chuột phải vào vùng đã chọn > Merge Cells, hoặc tab tab Table Layout > nhóm Merge > Merge Cells.",
        "Cặp 2: bôi đen 2 ô '3,5 năm' ở cột 3 của dòng (7) và (8), bấm Merge Cells tương tự.",
        "Sau khi trộn, nội dung hai ô nối thành hai đoạn trong ô mới (đúng như trang 3 hiển thị hai dòng '1,5 năm' và hai dòng '3,5 năm'). Có thể giữ nguyên hoặc xóa bớt một dòng cho gọn; yêu cầu chấm là ô đã được trộn.",
        "Căn giữa nội dung ô trộn cả chiều ngang (Ctrl+E) và chiều dọc (Layout > Align Center)."
       ],
-      "note": "Chọn đúng hai ô liền nhau trong cùng một cột; chọn nhầm cả dòng sẽ trộn sai."
+      "note": "Chọn đúng hai ô liền nhau trong cùng một cột; chọn nhầm cả dòng sẽ trộn sai.",
+      "shots": [
+       {
+        "file": "b7-1.png",
+        "caption": "Bôi chọn hai ô 1,5 năm liền nhau ở cột 3 rồi bấm Merge Cells (khoanh đỏ) trong tab Table Layout.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b7-2.png",
+        "caption": "Kết quả sau khi trộn: ô 1,5 năm và ô 3,5 năm đã là ô trộn (vùng khoanh đỏ), mỗi ô hiện hai dòng.",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Đặt chiều cao các dòng của bảng đúng 1,5 cm",
       "forRequirement": "4",
       "actions": [
        "Chọn toàn bộ bảng (bấm dấu chữ thập góc trên trái bảng).",
-       "Bấm chuột phải > Table Properties (hoặc Table Tools > Layout > Properties).",
+       "Bấm chuột phải > Table Properties (hoặc tab Table Layout > Properties).",
        "Chuyển tab Row. Tích 'Specify height', nhập 1.5 cm. Ở ô 'Row height is' chọn Exactly (đúng bằng). Bỏ tích 'Allow row to break across pages' cho gọn.",
-       "Bấm OK. Kiểm tra: bấm vào từng dòng, Table Tools > Layout > nhóm Cell Size > Height hiển thị 1.5 cm."
+       "Bấm OK. Kiểm tra: bấm vào từng dòng, tab Table Layout > nhóm Cell Size > Height hiển thị 1.5 cm."
       ],
-      "note": "Nhập ở ô Height của nhóm Cell Size chỉ là 'At least' (tối thiểu). Để đúng 1,5 cm hãy dùng Table Properties > Row > Exactly."
+      "note": "Nhập ở ô Height của nhóm Cell Size chỉ là 'At least' (tối thiểu). Để đúng 1,5 cm hãy dùng Table Properties > Row > Exactly.",
+      "shots": [
+       {
+        "file": "b8-1.png",
+        "caption": "Chọn cả bảng, tab Table Layout, bấm Properties (khoanh đỏ) để mở hộp thoại Table Properties.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b8-2.png",
+        "caption": "Tab Row: tick Specify height, nhập 1.5 cm và chọn Row height is Exactly (khoanh đỏ), rồi bấm OK.",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Đánh số cột TT bằng danh sách Numbering dạng (1), (2), ...",
@@ -204,7 +328,27 @@
        "Số (1) đến (8) xuất hiện trong 8 ô. Nếu số bị lệch vào lề trái ô: Home > Paragraph Dialog Launcher > Indentation đặt Left = 0 và Special = (none).",
        "Căn giữa cột TT: bôi đen cột và bấm Ctrl+E."
       ],
-      "note": "Không gõ tay (1), (2). Nếu mỗi ô lại bắt đầu từ (1) thì do áp dụng từng ô riêng; hãy bôi đen cả 8 ô cùng lúc rồi bấm Numbering."
+      "note": "Không gõ tay (1), (2). Nếu mỗi ô lại bắt đầu từ (1) thì do áp dụng từng ô riêng; hãy bôi đen cả 8 ô cùng lúc rồi bấm Numbering.",
+      "shots": [
+       {
+        "file": "b9-1.png",
+        "caption": "Bôi chọn 8 ô cột TT (không gồm ô tiêu đề), tab Home, bấm mũi tên cạnh nút Numbering rồi chọn Define New Number Format... (các mục khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b9-2.png",
+        "caption": "Number style chọn 1, 2, 3, Number format gõ (1) bằng cách thêm dấu ngoặc quanh con số, Alignment chọn Centered, rồi bấm OK (các ô khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b9-3.png",
+        "caption": "Cột TT đã có số (1) đến (8) tự động (vùng khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Dòng cuối 'TRƯỜNG ĐẠI HỌC ABC' và hoàn thiện",
@@ -216,7 +360,15 @@
        "Bấm Ctrl+P xem trước: toàn bộ nội dung nên vừa 1 trang A4.",
        "Bấm Ctrl+S để lưu bài."
       ],
-      "note": ""
+      "note": "",
+      "shots": [
+       {
+        "file": "b10-1.png",
+        "caption": "Gõ dòng cuối TRƯỜNG ĐẠI HỌC ABC, in đậm và đẩy sang phải. Toàn bộ nằm gọn trong một trang (Page 1 of 1 khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      }
     ],
     "formulas": [],
@@ -464,7 +616,21 @@
       "actions": [
        "Mở Excel, tạo Blank workbook. Bấm Ctrl+S, chọn D:\\ThiCC, đặt tên sbd_cau2.xlsx (sbd là số báo danh), bấm Save."
       ],
-      "note": ""
+      "note": "",
+      "shots": [
+       {
+        "file": "b1-1.png",
+        "caption": "Mở Excel, chọn Blank workbook. Tab File (khoanh đỏ) mở menu lưu file.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b1-2.png",
+        "caption": "File, Save As (khoanh đỏ) hoặc Ctrl+S. Chọn thư mục D:ThiCC, đặt tên sbd_cau2.xlsx, kiểu Excel Workbook (*.xlsx).",
+        "w": 200,
+        "h": 600
+       }
+      ]
      },
      {
       "title": "Nhập tiêu đề 2 tầng",
@@ -476,7 +642,21 @@
        "Bôi đen D1:F1 > Merge & Center (ô 'Lý thuyết'). Bôi đen G1:J1 > Merge & Center (ô 'Bài tập').",
        "Bôi đen A1:M2: Home > Bold (Ctrl+B), căn giữa ngang (Center) và căn giữa dọc (Middle Align)."
       ],
-      "note": "Bảng mẫu trong đề có tiêu đề 2 tầng trộn ô, nên làm giống bảng mẫu."
+      "note": "Bảng mẫu trong đề có tiêu đề 2 tầng trộn ô, nên làm giống bảng mẫu.",
+      "shots": [
+       {
+        "file": "b2-1.png",
+        "caption": "Gõ tiêu đề rồi bôi chọn A1:A2, bấm Merge & Center (khoanh đỏ). Làm tương tự cho B, C, K, L, M và cho D1:F1, G1:J1.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b2-2.png",
+        "caption": "Tiêu đề hai tầng sau khi trộn ô, in đậm, căn giữa ngang và dọc (vùng khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Nhập dữ liệu cho 10 sinh viên",
@@ -486,7 +666,15 @@
        "Gõ A3 = 1, A4 = 2 rồi bôi đen A3:A4 và kéo ô điền (Fill handle, chấm vuông nhỏ góc dưới phải) xuống A12. Tương tự Mã SV: gõ SV001, SV002 rồi kéo xuống SV010.",
        "Điểm là số nguyên từ 0 đến 10. Có thể dùng bộ dữ liệu gợi ý ở phần material (dòng đầu là Nguyễn Văn A: 7, 5, 3, 8, 5, 8, 9 như đề)."
       ],
-      "note": "Điểm phải nhập dạng số (mặc định căn phải), không nhập dạng chữ."
+      "note": "Điểm phải nhập dạng số (mặc định căn phải), không nhập dạng chữ.",
+      "shots": [
+       {
+        "file": "b3-1.png",
+        "caption": "Nhập 10 dòng dữ liệu từ hàng 3 đến hàng 12 (vùng khoanh đỏ): TT, Mã SV, Họ tên và điểm L1, L2, L3, B1, B2, B3, B4. Dùng Fill Handle để điền TT và Mã SV.",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Giới hạn điểm là số nguyên 0 đến 10 (Data Validation)",
@@ -497,7 +685,21 @@
        "Tab Settings: Allow = Whole number, Data = between, Minimum = 0, Maximum = 10.",
        "Tab Error Alert (tùy chọn): Title 'Sai điểm', Error message 'Chỉ nhập số nguyên từ 0 đến 10'. Bấm OK."
       ],
-      "note": "Bước này thể hiện ràng buộc 'nhận giá trị nguyên từ 0 đến 10'. Nếu thi gấp thì có thể bỏ qua nhưng dữ liệu nhập vẫn phải là số nguyên 0 đến 10."
+      "note": "Bước này thể hiện ràng buộc 'nhận giá trị nguyên từ 0 đến 10'. Nếu thi gấp thì có thể bỏ qua nhưng dữ liệu nhập vẫn phải là số nguyên 0 đến 10.",
+      "shots": [
+       {
+        "file": "b4-1.png",
+        "caption": "Bôi chọn D3:J12, tab Data, bấm Data Validation (khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b4-2.png",
+        "caption": "Tab Settings: Allow chọn Whole number, Data chọn between, Minimum 0, Maximum 10 (các ô khoanh đỏ), rồi bấm OK.",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Đặt font, kẻ khung, căn chỉnh, định dạng số",
@@ -509,7 +711,39 @@
        "Định dạng số: bôi đen K3:M12 > chuột phải > Format Cells > tab Number > Category Number > Decimal places = 1 > OK. Cột D:J: Number, Decimal places = 0. Cột TT và Mã SV để General.",
        "Chỉnh độ rộng cột: bôi đen các cột A:M > Home > Format > AutoFit Column Width, hoặc bấm đúp vào đường kẻ giữa hai tên cột."
       ],
-      "note": "Nên đặt font trước khi nhập công thức để khỏi phải chỉnh nhiều lần."
+      "note": "Nên đặt font trước khi nhập công thức để khỏi phải chỉnh nhiều lần.",
+      "shots": [
+       {
+        "file": "b5-1.png",
+        "caption": "Bấm Ctrl+A, tab Home, ô Font chọn Times New Roman, Font Size chọn 13 (khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b5-2.png",
+        "caption": "Chọn A1:M12, bấm mũi tên cạnh nút Borders (khoanh đỏ), chọn All Borders (khoanh đỏ) để kẻ khung.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b5-3.png",
+        "caption": "Chọn K3:M12, mở hộp thoại Format Cells (mũi tên góc nhóm Number): tab Number, Category Number, Decimal places 1 (các ô khoanh đỏ), rồi bấm OK.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b5-4.png",
+        "caption": "Chọn A1:M12, Home, Format (khoanh đỏ), AutoFit Column Width (khoanh đỏ) để tự giãn cột.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b5-5.png",
+        "caption": "Bảng sau khi định dạng: font Times New Roman 13, có khung, căn chỉnh theo từng cột (vùng khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Nhập công thức cột LT (Điểm lý thuyết)",
@@ -520,7 +754,21 @@
        "Chọn lại K3 và bấm đúp vào ô điền ở góc dưới phải ô (hoặc kéo xuống) để điền xuống K12.",
        "Ví dụ dòng mẫu 7, 5, 3: (7+5+3)/3 = 5.0 nên K3 hiển thị 5.0."
       ],
-      "note": "Nếu máy báo lỗi công thức khi gõ dấu phẩy, đổi sang dấu chấm phẩy: =ROUND(AVERAGE(D3:F3);1). Tùy Regional Settings của máy (dấu phân cách đối số là , hay ;), các công thức bên dưới đều áp dụng tương tự."
+      "note": "Nếu máy báo lỗi công thức khi gõ dấu phẩy, đổi sang dấu chấm phẩy: =ROUND(AVERAGE(D3:F3);1). Tùy Regional Settings của máy (dấu phân cách đối số là , hay ;), các công thức bên dưới đều áp dụng tương tự.",
+      "shots": [
+       {
+        "file": "b6-1.png",
+        "caption": "Ô K3: =ROUND(AVERAGE(D3:F3),1), gõ vào thanh công thức rồi Enter (Name Box ghi K3, ô và thanh công thức khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b6-2.png",
+        "caption": "Fill xuống đến K12 bằng Fill Handle. Cột LT có kết quả một chữ số thập phân.",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Nhập công thức cột BT (Điểm bài tập)",
@@ -532,7 +780,21 @@
        "Điền xuống L12 bằng cách bấm đúp ô điền.",
        "Ví dụ dòng mẫu 8, 5, 8, 9: bỏ điểm 5, (8+8+9)/3 = 8.33 làm tròn 8.3."
       ],
-      "note": "Cách SUM trừ MIN đơn giản nhất và không phụ thuộc dấu phân cách của máy."
+      "note": "Cách SUM trừ MIN đơn giản nhất và không phụ thuộc dấu phân cách của máy.",
+      "shots": [
+       {
+        "file": "b7-1.png",
+        "caption": "Ô L3: =ROUND((SUM(G3:J3)-MIN(G3:J3))/3,1), trung bình ba điểm bài tập lớn nhất.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b7-2.png",
+        "caption": "Fill xuống đến L12.",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Nhập công thức cột QT (Điểm quá trình)",
@@ -544,7 +806,21 @@
        "Cách viết tương đương: =MIN(10,IF(K3>7,L3+1,L3)).",
        "Kiểm tra: SV001 có K3 = 5.0 không lớn hơn 7 nên QT = BT = 8.3. SV007 (10, 10, 6, 10, 9, 10, 9) có LT = 8.7, BT = 9.7 nên QT = MIN(10.7, 10) = 10."
       ],
-      "note": "'Lớn hơn 7' nghĩa là >7 chứ không phải >=7. LT đúng bằng 7.0 thì không được cộng 1."
+      "note": "'Lớn hơn 7' nghĩa là >7 chứ không phải >=7. LT đúng bằng 7.0 thì không được cộng 1.",
+      "shots": [
+       {
+        "file": "b8-1.png",
+        "caption": "Ô M3: =IF(K3>7,MIN(L3+1,10),L3), cộng 1 điểm nếu LT lớn hơn 7 nhưng không vượt quá 10.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b8-2.png",
+        "caption": "Fill xuống đến M12. Dòng SV007 được chặn ở mức 10.0 nhờ hàm MIN.",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Định dạng trang in: A4, Landscape, 4 lề, căn giữa ngang",
@@ -555,7 +831,27 @@
        "Tab Margins: Top = 2.5, Bottom = 2.5, Left = 2.5, Right = 1.5 (cm). Tích chọn Horizontally trong mục 'Center on page'.",
        "Bấm OK. Bấm Ctrl+P để xem trước: bảng nằm giữa trang theo chiều ngang, vừa 1 trang."
       ],
-      "note": "Nếu hộp thoại hiển thị inch thì gõ kèm 'cm' (ví dụ 2.5 cm). Nếu bảng tràn sang trang 2, thu hẹp độ rộng cột hoặc vào tab Page chọn Fit to 1 page wide."
+      "note": "Nếu hộp thoại hiển thị inch thì gõ kèm 'cm' (ví dụ 2.5 cm). Nếu bảng tràn sang trang 2, thu hẹp độ rộng cột hoặc vào tab Page chọn Fit to 1 page wide.",
+      "shots": [
+       {
+        "file": "b9-1.png",
+        "caption": "Tab Page Layout, bấm mũi tên góc dưới phải nhóm Page Setup (khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b9-2.png",
+        "caption": "Tab Page: Orientation chọn Landscape, Paper size chọn A4 (khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b9-3.png",
+        "caption": "Tab Margins: Top 2.5, Bottom 2.5, Left 2.5, Right 1.5 (cm), tick Horizontally ở mục Center on page (khoanh đỏ), rồi bấm OK.",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Lưu bài",
@@ -563,7 +859,15 @@
       "actions": [
        "Bấm Ctrl+S. Kiểm tra file nằm ở D:\\ThiCC và tên là sbd_cau2.xlsx."
       ],
-      "note": ""
+      "note": "",
+      "shots": [
+       {
+        "file": "b10-1.png",
+        "caption": "Bấm Ctrl+S hoặc File, Save (khoanh đỏ) để lưu bài vào D:ThiCC với tên sbd_cau2.xlsx.",
+        "w": 200,
+        "h": 600
+       }
+      ]
      }
     ],
     "formulas": [
@@ -660,7 +964,21 @@
        "Mở PowerPoint, chọn Blank Presentation. Bấm Ctrl+S, chọn D:\\ThiCC, đặt tên sbd_cau3.pptx (sbd là số báo danh), bấm Save.",
        "Lưu ý: nội dung slide không được ghi họ tên, số báo danh hoặc thông tin cá nhân."
       ],
-      "note": ""
+      "note": "",
+      "shots": [
+       {
+        "file": "b1-1.png",
+        "caption": "Mở PowerPoint, chọn Blank Presentation. Tab File (khoanh đỏ) mở menu lưu file.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b1-2.png",
+        "caption": "File, Save As (khoanh đỏ) hoặc Ctrl+S. Chọn thư mục D:ThiCC, đặt tên sbd_cau3.pptx.",
+        "w": 200,
+        "h": 600
+       }
+      ]
      },
      {
       "title": "Chỉnh Slide Master: font Arial cho tất cả",
@@ -671,7 +989,27 @@
        "Kiểm tra: chọn slide cha (slide lớn nhất ở trên cùng), bấm vào khung 'Click to edit Master title style' xem Home hiển thị Arial; làm tương tự với khung 'Click to edit Master text styles'. Nếu chưa phải Arial, bôi đen khung và chọn Arial trong Home > Font.",
        "Chọn các khung Date, Footer, Slide Number ở slide cha và đặt font Arial."
       ],
-      "note": "Sửa ở slide cha thì tất cả layout con kế thừa; sửa riêng một layout thì chỉ layout đó đổi."
+      "note": "Sửa ở slide cha thì tất cả layout con kế thừa; sửa riêng một layout thì chỉ layout đó đổi.",
+      "shots": [
+       {
+        "file": "b2-1.png",
+        "caption": "Tab View, bấm Slide Master (khoanh đỏ) để vào chế độ chỉnh slide mẫu.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b2-2.png",
+        "caption": "Tab Slide Master, bấm Fonts rồi chọn Customize Fonts... (khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b2-3.png",
+        "caption": "Hộp thoại Create New Theme Fonts: Heading font và Body font đều chọn Arial, đặt Name rồi bấm Save (các ô khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Căn chỉnh nội dung hai bên (Justify) trong Master",
@@ -682,7 +1020,15 @@
        "Làm tương tự với các khung Text ở layout bạn tạo ở bước sau.",
        "Khung tiêu đề (Title) có thể giữ căn giữa hoặc trái; yêu cầu chỉ nói 'nội dung căn chỉnh 2 bên'."
       ],
-      "note": "Justify chỉ nhìn rõ khi đoạn văn dài hơn một dòng."
+      "note": "Justify chỉ nhìn rõ khi đoạn văn dài hơn một dòng.",
+      "shots": [
+       {
+        "file": "b3-1.png",
+        "caption": "Chọn slide master lớn nhất ở đầu cột trái, bấm vào khung nội dung rồi tab Home, bấm Justify (khoanh đỏ) để căn đều hai bên.",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Kiểm tra khung số trang trên Master",
@@ -691,7 +1037,15 @@
        "Trong Slide Master, kiểm tra khung Slide Number (hình <#>) còn tồn tại ở slide cha và ở các layout. Nếu bị xóa, chọn layout đó rồi tab Slide Master > nhóm Master Layout > tích Slide Number.",
        "Có thể chỉnh vị trí, cỡ chữ, màu số trang ở slide cha cho dễ nhìn."
       ],
-      "note": "Số trang lấy từ khung Slide Number của layout đang dùng, nên layout tự tạo cũng phải có khung này."
+      "note": "Số trang lấy từ khung Slide Number của layout đang dùng, nên layout tự tạo cũng phải có khung này.",
+      "shots": [
+       {
+        "file": "b4-1.png",
+        "caption": "Khung số trang (hình <#>, khoanh đỏ) vẫn còn trên slide master. Nếu mất, chọn layout rồi tick Slide Number trong nhóm Master Layout.",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Tạo mới ít nhất 02 layout",
@@ -703,7 +1057,45 @@
        "Cách nhanh: chuột phải layout 'Title and Content' > Duplicate Layout rồi sửa lại bố cục.",
        "Bấm Close Master View khi xong."
       ],
-      "note": "Đề yêu cầu 'tạo mới' nên không chỉ dùng layout có sẵn; các layout tạo ra phải được dùng cho slide thật sự."
+      "note": "Đề yêu cầu 'tạo mới' nên không chỉ dùng layout có sẵn; các layout tạo ra phải được dùng cho slide thật sự.",
+      "shots": [
+       {
+        "file": "b5-1.png",
+        "caption": "Trong Slide Master, chọn một layout rồi bấm Insert Layout (khoanh đỏ) để thêm layout mới.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b5-2.png",
+        "caption": "Bấm Rename, đặt tên layout là DiaDanh rồi bấm Rename (các ô khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b5-3.png",
+        "caption": "Insert Placeholder: chọn loại khung cần thêm như Text hoặc Picture (khoanh đỏ), kéo khung vào vị trí mong muốn.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b5-4.png",
+        "caption": "Layout DiaDanh (khoanh đỏ): tiêu đề ở trên, khung hình bên trái, khung chữ bên phải.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b5-5.png",
+        "caption": "Layout thứ hai NoiDung (khoanh đỏ): tiêu đề ở trên và một khung chữ lớn bên dưới.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b5-6.png",
+        "caption": "Bấm Close Master View (khoanh đỏ) để quay về chế độ soạn slide.",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Dựng 5 slide và áp dụng layout",
@@ -714,7 +1106,39 @@
        "Slide 3, 4, 5: New Slide, Layout chọn DiaDanh. Title là tên địa danh, khung chữ gõ vị trí địa lý, đặc điểm, phương tiện đi lại (ít nhất 3 nội dung). Chèn hình: bấm biểu tượng Picture trong khung hình để chọn ảnh từ máy (hoặc Insert > Pictures / Online Pictures).",
        "Căn chỉnh hình, chữ cân đối giữa các slide (Format > Align). Kiểm tra chữ không tràn khung và không có thông tin cá nhân."
       ],
-      "note": "Nếu đề thi không cung cấp ảnh thì dùng ảnh có sẵn trong máy hoặc Insert > Online Pictures."
+      "note": "Nếu đề thi không cung cấp ảnh thì dùng ảnh có sẵn trong máy hoặc Insert > Online Pictures.",
+      "shots": [
+       {
+        "file": "b6-1.png",
+        "caption": "Tab Home, bấm Layout (khoanh đỏ): hai layout vừa tạo là DiaDanh và NoiDung (khoanh đỏ) nằm trong danh sách.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b6-2.png",
+        "caption": "Slide 1 dùng layout Title Slide: gõ tiêu đề Địa danh ở Việt Nam và phụ đề Giới thiệu (các khung khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b6-3.png",
+        "caption": "Slide 2 dùng layout NoiDung: tiêu đề Nội dung trình bày và 3 dòng tên 3 địa danh theo thứ tự trình bày (các khung khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b6-4.png",
+        "caption": "Slide 3 dùng layout DiaDanh: tên địa danh, hình ảnh và 3 nội dung vị trí, đặc điểm, phương tiện đi lại (các khung khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b6-5.png",
+        "caption": "Cột trái hiện đủ 5 slide: slide 1 giới thiệu, slide 2 nội dung, slide 3 đến 5 mỗi slide một địa danh có hình (vùng khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Đánh số trang tự động, trừ slide đầu",
@@ -725,7 +1149,27 @@
        "Bấm Apply to All. Slide 1 (Title Slide) không có số, slide 2 hiển thị 2, slide 3 hiển thị 3, ...",
        "Kiểm tra: duyệt qua từng slide, chắc chắn số trang xuất hiện ở slide 2 đến 5."
       ],
-      "note": "Nếu slide dùng layout tự tạo không hiện số: mở Slide Master, chọn layout đó, tích Slide Number trong Master Layout, rồi làm lại Apply to All."
+      "note": "Nếu slide dùng layout tự tạo không hiện số: mở Slide Master, chọn layout đó, tích Slide Number trong Master Layout, rồi làm lại Apply to All.",
+      "shots": [
+       {
+        "file": "b7-1.png",
+        "caption": "Chọn slide 2, tab Insert, bấm Slide Number (khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b7-2.png",
+        "caption": "Hộp thoại Header and Footer, tab Slide: tick Slide number và Don't show on title slide, rồi bấm Apply to All (các mục khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b7-3.png",
+        "caption": "Số trang xuất hiện tự động ở góc dưới phải (khoanh đỏ) từ slide 2; slide 1 là Title Slide nên không có số.",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Thêm ít nhất 02 hiệu ứng hoạt hình khác nhau (Animation)",
@@ -738,7 +1182,33 @@
        "Mở Animation Pane (Animations > Advanced Animation > Animation Pane) kiểm tra danh sách hiệu ứng, thứ tự, Start (On Click hoặc After Previous), Duration.",
        "Bấm Preview hoặc F5 để xem thử."
       ],
-      "note": "Hai hiệu ứng khác nhau nghĩa là hai kiểu khác nhau (Fade khác Fly In), không phải hai lần cùng một kiểu."
+      "note": "Hai hiệu ứng khác nhau nghĩa là hai kiểu khác nhau (Fade khác Fly In), không phải hai lần cùng một kiểu.",
+      "shots": [
+       {
+        "file": "b8-1.png",
+        "caption": "Slide 3: chọn khung tiêu đề, tab Animations, chọn hiệu ứng Fade (khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b8-2.png",
+        "caption": "Chọn khung nội dung, chọn hiệu ứng Fly In (khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b8-3.png",
+        "caption": "Chọn hình ảnh, bấm mũi tên mở rộng thư viện rồi chọn Zoom (khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b8-4.png",
+        "caption": "Bấm Animation Pane (khoanh đỏ) để xem danh sách 3 hiệu ứng, thứ tự và cách bắt đầu (vùng khoanh đỏ bên phải).",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Thêm ít nhất 02 hiệu ứng chuyển slide khác nhau (Transition)",
@@ -749,7 +1219,33 @@
        "Chọn slide 4 và 5, áp dụng một trong hai kiểu trên hoặc một kiểu khác.",
        "Không bấm Apply To All vì sẽ làm mọi slide giống nhau. Bấm Preview xem thử."
       ],
-      "note": "Phải có ít nhất 2 kiểu Transition khác nhau trên các slide khác nhau."
+      "note": "Phải có ít nhất 2 kiểu Transition khác nhau trên các slide khác nhau.",
+      "shots": [
+       {
+        "file": "b9-1.png",
+        "caption": "Chọn slide 1, tab Transitions, chọn Fade (khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b9-2.png",
+        "caption": "Chọn slide 2 và slide 3, chọn Push (khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b9-3.png",
+        "caption": "Chọn slide 4 và slide 5, chọn Wipe (khoanh đỏ). Không bấm Apply To All để các slide có hiệu ứng khác nhau.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b9-4.png",
+        "caption": "Các slide đã gắn hiệu ứng có biểu tượng ngôi sao nhỏ cạnh số slide ở cột trái (vùng khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Kiểm tra cuối cùng và lưu",
@@ -760,7 +1256,21 @@
        "Kiểm tra lại không có thông tin cá nhân trên slide.",
        "Bấm Ctrl+S để lưu sbd_cau3.pptx trong D:\\ThiCC."
       ],
-      "note": ""
+      "note": "",
+      "shots": [
+       {
+        "file": "b10-1.png",
+        "caption": "Tab Slide Show, bấm From Beginning (khoanh đỏ) hoặc phím F5 để xem cả bài từ đầu.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b10-2.png",
+        "caption": "Chế độ Slide Sorter cho thấy đủ 5 slide: slide 1 không có số trang, các slide còn lại có số trang và biểu tượng hiệu ứng.",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      }
     ],
     "formulas": [],
