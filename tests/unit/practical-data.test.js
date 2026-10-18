@@ -22,7 +22,7 @@ function allStrings(value, out = []) {
   return out;
 }
 
-const ILLUSTRATED_SETS = [1, 2, 3];
+const ILLUSTRATED_SETS = [1, 2, 3, 4];
 
 test("illustrated sets have screenshots on every step of all three tasks", () => {
   for (const id of ILLUSTRATED_SETS) {

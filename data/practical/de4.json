@@ -58,7 +58,21 @@
        "Nhấn Ctrl+S (hoặc File > Save As > Browse). Chọn thư mục D:\\ThiCC, ở ô File name gõ sbd_cau1 (thay sbd bằng số báo danh của bạn, ví dụ 123_cau1), ở ô Save as type chọn Word Document (*.docx), nhấn Save.",
        "Trong lúc làm bài nhấn Ctrl+S thường xuyên."
       ],
-      "note": "Tên file phải đúng dạng sbd_cau1.docx và nằm trong D:\\ThiCC."
+      "note": "Tên file phải đúng dạng sbd_cau1.docx và nằm trong D:\\ThiCC.",
+      "shots": [
+       {
+        "file": "b1-1.png",
+        "caption": "Mở Word, chọn Blank document. Tab File (khoanh đỏ) mở menu lưu file.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b1-2.png",
+        "caption": "File, Save As (khoanh đỏ) hoặc Ctrl+S. Chọn thư mục D:ThiCC, đặt tên sbd_cau1.docx rồi bấm Save.",
+        "w": 200,
+        "h": 600
+       }
+      ]
      },
      {
       "title": "Bước 2. Định dạng trang (làm trước khi gõ nội dung)",
@@ -69,7 +83,27 @@
        "Thẻ Paper: ở Paper size chọn A4 (21 cm x 29.7 cm).",
        "Bấm OK. Nếu Word cảnh báo lề nằm ngoài vùng in của máy in thì chọn Ignore để giữ đúng số đo đề yêu cầu."
       ],
-      "note": "Nếu ô hiển thị inch thì cứ gõ '2.5 cm', Word tự đổi đơn vị."
+      "note": "Nếu ô hiển thị inch thì cứ gõ '2.5 cm', Word tự đổi đơn vị.",
+      "shots": [
+       {
+        "file": "b2-1.png",
+        "caption": "Tab Layout, bấm mũi tên nhỏ ở góc dưới phải nhóm Page Setup (khoanh đỏ) để mở hộp thoại Page Setup.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b2-2.png",
+        "caption": "Tab Margins: Top 2.5 cm, Bottom 2 cm, Left 3.5 cm, Right 1.5 cm và chọn Portrait (các ô khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b2-3.png",
+        "caption": "Tab Paper: Paper size chọn A4 (khoanh đỏ), rồi bấm OK.",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Bước 3. Đặt font Times New Roman cỡ 13 cho toàn bài",
@@ -79,7 +113,21 @@
        "Hoặc làm sau khi gõ xong: nhấn Ctrl+A, rồi Home > nhóm Font: chọn Times New Roman ở ô font và 13 ở ô cỡ chữ.",
        "Cuối bài, nhấn Ctrl+A một lần nữa và kiểm tra ô font vẫn là Times New Roman, cỡ 13 (ô font trống nghĩa là còn đoạn khác font)."
       ],
-      "note": "Chữ trong Text Box (ô ảnh) và trong bảng cũng phải là Times New Roman 13; kiểm tra riêng từng nơi."
+      "note": "Chữ trong Text Box (ô ảnh) và trong bảng cũng phải là Times New Roman 13; kiểm tra riêng từng nơi.",
+      "shots": [
+       {
+        "file": "b3-1.png",
+        "caption": "Cách đặt font cho cả bài: tab Home, bấm phải vào kiểu Normal, chọn Modify... (khoanh đỏ). Cách này cho cùng kết quả với Ctrl+D rồi Set As Default.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b3-2.png",
+        "caption": "Hộp thoại Modify Style: Font Times New Roman, cỡ 13 (khoanh đỏ). Bấm Format (khoanh đỏ), chọn Paragraph... để đặt giãn đoạn Before 0, After 0, Line spacing Single.",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Bước 4. Gõ phần tiêu đề (quốc hiệu, tiêu ngữ, tên đơn)",
@@ -91,7 +139,15 @@
        "Nhấn Enter, để một dòng trống, rồi gõ ĐƠN XIN CHUYỂN ĐỊA ĐIỂM HỌC TẬP, căn giữa (Ctrl+E), in đậm (Ctrl+B).",
        "Nhấn Enter thêm 1 dòng trống trước khi sang phần nội dung đơn."
       ],
-      "note": "Dùng Unikey bật tiếng Việt và soát lại dấu thanh, dấu mũ của từng dòng trước khi sang dòng sau."
+      "note": "Dùng Unikey bật tiếng Việt và soát lại dấu thanh, dấu mũ của từng dòng trước khi sang dòng sau.",
+      "shots": [
+       {
+        "file": "b4-1.png",
+        "caption": "Gõ quốc hiệu, tiêu ngữ và tên đơn; chọn từng dòng, bấm Bold và Center (các nút khoanh đỏ). Các dòng này nằm trong vùng khoanh đỏ.",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Bước 5. Dùng Tab để tạo chỗ trống điền thông tin (dấu chấm dẫn)",
@@ -112,7 +168,27 @@
        "Dòng ngày tháng: căn phải (Ctrl+R) rồi gõ ........, ngày ...... tháng ..... năm 20.... hoặc dùng Tab (điểm dừng có leader chấm) để tạo các chỗ trống, giống mẫu.",
        "Kiểm tra: bật Home > nút Show/Hide (Ctrl+Shift+8) sẽ thấy ký hiệu mũi tên Tab ở mỗi chỗ trống thay vì dấu chấm gõ tay."
       ],
-      "note": "Điểm chấm của yêu cầu 3 là các chỗ trống dùng phím Tab. Không gõ liền tay dãy dấu chấm và không dùng nhiều dấu cách để căn."
+      "note": "Điểm chấm của yêu cầu 3 là các chỗ trống dùng phím Tab. Không gõ liền tay dãy dấu chấm và không dùng nhiều dấu cách để căn.",
+      "shots": [
+       {
+        "file": "b5-1.png",
+        "caption": "Đặt con trỏ vào dòng cần chấm dẫn, tab Home, bấm mũi tên góc nhóm Paragraph rồi bấm nút Tabs... (khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b5-2.png",
+        "caption": "Hộp thoại Tabs: nhập vị trí vào Tab stop position, Alignment chọn Left, Leader chọn 2 (dãy chấm), bấm Set (các mục khoanh đỏ). Làm lần lượt cho từng điểm dừng rồi bấm OK.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b5-3.png",
+        "caption": "Bật Show/Hide (Ctrl+Shift+8) sẽ thấy mũi tên Tab ở mỗi chỗ trống thay vì dấu chấm gõ tay (vùng khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Bước 6. Chèn ô ảnh bằng công cụ Insert (Text Box)",
@@ -124,7 +200,27 @@
        "Giữ đường viền đen (Format > Shape Outline > Black) và không tô nền (Shape Fill > No Fill).",
        "Nhấp chọn ô > Format > Wrap Text > chọn In Front of Text hoặc Square để ô không làm xô lệch dòng chữ, rồi kéo ô vào góc trên trái như mẫu."
       ],
-      "note": "Phải tạo bằng Insert (Text Box hoặc Shapes), không dùng bảng hay gõ ký tự để vẽ khung."
+      "note": "Phải tạo bằng Insert (Text Box hoặc Shapes), không dùng bảng hay gõ ký tự để vẽ khung.",
+      "shots": [
+       {
+        "file": "b6-1.png",
+        "caption": "Tab Insert, bấm Text Box rồi chọn Draw Text Box (khoanh đỏ), vẽ ô ở góc trên trái.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b6-2.png",
+        "caption": "Tab Shape Format: đặt kích thước ô khoảng 2.5 cm x 3.5 cm (ô Height và Width khoanh đỏ), Shape Fill chọn No Fill, Shape Outline chọn đen (khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b6-3.png",
+        "caption": "Ô ảnh có chữ ẢNH 4x6 in đậm căn giữa, nằm ở góc trên trái như mẫu (vùng khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Bước 7. Tạo bảng 1 dòng 2 cột không đường viền cho phần xác nhận và người viết đơn",
@@ -133,10 +229,36 @@
        "Đặt con trỏ ở dòng mới sau dòng ngày tháng.",
        "Insert > nhóm Tables > Table > Insert Table..., nhập Number of columns: 2, Number of rows: 1 > OK.",
        "Ô trái gõ XÁC NHẬN LÃNH ĐẠO KHOA, ô phải gõ NGƯỜI VIẾT ĐƠN. Bôi đen cả bảng, nhấn Ctrl+B để in đậm và Ctrl+E để căn giữa từng ô.",
-       "Bỏ đường viền: bấm vào biểu tượng chọn bảng (dấu thập ở góc trên trái bảng) để chọn cả bảng > Home > nhóm Paragraph > mũi tên của nút Borders > chọn No Border (hoặc Table Tools > Design > Borders > No Border).",
+       "Bỏ đường viền: bấm vào biểu tượng chọn bảng (dấu thập ở góc trên trái bảng) để chọn cả bảng > Home > nhóm Paragraph > mũi tên của nút Borders > chọn No Border (hoặc tab Table Design > Borders > No Border).",
        "Tùy chọn: Table Tools > Layout > Distribute Columns để hai cột bằng nhau; tăng chiều cao hàng hoặc nhấn Enter thêm trong ô để có chỗ ký tên."
       ],
-      "note": "Phải đúng 1 dòng và 2 cột, không còn đường viền nào. Nếu vẫn thấy khung thì chưa chọn cả bảng khi bấm No Border (đường lưới xám hiện trên màn hình là View Gridlines, không in ra)."
+      "note": "Phải đúng 1 dòng và 2 cột, không còn đường viền nào. Nếu vẫn thấy khung thì chưa chọn cả bảng khi bấm No Border (đường lưới xám hiện trên màn hình là View Gridlines, không in ra).",
+      "shots": [
+       {
+        "file": "b7-1.png",
+        "caption": "Đặt con trỏ dưới dòng ngày tháng, tab Insert, bấm Table rồi chọn Insert Table... (khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b7-2.png",
+        "caption": "Nhập Number of columns 2, Number of rows 1 (khoanh đỏ) rồi bấm OK.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b7-3.png",
+        "caption": "Gõ XÁC NHẬN LÃNH ĐẠO KHOA và NGƯỜI VIẾT ĐƠN, chọn cả bảng, bấm Bold và Center (các nút khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b7-4.png",
+        "caption": "Chọn cả bảng, tab Home, bấm mũi tên cạnh nút Borders rồi chọn No Border (khoanh đỏ) để bỏ đường viền.",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Bước 8. Kiểm tra và lưu",
@@ -147,7 +269,15 @@
        "File > Print (Ctrl+P) xem trước: toàn bộ đơn gọn trong 1 trang, các dãy dấu chấm kết thúc cùng một mép phải, bảng không viền ở cuối trang.",
        "Ctrl+S lưu lần cuối."
       ],
-      "note": ""
+      "note": "",
+      "shots": [
+       {
+        "file": "b8-1.png",
+        "caption": "Xem toàn bộ đơn gọn trong một trang A4 (Page 1 of 1 khoanh đỏ), kiểm tra font, lề, dãy chấm và bảng không viền rồi Ctrl+S để lưu.",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      }
     ],
     "formulas": [],
@@ -320,7 +450,21 @@
        "Mở Microsoft Excel, chọn Blank workbook.",
        "Nhấn Ctrl+S, chọn thư mục D:\\ThiCC, đặt tên sbd_cau2 (ví dụ 123_cau2), kiểu Excel Workbook (*.xlsx), nhấn Save."
       ],
-      "note": "sbd là số báo danh của thí sinh."
+      "note": "sbd là số báo danh của thí sinh.",
+      "shots": [
+       {
+        "file": "b1-1.png",
+        "caption": "Mở Excel, chọn Blank workbook. Tab File (khoanh đỏ) mở menu lưu file.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b1-2.png",
+        "caption": "File, Save As (khoanh đỏ) hoặc Ctrl+S. Chọn thư mục D:ThiCC, đặt tên sbd_cau2.xlsx rồi bấm Save.",
+        "w": 200,
+        "h": 600
+       }
+      ]
      },
      {
       "title": "Bước 2. Nhập tiêu đề cột và dữ liệu cho 05 sinh viên",
@@ -331,7 +475,15 @@
        "Các cột Buổi 1 đến Buổi 10 chỉ nhập một trong các giá trị: x (đi học), 0 (nghỉ không phép), 1 (nghỉ có phép).",
        "Nên cho ít nhất một sinh viên có KP từ 3 trở lên (hoặc CP từ 5 trở lên) để kiểm tra trường hợp CC = 0."
       ],
-      "note": "Chữ x gõ chữ thường; nếu Excel tự đổi thành X cũng không ảnh hưởng vì công thức chỉ đếm số 0 và số 1."
+      "note": "Chữ x gõ chữ thường; nếu Excel tự đổi thành X cũng không ảnh hưởng vì công thức chỉ đếm số 0 và số 1.",
+      "shots": [
+       {
+        "file": "b2-1.png",
+        "caption": "Gõ tiêu đề 16 cột ở hàng 1 và dữ liệu 5 sinh viên ở hàng 2 đến 6 (vùng khoanh đỏ). Các ô Buổi chỉ nhận x, 0 hoặc 1; cột KP, CP, CC để trống vì sẽ dùng công thức.",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Bước 3. Kẻ khung, căn chỉnh, định dạng kiểu dữ liệu và font",
@@ -344,7 +496,33 @@
        "Định dạng kiểu dữ liệu: cột TT, KP, CP là Number (0 chữ số thập phân); cột CC là Number với 1 chữ số thập phân vì có thể có 0.5 (chọn cột CC > Ctrl+1 > Number > Decimal places 1); cột Mã SV và Họ tên là Text hoặc General.",
        "Chỉnh độ rộng cột: chọn các cột A đến P, nhấp đúp vào ranh giới giữa hai tiêu đề cột để tự khít (AutoFit), hoặc Home > Format > AutoFit Column Width. Cột Buổi nên hẹp để bảng vừa một trang."
       ],
-      "note": "Nếu muốn giữ Mã SV đúng dạng văn bản thì đặt ô là Text (Format Cells > Text) trước khi nhập."
+      "note": "Nếu muốn giữ Mã SV đúng dạng văn bản thì đặt ô là Text (Format Cells > Text) trước khi nhập.",
+      "shots": [
+       {
+        "file": "b3-1.png",
+        "caption": "Bấm Ctrl+A, tab Home, ô Font chọn Times New Roman, Font Size chọn 13 (khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b3-2.png",
+        "caption": "Chọn A1:P6, bấm mũi tên cạnh nút Borders (khoanh đỏ), chọn All Borders (khoanh đỏ) để kẻ khung.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b3-3.png",
+        "caption": "Chọn vùng bảng, Home, Format (khoanh đỏ), AutoFit Column Width (khoanh đỏ) để tự giãn cột.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b3-4.png",
+        "caption": "Bảng sau khi định dạng: font Times New Roman 13, có khung (vùng khoanh đỏ). Hàng tiêu đề căn giữa và in đậm.",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Bước 4. Định dạng trang in",
@@ -355,7 +533,27 @@
        "Thẻ Margins: Top nhập 2.5, Bottom nhập 2.5, Left nhập 2.5, Right nhập 1.5 (cm). Ở mục 'Center on page' đánh dấu chọn Horizontally để căn bảng giữa trang theo chiều ngang.",
        "Nhấn OK. Xem trước bằng File > Print (Ctrl+P) để chắc chắn bảng nằm giữa trang."
       ],
-      "note": "Nếu máy hiển thị inch thì gõ '2.5 cm' vào ô, Excel tự đổi (0.98 inch). Nếu bảng tràn sang trang 2 thì thu hẹp độ rộng các cột."
+      "note": "Nếu máy hiển thị inch thì gõ '2.5 cm' vào ô, Excel tự đổi (0.98 inch). Nếu bảng tràn sang trang 2 thì thu hẹp độ rộng các cột.",
+      "shots": [
+       {
+        "file": "b4-1.png",
+        "caption": "Tab Page Layout, bấm mũi tên góc dưới phải nhóm Page Setup (khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b4-2.png",
+        "caption": "Tab Page: Orientation chọn Landscape, Paper size chọn A4 (khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b4-3.png",
+        "caption": "Tab Margins: Top 2.5, Bottom 2.5, Left 2.5, Right 1.5 (cm), tick Horizontally ở mục Center on page (các ô khoanh đỏ), rồi bấm OK.",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Bước 5. Công thức cột KP (số ngày nghỉ học không phép)",
@@ -365,7 +563,21 @@
        "Công thức đếm số ô trong khoảng D2:M2 có giá trị bằng 0 (nghỉ không phép).",
        "Sao chép xuống: nhấp ô N2, đưa chuột vào chấm vuông nhỏ ở góc dưới bên phải ô cho thành dấu cộng đen, nhấp đúp (hoặc kéo xuống tới hàng 6)."
       ],
-      "note": "Nếu máy dùng dấu chấm phẩy làm phân cách đối số thì gõ =COUNTIF(D2:M2;0). Nếu gõ dấu phẩy mà Excel báo lỗi thì đổi sang dấu chấm phẩy, và ngược lại."
+      "note": "Nếu máy dùng dấu chấm phẩy làm phân cách đối số thì gõ =COUNTIF(D2:M2;0). Nếu gõ dấu phẩy mà Excel báo lỗi thì đổi sang dấu chấm phẩy, và ngược lại.",
+      "shots": [
+       {
+        "file": "b5-1.png",
+        "caption": "Ô N2 (KP): =COUNTIF(D2:M2,0), gõ vào thanh công thức rồi Enter (Name Box, ô và thanh công thức khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b5-2.png",
+        "caption": "Fill xuống đến N6 bằng Fill Handle. Kết quả KP: 1, 2, 0, 2, 3.",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Bước 6. Công thức cột CP (số ngày nghỉ học có phép)",
@@ -375,7 +587,21 @@
        "Công thức đếm số ô trong khoảng D2:M2 có giá trị bằng 1 (nghỉ có phép).",
        "Sao chép xuống các hàng 3 đến 6 bằng cách nhấp đúp vào chấm vuông ở góc dưới phải ô O2."
       ],
-      "note": ""
+      "note": "",
+      "shots": [
+       {
+        "file": "b6-1.png",
+        "caption": "Ô O2 (CP): =COUNTIF(D2:M2,1).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b6-2.png",
+        "caption": "Fill xuống đến O6. Kết quả CP: 2, 0, 2, 0, 3.",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Bước 7. Công thức cột CC (điểm chuyên cần)",
@@ -386,7 +612,21 @@
        "Sao chép xuống các hàng 3 đến 6.",
        "Chọn cột CC, Ctrl+1 > Number > Decimal places 1 để số hiển thị đồng đều (ví dụ 8.0, 9.0, 0.0)."
       ],
-      "note": "Không viết số 0 trong dấu ngoặc kép vì kết quả sẽ là chữ chứ không phải số. Nếu máy dùng dấu phẩy thập phân thì hệ số viết 0,5 và các đối số ngăn cách bằng dấu chấm phẩy."
+      "note": "Không viết số 0 trong dấu ngoặc kép vì kết quả sẽ là chữ chứ không phải số. Nếu máy dùng dấu phẩy thập phân thì hệ số viết 0,5 và các đối số ngăn cách bằng dấu chấm phẩy.",
+      "shots": [
+       {
+        "file": "b7-1.png",
+        "caption": "Ô P2 (CC): =IF(AND(N2<3,O2<5),10-N2-0.5*O2,0).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b7-2.png",
+        "caption": "Fill xuống đến P6. Kết quả CC: 8, 8, 9, 8, 0 (sinh viên cuối nghỉ quá giới hạn nên CC = 0).",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Bước 8. Kiểm tra và lưu",
@@ -396,7 +636,15 @@
        "Xem trước in (Ctrl+P): hướng ngang, bảng nằm giữa trang theo chiều ngang.",
        "Nhấn Ctrl+S lưu file."
       ],
-      "note": ""
+      "note": "",
+      "shots": [
+       {
+        "file": "b8-1.png",
+        "caption": "Bấm Ctrl+S hoặc File, Save (khoanh đỏ) để lưu bài vào D:ThiCC với tên sbd_cau2.xlsx.",
+        "w": 200,
+        "h": 600
+       }
+      ]
      }
     ],
     "formulas": [
@@ -466,7 +714,21 @@
        "Nhấn Ctrl+S, chọn thư mục D:\\ThiCC, đặt tên sbd_cau3 (ví dụ 123_cau3), kiểu PowerPoint Presentation (*.pptx), nhấn Save.",
        "Sau đó làm theo từng yêu cầu của đề khi có nội dung (Slide Master, bố cục, Animations, Transitions, đánh số slide qua Insert > Slide Number...)."
       ],
-      "note": "Cần bổ sung hướng dẫn chi tiết sau khi có ảnh trang 2 của đề."
+      "note": "Cần bổ sung hướng dẫn chi tiết sau khi có ảnh trang 2 của đề.",
+      "shots": [
+       {
+        "file": "b1-1.png",
+        "caption": "Mở PowerPoint, chọn Blank Presentation. Tab File (khoanh đỏ) mở menu lưu file.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b1-2.png",
+        "caption": "File, Save As (khoanh đỏ) hoặc Ctrl+S. Chọn thư mục D:ThiCC, đặt tên sbd_cau3.pptx rồi bấm Save. Đề của câu này chưa có nên chỉ hướng dẫn phần chung.",
+        "w": 200,
+        "h": 600
+       }
+      ]
      }
     ],
     "formulas": [],
