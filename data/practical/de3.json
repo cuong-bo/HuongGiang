@@ -120,19 +120,53 @@
        "Nhấn Ctrl+S, chọn thư mục E:\\ThiCC, đặt tên xyz_cau1.docx (xyz là số báo danh của bạn), bấm Save.",
        "Nhớ nhấn Ctrl+S sau mỗi vài bước để không mất bài."
       ],
-      "note": "Trên máy thi, đề yêu cầu lưu trong thư mục E:\\ThiCC. Khi tự ôn tập, bạn lưu ở thư mục bất kỳ."
+      "note": "Trên máy thi, đề yêu cầu lưu trong thư mục E:\\ThiCC. Khi tự ôn tập, bạn lưu ở thư mục bất kỳ.",
+      "shots": [
+       {
+        "file": "b1-1.png",
+        "caption": "Mở Word, chọn Blank document. Tab File (khoanh đỏ) mở menu lưu file.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b1-2.png",
+        "caption": "File, Save As (khoanh đỏ) hoặc Ctrl+S. Chọn thư mục lưu bài, đặt tên theo số báo danh rồi bấm Save.",
+        "w": 200,
+        "h": 600
+       }
+      ]
      },
      {
       "title": "Bước 1. Định dạng trang (làm trước khi gõ để khỏi lệch trang)",
       "forRequirement": "2",
       "actions": [
-       "Tab Page Layout (Bố cục) > nhóm Page Setup > Margins > Custom Margins... (hoặc bấm mũi tên nhỏ ở góc dưới bên phải nhóm Page Setup).",
+       "Tab Layout (bản Office cũ gọi là Page Layout) > nhóm Page Setup > Margins > Custom Margins... (hoặc bấm mũi tên nhỏ ở góc dưới bên phải nhóm Page Setup).",
        "Trong hộp thoại Page Setup, tab Margins: nhập Top = 2.5 cm, Bottom = 2 cm, Left = 3.5 cm, Right = 1.5 cm. Mục Orientation chọn Portrait.",
        "Sang tab Paper: mục Paper size chọn A4 (21 cm x 29.7 cm).",
        "Mục Apply to chọn Whole document, bấm OK.",
        "Nếu Word hiện bảng hỏi về lề nằm ngoài vùng in thì chọn Ignore."
       ],
-      "note": "Nếu máy đang dùng đơn vị Inch, vào File > Options > Advanced > Display > Show measurements in units of > Centimeters để nhập được cm."
+      "note": "Nếu máy đang dùng đơn vị Inch, vào File > Options > Advanced > Display > Show measurements in units of > Centimeters để nhập được cm.",
+      "shots": [
+       {
+        "file": "b2-1.png",
+        "caption": "Tab Layout, bấm mũi tên nhỏ ở góc dưới phải nhóm Page Setup (khoanh đỏ) để mở hộp thoại Page Setup.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b2-2.png",
+        "caption": "Tab Margins: Top 2.5 cm, Bottom 2 cm, Left 3.5 cm, Right 1.5 cm và chọn Portrait (các ô khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b2-3.png",
+        "caption": "Tab Paper: Paper size chọn A4 (khoanh đỏ), rồi bấm OK.",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Bước 2. Đặt font Times New Roman cỡ 13 cho toàn bộ văn bản",
@@ -142,7 +176,21 @@
        "Trong hộp Modify Style, mục Formatting chọn font Times New Roman, cỡ 13. Bấm OK.",
        "Heading 1 và Heading 2 có font riêng (không theo Normal) nên sẽ chỉnh ở Bước 4."
       ],
-      "note": "Cách thay thế: gõ xong toàn bộ nội dung, nhấn Ctrl+A rồi chọn Times New Roman và cỡ 13 trong nhóm Font. Làm cách này thì phải chọn lại Ctrl+A và đặt lại font sau khi áp Heading."
+      "note": "Cách thay thế: gõ xong toàn bộ nội dung, nhấn Ctrl+A rồi chọn Times New Roman và cỡ 13 trong nhóm Font. Làm cách này thì phải chọn lại Ctrl+A và đặt lại font sau khi áp Heading.",
+      "shots": [
+       {
+        "file": "b3-1.png",
+        "caption": "Tab Home, bấm phải vào kiểu Normal trong nhóm Styles, chọn Modify... (khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b3-2.png",
+        "caption": "Hộp thoại Modify Style: Font Times New Roman, cỡ 13 (khoanh đỏ). Bấm Format (khoanh đỏ), chọn Paragraph... để đặt giãn đoạn Before 0, After 0, Line spacing Single.",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Bước 3. Soạn nội dung văn bản",
@@ -155,7 +203,15 @@
        "Ký hiệu '<=' gõ hai ký tự < và =. Nếu Word tự đổi thành ký tự khác thì nhấn Ctrl+Z ngay sau khi nó đổi.",
        "Gõ tiếng Việt có dấu bằng Unikey (Telex hoặc VNI), bảng mã Unicode."
       ],
-      "note": "Đề yêu cầu soạn thảo đầy đủ nội dung như trang 2, nên phải đủ cả công thức, bảng, các dấu đầu dòng và danh mục tài liệu tham khảo."
+      "note": "Đề yêu cầu soạn thảo đầy đủ nội dung như trang 2, nên phải đủ cả công thức, bảng, các dấu đầu dòng và danh mục tài liệu tham khảo.",
+      "shots": [
+       {
+        "file": "b4-1.png",
+        "caption": "Gõ nội dung văn bản. Tiêu đề căn giữa (nút Center) và in đậm (nút B), các nút khoanh đỏ; chỗ (xem ) tạm để trống, sẽ chèn cross-reference ở bước sau.",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Bước 4. Áp dụng Heading 1 và Heading 2",
@@ -168,7 +224,27 @@
        "Làm tương tự với Heading 2: Times New Roman, cỡ 13, Bold + Italic, màu đen.",
        "Các số '1)', '2)' gõ tay như đề, đây là cách ít lỗi nhất (nếu muốn tự động thì dùng Home > Multilevel List, nhưng không bắt buộc)."
       ],
-      "note": "Kiểm tra bằng View > tick Navigation Pane: ô Headings phải hiện 2 mục cấp 1 (A, B) và mỗi mục có 2 mục con cấp 2 thụt vào bên dưới."
+      "note": "Kiểm tra bằng View > tick Navigation Pane: ô Headings phải hiện 2 mục cấp 1 (A, B) và mỗi mục có 2 mục con cấp 2 thụt vào bên dưới.",
+      "shots": [
+       {
+        "file": "b5-1.png",
+        "caption": "Đặt con trỏ vào mục A, tab Home, chọn Heading 1 (khoanh đỏ) trong nhóm Styles. Làm tương tự cho mục B.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b5-2.png",
+        "caption": "Đặt con trỏ vào dòng 1) Cách tính, bấm mũi tên mở rộng thư viện Styles rồi chọn Heading 2 (khoanh đỏ). Làm tương tự cho 2) Phân loại theo WHO, 1) Kiểu 1 và 2) Kiểu 2.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b5-3.png",
+        "caption": "Mục A và mục 1) Cách tính (khoanh đỏ) đã có kiểu Heading 1 và Heading 2, font Times New Roman 13.",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Bước 5. Chèn công thức BMI bằng Insert Equation",
@@ -181,7 +257,27 @@
        "Nhấn mũi tên phải để thoát khỏi phân số. Công thức hoàn chỉnh: BMI(kg/m2) = W / H2.",
        "Bấm ra ngoài khung công thức, công thức tự căn giữa dòng riêng."
       ],
-      "note": "Không dùng ảnh chụp hay gõ chữ 'W/H^2' thông thường; đề yêu cầu dùng Insert Equation nên khi click vào công thức phải thấy khung Equation."
+      "note": "Không dùng ảnh chụp hay gõ chữ 'W/H^2' thông thường; đề yêu cầu dùng Insert Equation nên khi click vào công thức phải thấy khung Equation.",
+      "shots": [
+       {
+        "file": "b6-1.png",
+        "caption": "Đặt con trỏ vào dòng trống sau đoạn Gọi W, tab Insert, bấm Equation (khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b6-2.png",
+        "caption": "Khung công thức xuất hiện cùng tab Equation. Gõ BMI(kg/m^2)=, bấm Fraction (khoanh đỏ) chọn phân số xếp chồng rồi gõ W phía trên và H^2 phía dưới.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b6-3.png",
+        "caption": "Công thức BMI(kg/m2) = W / H2 hoàn chỉnh, tự căn giữa dòng riêng (vùng khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Bước 6. Tạo bảng phân loại theo WHO",
@@ -193,11 +289,37 @@
        "Gộp 2 ô cột 4-5 của hàng 1 thành 1 ô, gõ 'BMI nguyên tố'.",
        "Hàng 2: gõ 'Từ', 'Đến' dưới BMI và 'Từ', 'Đến' dưới BMI nguyên tố.",
        "Nhập 4 hàng dữ liệu: Thiếu cân (ô Từ trống, 18,5, ô Từ nguyên tố trống, 0,74); Bình thường (18,5; 25,0; 0,74; 1,00); Thừa cân (25,0; 30,0; 1,00; 1,20); Béo phì (30,0; để trống; 1,20; để trống).",
-       "Bôi đen cả bảng: tab Layout > nhóm Alignment > Align Center (căn giữa cả ngang và dọc). Hai hàng tiêu đề tô đậm (Ctrl+B).",
-       "Kẻ khung: tab Design > Borders > All Borders (hoặc Home > nhóm Paragraph > Borders > All Borders).",
+       "Bôi đen cả bảng: tab Table Layout > nhóm Alignment > Align Center (căn giữa cả ngang và dọc). Hai hàng tiêu đề tô đậm (Ctrl+B).",
+       "Kẻ khung: tab Table Design > Borders > All Borders (hoặc Home > nhóm Paragraph > Borders > All Borders).",
        "Nếu bảng rộng quá lề: tab Layout > AutoFit > AutoFit Window."
       ],
-      "note": "Bảng phải có đủ khung viền và hai dòng tiêu đề có ô gộp giống hình trong đề."
+      "note": "Bảng phải có đủ khung viền và hai dòng tiêu đề có ô gộp giống hình trong đề.",
+      "shots": [
+       {
+        "file": "b7-1.png",
+        "caption": "Đặt con trỏ vào dòng trống sau đoạn Theo WHO, tab Insert, bấm Table rồi chọn Insert Table... (khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b7-2.png",
+        "caption": "Nhập Number of columns 5, Number of rows 6 (khoanh đỏ) rồi bấm OK.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b7-3.png",
+        "caption": "Gộp ô: bôi chọn hai ô cần gộp rồi bấm Merge Cells (khoanh đỏ) trong tab Table Layout. Làm cho Phân loại (gộp dọc), BMI (kg/m2) và BMI nguyên tố (gộp ngang).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b7-4.png",
+        "caption": "Bảng phân loại WHO hoàn chỉnh: ô tiêu đề đã gộp, có đường viền, chữ căn giữa, hàng tiêu đề in đậm (vùng khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Bước 7. Tạo dấu đầu dòng và danh mục tài liệu tham khảo tự động",
@@ -208,7 +330,27 @@
        "Trong hộp Define New Number Format: Number style chọn 1, 2, 3. Ở ô Number format, giữ nguyên số 1 màu xám và gõ thêm dấu [ trước số 1 và dấu ] sau số 1 để thành [1]. Bấm OK.",
        "Ba dòng được đánh số [1], [2], [3] tự động. Chỉnh thụt lề nếu cần ở Home > Paragraph (nút mũi tên nhỏ) > Indentation."
       ],
-      "note": "Phải dùng danh sách đánh số tự động cho [1] [2] [3]. Nếu gõ tay thì Word không tạo được cross-reference tới các mục này ở bước sau."
+      "note": "Phải dùng danh sách đánh số tự động cho [1] [2] [3]. Nếu gõ tay thì Word không tạo được cross-reference tới các mục này ở bước sau.",
+      "shots": [
+       {
+        "file": "b8-1.png",
+        "caption": "Bôi chọn 3 dòng của Kiểu 1, tab Home, bấm Bullets (khoanh đỏ). Làm tương tự cho 3 dòng của Kiểu 2.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b8-2.png",
+        "caption": "Bôi chọn 3 dòng tài liệu, bấm mũi tên cạnh Numbering, chọn Define New Number Format...: Number style 1, 2, 3 và Number format gõ thêm dấu ngoặc vuông để thành [1] (các ô khoanh đỏ), rồi bấm OK.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b8-3.png",
+        "caption": "Ba tài liệu được đánh số [1], [2], [3] tự động (vùng khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Bước 8. Dùng Cross-reference để tạo tham chiếu đến tài liệu tham khảo",
@@ -222,7 +364,27 @@
        "Lặp lại: sau 'xem ' ở cuối đoạn 2 chèn cross-reference tới tài liệu thứ hai ([2]); ở câu 'Gọi W...' chèn tới tài liệu thứ ba ([3]).",
        "Kiểm tra: giữ Ctrl rồi click vào [1] sẽ nhảy xuống đúng tài liệu; hoặc nhấn Ctrl+A rồi F9 để cập nhật các trường."
       ],
-      "note": "Nếu trong danh sách Numbered item không có mục nào thì do danh mục tài liệu chưa được đánh số tự động (xem Bước 7)."
+      "note": "Nếu trong danh sách Numbered item không có mục nào thì do danh mục tài liệu chưa được đánh số tự động (xem Bước 7).",
+      "shots": [
+       {
+        "file": "b9-1.png",
+        "caption": "Đặt con trỏ ngay sau chữ xem trong (xem ), tab Insert, bấm Cross-reference (khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b9-2.png",
+        "caption": "Reference type chọn Numbered item, Insert reference to chọn Paragraph number, chọn tài liệu cần tham chiếu trong danh sách rồi bấm Insert (các mục khoanh đỏ). Bấm Close khi xong.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b9-3.png",
+        "caption": "Ba chỗ (xem ) đã có tham chiếu [1], [2], [3] liên kết tới danh mục tài liệu (các đoạn khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Bước 9. Kiểm tra và lưu",
@@ -232,7 +394,15 @@
        "Xem File > Print để kiểm tra bố cục: nội dung nên gọn trong 1 đến 2 trang A4, không bị cắt bảng.",
        "Nhấn Ctrl+S để lưu tệp xyz_cau1.docx."
       ],
-      "note": ""
+      "note": "",
+      "shots": [
+       {
+        "file": "b10-1.png",
+        "caption": "Xem toàn bộ văn bản gọn trong một trang A4 (Page 1 of 1 khoanh đỏ), kiểm tra bảng, công thức và tài liệu tham khảo rồi Ctrl+S để lưu.",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      }
     ],
     "formulas": [],
@@ -309,7 +479,21 @@
        "Mở PowerPoint, chọn Blank Presentation. Nhấn Ctrl+S, lưu vào E:\\ThiCC với tên xyz_cau3.pptx (xyz là số báo danh) theo ghi chú trong đề.",
        "Lưu ý: ghi chú đề ghi 'Câu 2: xyz_cau2.xlsx' và 'Câu 3: xyz_cau3.pptx' nhưng nội dung đề lại đánh số Câu 2 = PowerPoint và Câu 3 = Excel. Hãy hỏi giám thị khi thi thật."
       ],
-      "note": ""
+      "note": "",
+      "shots": [
+       {
+        "file": "b1-1.png",
+        "caption": "Mở PowerPoint, chọn Blank Presentation. Tab File (khoanh đỏ) mở menu lưu file.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b1-2.png",
+        "caption": "File, Save As (khoanh đỏ) hoặc Ctrl+S. Chọn thư mục lưu bài, đặt tên theo số báo danh rồi bấm Save.",
+        "w": 200,
+        "h": 600
+       }
+      ]
      },
      {
       "title": "Bước 1. Dùng Slide Master để tạo hai loại bố cục khác nhau",
@@ -320,7 +504,27 @@
        "Chọn Title and Content Layout, đặt nền khác (trắng hoặc xanh nhạt) và thêm hình chữ nhật dải màu ở đầu slide nếu muốn.",
        "Tab Slide Master > Close Master View để quay lại."
       ],
-      "note": "Mục tiêu: nhìn vào là thấy slide đầu và slide cuối có layout giống nhau và khác hẳn các slide giữa."
+      "note": "Mục tiêu: nhìn vào là thấy slide đầu và slide cuối có layout giống nhau và khác hẳn các slide giữa.",
+      "shots": [
+       {
+        "file": "b2-1.png",
+        "caption": "Tab View, bấm Slide Master (khoanh đỏ) để vào chế độ chỉnh bố cục mẫu.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b2-2.png",
+        "caption": "Chọn layout Title Slide rồi đổi nền: tab Slide Master, Background Styles (khoanh đỏ), chọn nền xanh đậm và đổi chữ tiêu đề sang trắng.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b2-3.png",
+        "caption": "Chọn layout Title and Content (khoanh đỏ), đặt nền khác (xanh nhạt). Hai layout nhìn khác nhau rõ rệt. Bấm Close Master View khi xong.",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Bước 2. Tạo slide đầu (Title Slide)",
@@ -329,7 +533,15 @@
        "Slide 1 mặc định là layout Title Slide. Nhập tiêu đề 'BMI - Chỉ số khối cơ thể', phụ đề là họ tên, lớp của bạn.",
        "Nếu không đúng layout: tab Home > Layout > chọn Title Slide."
       ],
-      "note": ""
+      "note": "",
+      "shots": [
+       {
+        "file": "b3-1.png",
+        "caption": "Slide 1 dùng layout Title Slide: gõ tiêu đề BMI - Chỉ số khối cơ thể và phụ đề là họ tên, lớp (các khung khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Bước 3. Tạo các slide nội dung (Title and Content)",
@@ -343,7 +555,45 @@
        "Slide 6 'Tài liệu tham khảo': nhập 3 tài liệu [1] [2] [3] như Câu 1.",
        "Slide cuối (slide 7): Home > New Slide > chọn Title Slide (cùng layout slide 1), nhập 'Cảm ơn đã theo dõi'."
       ],
-      "note": "Đề yêu cầu thể hiện toàn bộ nội dung về chỉ số BMI, vì vậy không bỏ sót: giới thiệu, công thức, bảng WHO, phân loại chung (hai kiểu) và tài liệu tham khảo."
+      "note": "Đề yêu cầu thể hiện toàn bộ nội dung về chỉ số BMI, vì vậy không bỏ sót: giới thiệu, công thức, bảng WHO, phân loại chung (hai kiểu) và tài liệu tham khảo.",
+      "shots": [
+       {
+        "file": "b4-1.png",
+        "caption": "Tab Home, bấm New Slide (khoanh đỏ) rồi chọn layout Title and Content (khoanh đỏ) cho các slide nội dung.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b4-2.png",
+        "caption": "Slide 2 Giới thiệu: tiêu đề và 3 gạch đầu dòng (các khung khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b4-3.png",
+        "caption": "Slide 3 Cách tính: gõ W và H, rồi tab Insert, Equation, nhập công thức BMI(kg/m2) = W / H2 (vùng khoanh đỏ). Cũng có thể sao chép công thức từ Word.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b4-4.png",
+        "caption": "Slide 4 Phân loại theo WHO: một câu giới thiệu và bảng 5 cột 6 hàng chèn bằng Insert, Table (vùng khoanh đỏ), gộp các ô tiêu đề.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b4-5.png",
+        "caption": "Slide 5 Phân loại chung người lớn hơn 20 tuổi dùng layout Two Content: Kiểu 1 bên trái, Kiểu 2 bên phải. Cột trái (khoanh đỏ) hiện đủ các slide.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b4-6.png",
+        "caption": "Slide cuối dùng layout Title Slide giống slide 1, gõ lời cảm ơn (khung khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Bước 4. Footer: số slide và tên thí sinh",
@@ -353,7 +603,27 @@
        "Tick Footer và gõ tên của thí sinh (ví dụ 'Nguyễn Văn A') vào ô trống. Bỏ tick Date and time nếu không cần.",
        "Bấm Apply to All để áp dụng cho mọi slide. Không tick 'Don't show on title slide' để slide đầu và cuối cũng có footer."
       ],
-      "note": "Footer phải có cả số slide và tên. Nếu không thấy trên slide, kiểm tra Slide Master: khung Footer và Slide Number phải còn trong layout."
+      "note": "Footer phải có cả số slide và tên. Nếu không thấy trên slide, kiểm tra Slide Master: khung Footer và Slide Number phải còn trong layout.",
+      "shots": [
+       {
+        "file": "b5-1.png",
+        "caption": "Tab Insert, bấm Header & Footer (khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b5-2.png",
+        "caption": "Hộp thoại Header and Footer, tab Slide: tick Slide number, tick Footer và gõ tên thí sinh, KHÔNG tick Don't show on title slide, rồi bấm Apply to All (các mục khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b5-3.png",
+        "caption": "Chân trang hiện tên thí sinh và số slide (vùng khoanh đỏ) trên mọi slide.",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Bước 5. Hai hiệu ứng chuyển slide (Transition)",
@@ -364,7 +634,33 @@
        "Chọn slide 7 và áp dụng Fade (giống slide 1). Như vậy toàn bài chỉ dùng đúng hai hiệu ứng: Fade và Push.",
        "Nhóm Timing: Duration 1 giây; Advance Slide giữ On Mouse Click."
       ],
-      "note": "Đề yêu cầu '02 hiệu ứng chuyển slide': dùng đúng hai loại khác nhau cho toàn bài, không dùng loại thứ ba."
+      "note": "Đề yêu cầu '02 hiệu ứng chuyển slide': dùng đúng hai loại khác nhau cho toàn bài, không dùng loại thứ ba.",
+      "shots": [
+       {
+        "file": "b6-1.png",
+        "caption": "Slide 1: tab Transitions, chọn Fade (khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b6-2.png",
+        "caption": "Slide 2 đến 6: chọn Push (khoanh đỏ), có thể giữ Ctrl chọn nhiều slide cùng lúc.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b6-3.png",
+        "caption": "Slide 7 (slide cuối): chọn lại Fade (khoanh đỏ). Cả bài chỉ dùng đúng hai hiệu ứng chuyển Fade và Push.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b6-4.png",
+        "caption": "Các slide đã gắn hiệu ứng có ngôi sao nhỏ cạnh số slide ở cột trái (vùng khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Bước 6. Ba hiệu ứng hoạt hình (Animation)",
@@ -376,7 +672,33 @@
        "Kiểm tra bằng Animations > Animation Pane: hiện danh sách hiệu ứng của slide; bấm Preview để xem thử.",
        "Mục Start chọn On Click (hoặc After Previous) tùy ý."
       ],
-      "note": "Đề yêu cầu '03 hiệu ứng hoạt hình': dùng 3 hiệu ứng khác loại trên 3 đối tượng. Không cần gán cho mọi slide."
+      "note": "Đề yêu cầu '03 hiệu ứng hoạt hình': dùng 3 hiệu ứng khác loại trên 3 đối tượng. Không cần gán cho mọi slide.",
+      "shots": [
+       {
+        "file": "b7-1.png",
+        "caption": "Slide 2: chọn khung nội dung, tab Animations, chọn Fade (khoanh đỏ), Effect Options chọn By Paragraph để từng dòng hiện lần lượt.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b7-2.png",
+        "caption": "Slide 3: chọn công thức, chọn hiệu ứng Wipe (khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b7-3.png",
+        "caption": "Slide 4: chọn bảng, mở rộng thư viện hiệu ứng rồi chọn Zoom (khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b7-4.png",
+        "caption": "Bấm Animation Pane (khoanh đỏ) để xem danh sách hiệu ứng của slide (vùng khoanh đỏ). Bài có 3 hiệu ứng khác nhau: Fade, Wipe, Zoom.",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Bước 7. Xem trình chiếu và lưu",
@@ -385,7 +707,21 @@
        "Nhấn F5 để trình chiếu từ đầu, kiểm tra từng slide: footer, transition, animation, nội dung.",
        "Nhấn Esc để thoát, Ctrl+S để lưu file."
       ],
-      "note": ""
+      "note": "",
+      "shots": [
+       {
+        "file": "b8-1.png",
+        "caption": "Tab Slide Show, bấm From Beginning (khoanh đỏ) hoặc phím F5 để xem cả bài và kiểm tra footer, hiệu ứng.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b8-2.png",
+        "caption": "Chế độ Slide Sorter cho thấy đủ 7 slide: slide đầu và cuối cùng layout, các slide giữa dùng layout khác.",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      }
     ],
     "formulas": [],
@@ -590,7 +926,21 @@
        "Mở Excel, chọn Blank workbook. Nhấn Ctrl+S, lưu vào E:\\ThiCC với tên xyz_cau2.xlsx theo ghi chú trong đề (xem mục uncertain: đề đánh số Excel là Câu 3 nhưng ghi chú đặt tên là cau2).",
        "Có thể đổi tên sheet (chuột phải vào tab Sheet1 > Rename), không bắt buộc."
       ],
-      "note": ""
+      "note": "",
+      "shots": [
+       {
+        "file": "b1-1.png",
+        "caption": "Mở Excel, chọn Blank workbook. Tab File (khoanh đỏ) mở menu lưu file.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b1-2.png",
+        "caption": "File, Save As (khoanh đỏ) hoặc Ctrl+S. Chọn thư mục D:ThiCC, đặt tên sbd_cau3.xlsx rồi bấm Save.",
+        "w": 200,
+        "h": 600
+       }
+      ]
      },
      {
       "title": "Bước 1. Nhập tiêu đề cột và dữ liệu 05 học viên",
@@ -602,7 +952,15 @@
        "Để trống các ô cột CC, TX, HP vì sẽ tính bằng công thức ở các bước sau.",
        "Mẹo: gõ 1 và 2 ở A2, A3, bôi đen cả hai rồi kéo ô vuông nhỏ (fill handle) ở góc dưới phải xuống để điền TT; tương tự với K001, K002 (Excel tự tăng thành K003...)."
       ],
-      "note": "Họ tên có dấu cần Unikey bật Unicode. Điểm THI, B1, B2 phải là số (căn phải) chứ không phải chữ."
+      "note": "Họ tên có dấu cần Unikey bật Unicode. Điểm THI, B1, B2 phải là số (căn phải) chứ không phải chữ.",
+      "shots": [
+       {
+        "file": "b2-1.png",
+        "caption": "Nhập tiêu đề 13 cột ở hàng 1 và dữ liệu 5 học viên ở hàng 2 đến 6 (vùng khoanh đỏ). Các cột CC, TX, HP để trống vì sẽ dùng công thức.",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Bước 2. Công thức điểm chuyên cần CC",
@@ -612,7 +970,21 @@
        "Chọn lại D2, kéo ô vuông nhỏ ở góc dưới phải xuống đến D6 (hoặc nhấp đúp vào ô vuông đó) để điền các dòng còn lại.",
        "Lưu ý dấu phân cách: nếu máy dùng cài đặt khu vực tiếng Việt thì dấu ngăn cách đối số trong hàm là dấu chấm phẩy (;) và dấu thập phân là dấu phẩy (,), khi đó phải gõ 0,1 thay vì 0.1 và ROUND(...;1) thay vì ROUND(...,1). Nếu máy dùng cài đặt tiếng Anh thì dùng dấu phẩy (,) ngăn cách đối số và dấu chấm (.) làm dấu thập phân."
       ],
-      "note": "Mỗi buổi đi học (1) quy ra 2.5 điểm, đi đủ 4 buổi thì CC = 10."
+      "note": "Mỗi buổi đi học (1) quy ra 2.5 điểm, đi đủ 4 buổi thì CC = 10.",
+      "shots": [
+       {
+        "file": "b3-1.png",
+        "caption": "Ô D2 (CC): =ROUND((H2+I2+J2+K2)*2.5,1), gõ vào thanh công thức rồi Enter (Name Box, ô và thanh công thức khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b3-2.png",
+        "caption": "Fill xuống đến D6 bằng Fill Handle.",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Bước 3. Công thức điểm thường xuyên TX",
@@ -621,7 +993,21 @@
        "Chọn ô E2, gõ: =ROUND((L2+M2)/2,1) rồi nhấn Enter (hoặc =ROUND(AVERAGE(L2:M2),1)).",
        "Điền xuống E6 bằng cách kéo ô vuông nhỏ ở góc dưới phải của E2."
       ],
-      "note": "TX là trung bình cộng của hai điểm bài tập B1 và B2, làm tròn một chữ số thập phân."
+      "note": "TX là trung bình cộng của hai điểm bài tập B1 và B2, làm tròn một chữ số thập phân.",
+      "shots": [
+       {
+        "file": "b4-1.png",
+        "caption": "Ô E2 (TX): =ROUND((L2+M2)/2,1), trung bình hai điểm bài tập.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b4-2.png",
+        "caption": "Fill xuống đến E6.",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Bước 4. Công thức điểm môn HP",
@@ -632,7 +1018,21 @@
        "Điền xuống G6 bằng cách kéo ô vuông nhỏ ở góc dưới phải của G2.",
        "Chú ý điều kiện so sánh là điểm THI (cột F), không phải CC (cột D)."
       ],
-      "note": "Điều kiện là 'lớn hơn 3' (F2>3). Điểm thi đúng bằng 3 rơi vào nhánh 'ngược lại', tức HP = THI."
+      "note": "Điều kiện là 'lớn hơn 3' (F2>3). Điểm thi đúng bằng 3 rơi vào nhánh 'ngược lại', tức HP = THI.",
+      "shots": [
+       {
+        "file": "b5-1.png",
+        "caption": "Ô G2 (HP): =ROUND(IF(F2>3,0.1*D2+0.3*E2+0.6*F2,F2),1), nếu điểm thi lớn hơn 3 thì tính theo trọng số, ngược lại lấy điểm thi.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b5-2.png",
+        "caption": "Fill xuống đến G6.",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Bước 5. Kẻ khung, căn chỉnh, định dạng kiểu dữ liệu, font",
@@ -645,7 +1045,33 @@
        "Các cột THI, B1, B2, T1 đến T4: Category Number, Decimal places = 0 (hoặc General).",
        "Chỉnh độ rộng cột: bôi đen cả bảng > Home > Format > AutoFit Column Width."
       ],
-      "note": "Đề ghi 'định dạng các kiểu dữ liệu cho phù hợp': số dùng dạng Number, văn bản dùng General; điểm tính toán hiển thị 1 chữ số thập phân. Tùy chọn: Data > Data Validation cho T1:T4 (Allow: List, Source: 0,1) để chỉ nhận 0 hoặc 1."
+      "note": "Đề ghi 'định dạng các kiểu dữ liệu cho phù hợp': số dùng dạng Number, văn bản dùng General; điểm tính toán hiển thị 1 chữ số thập phân. Tùy chọn: Data > Data Validation cho T1:T4 (Allow: List, Source: 0,1) để chỉ nhận 0 hoặc 1.",
+      "shots": [
+       {
+        "file": "b6-1.png",
+        "caption": "Bấm Ctrl+A, tab Home, ô Font chọn Times New Roman, Font Size chọn 13 (khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b6-2.png",
+        "caption": "Chọn vùng bảng, bấm mũi tên cạnh nút Borders (khoanh đỏ), chọn All Borders (khoanh đỏ) để kẻ khung.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b6-3.png",
+        "caption": "Chọn vùng bảng, Home, Format (khoanh đỏ), AutoFit Column Width (khoanh đỏ) để tự giãn cột.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b6-4.png",
+        "caption": "Bảng sau khi định dạng: font Times New Roman 13, có khung, các cột điểm hiển thị một chữ số thập phân (vùng khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Bước 6. Định dạng trang in",
@@ -657,7 +1083,27 @@
        "Nếu bảng không vừa chiều rộng giấy: trong tab Page chọn Fit to 1 page(s) wide by 1 tall.",
        "Kiểm tra bằng File > Print (xem trước) rằng bảng nằm gọn trên một trang ngang."
       ],
-      "note": "Chú ý lề trái 2.5 và lề phải 1.5 khác nhau, đừng nhập đảo."
+      "note": "Chú ý lề trái 2.5 và lề phải 1.5 khác nhau, đừng nhập đảo.",
+      "shots": [
+       {
+        "file": "b7-1.png",
+        "caption": "Tab Page Layout, bấm mũi tên góc dưới phải nhóm Page Setup (khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b7-2.png",
+        "caption": "Tab Page: Orientation chọn Landscape, Paper size chọn A4 (khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b7-3.png",
+        "caption": "Tab Margins: Top 2.5, Bottom 2.5, Left 2.5, Right 1.5 (cm), tick Horizontally (các ô khoanh đỏ), rồi bấm OK.",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Bước 7. Kiểm tra và lưu",
@@ -666,7 +1112,15 @@
        "Đối chiếu với dữ liệu gợi ý: Nguyễn Văn A có CC 7.5, TX 8.5, HP 8.1; Đỗ Văn B có CC 10.0, TX 8.0, HP 8.8; Ngô Thị C có CC 10.0, TX 8.0, HP 6.4; Vũ Văn D có CC 7.5, TX 6.0, HP 6.8; Hà Thị E có CC 7.5, TX 7.5, HP 6.6.",
        "Nhấn Ctrl+S để lưu."
       ],
-      "note": "Nếu dùng dữ liệu khác thì tự tính tay một dòng để đối chiếu."
+      "note": "Nếu dùng dữ liệu khác thì tự tính tay một dòng để đối chiếu.",
+      "shots": [
+       {
+        "file": "b8-1.png",
+        "caption": "Bấm Ctrl+S hoặc File, Save (khoanh đỏ) để lưu bài vào D:ThiCC với tên sbd_cau3.xlsx.",
+        "w": 200,
+        "h": 600
+       }
+      ]
      }
     ],
     "formulas": [

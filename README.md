@@ -39,7 +39,7 @@ Mỗi bước giải có thể kèm ảnh chụp thật từ Word, Excel hoặc 
 
 - Ảnh nằm ở `assets/img/practical/de<số đề>-c<số câu>/`, đặt tên `b<bước>-<thứ tự>.png`.
 - Mỗi bước trong `deN.json` khai báo `shots: [{ "file", "caption", "w", "h" }]`. Bước không có ảnh thì bỏ trường này.
-- Đã có ảnh đầy đủ cho Đề 1 (Word 30, Excel 20, PowerPoint 31 ảnh) và Đề 2 (Word 22, Excel 22, PowerPoint 31 ảnh). Các đề còn lại chưa có ảnh; làm lần lượt từng đề, đủ 3 câu rồi mới sang đề kế tiếp.
+- Đã có ảnh đầy đủ cho Đề 1 đến Đề 3 (mỗi câu mỗi bước). Các đề còn lại đang được bổ sung; làm lần lượt từng đề, đủ 3 câu rồi mới sang đề kế tiếp.
 - `tools/office-shots/lib.ps1` là thư viện PowerShell dùng để chụp: mở hộp thoại, đọc vị trí nút bằng UI Automation,
   chụp màn hình bỏ thanh tiêu đề và vẽ khoanh đỏ. Chỉ chạy trên Windows có cài Office.
 - Khi chụp, không đưa vào ảnh màn hình File của Word (có danh sách file gần đây), thanh tiêu đề và tên người dùng.
