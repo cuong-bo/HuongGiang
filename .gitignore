@@ -6,3 +6,8 @@ screenshots/
 # Script chup thu cong (nhap, chi giu thu vien lib.ps1 va scan-toast.ps1)
 tools/office-shots/x*.ps1
 tools/office-shots/p[0-9A-Z]*.ps1
+
+# Script chup thu cong (nhap)
+tools/office-shots/d[0-9]*.ps1
+tools/office-shots/ppt-*.ps1
+tools/office-shots/e5x*.ps1

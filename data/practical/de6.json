@@ -39,7 +39,21 @@
        "Nếu thước và hộp thoại đang dùng Inches: File > Options > Advanced > kéo xuống mục Display > ô 'Show measurements in units of' chọn Centimeters > OK.",
        "Lưu ngay: File > Save As > chọn thư mục E:\\ThiCC > đặt tên xyz_cau1.docx (xyz là số báo danh) > Save. Trong lúc làm nhớ bấm Ctrl+S thường xuyên."
       ],
-      "note": "Nếu thư mục E:\\ThiCC chưa có thì tạo mới thư mục ThiCC trong ổ E rồi lưu vào đó."
+      "note": "Nếu thư mục E:\\ThiCC chưa có thì tạo mới thư mục ThiCC trong ổ E rồi lưu vào đó.",
+      "shots": [
+       {
+        "file": "b1-1.png",
+        "caption": "Mở Word, chọn Blank document. Tab File (khoanh đỏ) mở menu lưu file và File, Options, Advanced để đổi đơn vị đo sang Centimeters.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b1-2.png",
+        "caption": "File, Save As (khoanh đỏ) hoặc Ctrl+S. Chọn thư mục D:ThiCC, đặt tên sbd_cau1.docx rồi bấm Save.",
+        "w": 200,
+        "h": 600
+       }
+      ]
      },
      {
       "title": "Bước 1: Định dạng trang (khổ giấy, lề, Header/Footer)",
@@ -51,7 +65,33 @@
        "Thẻ Layout: mục From edge nhập Header = 1.3 cm và Footer = 1.3 cm. Không tick Different first page (để trang 1 cũng có số trang).",
        "Bấm OK."
       ],
-      "note": "Nếu máy hiện số kiểu 0.98\" thì chưa đổi sang cm (xem Bước 0). Nên làm bước này đầu tiên để số trang không bị lệch về sau."
+      "note": "Nếu máy hiện số kiểu 0.98\" thì chưa đổi sang cm (xem Bước 0). Nên làm bước này đầu tiên để số trang không bị lệch về sau.",
+      "shots": [
+       {
+        "file": "b2-1.png",
+        "caption": "Tab Layout, bấm mũi tên nhỏ ở góc dưới phải nhóm Page Setup (khoanh đỏ) để mở hộp thoại Page Setup.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b2-2.png",
+        "caption": "Tab Margins: Top 2.5 cm, Bottom 2.2 cm, Left 3.5 cm, Right 1.5 cm và chọn Portrait (các ô khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b2-3.png",
+        "caption": "Tab Paper: Paper size chọn A4 (khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b2-4.png",
+        "caption": "Tab Layout của hộp thoại: From edge Header 1.3 cm và Footer 1.3 cm (các ô khoanh đỏ), không tick Different first page, rồi bấm OK.",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Bước 2: Đặt font Times New Roman 13pt cho toàn tài liệu qua style Normal",
@@ -62,7 +102,21 @@
        "Khi đó mọi đoạn văn bản thường sẽ là Times New Roman 13pt. Có thể chỉnh thêm cho đẹp: Format > Paragraph... > Line spacing: 1.5 lines, Special: First line 1 cm, Alignment: Justified.",
        "Với từng style tiêu đề (bước tiếp theo) cũng phải đổi font sang Times New Roman vì mặc định là Calibri Light hoặc Cambria."
       ],
-      "note": "Đề yêu cầu cỡ 13pt cho toàn bộ chữ. Để chắc điểm, giữ cả tiêu đề ở 13pt và phân biệt bằng In đậm, IN HOA, in nghiêng chứ không tăng cỡ."
+      "note": "Đề yêu cầu cỡ 13pt cho toàn bộ chữ. Để chắc điểm, giữ cả tiêu đề ở 13pt và phân biệt bằng In đậm, IN HOA, in nghiêng chứ không tăng cỡ.",
+      "shots": [
+       {
+        "file": "b3-1.png",
+        "caption": "Tab Home, bấm phải vào kiểu Normal trong nhóm Styles, chọn Modify... (khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b3-2.png",
+        "caption": "Hộp thoại Modify Style: Font Times New Roman, cỡ 13 (khoanh đỏ). Bấm Format (khoanh đỏ) để chỉnh Paragraph nếu cần.",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Bước 3: Chỉnh style Heading 1, Heading 2, Heading 3 (phân cấp tới Heading 3)",
@@ -73,7 +127,27 @@
        "Làm tương tự với Heading 3: Times New Roman, 13, Bold + Italic (hoặc chỉ Italic); không tick Page break before.",
        "Nếu bảng Styles không hiện Heading 2, Heading 3 thì bấm Dialog Launcher của nhóm Styles (hoặc Ctrl+Alt+Shift+S) > Options > Select styles to show: All styles."
       ],
-      "note": "Heading 1 là cấp chương, Heading 2 là mục (1.1), Heading 3 là tiểu mục (1.1.1). Dùng Page break before cho Heading 1 là cách chuẩn hơn gõ Ctrl+Enter vì nó tự áp dụng cho chương mới sau này."
+      "note": "Heading 1 là cấp chương, Heading 2 là mục (1.1), Heading 3 là tiểu mục (1.1.1). Dùng Page break before cho Heading 1 là cách chuẩn hơn gõ Ctrl+Enter vì nó tự áp dụng cho chương mới sau này.",
+      "shots": [
+       {
+        "file": "b4-1.png",
+        "caption": "Bấm phải vào Heading 1 trong nhóm Styles, chọn Modify... (khoanh đỏ). Làm tương tự cho Heading 2 và Heading 3.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b4-2.png",
+        "caption": "Đặt Font Times New Roman, cỡ 13, Bold, màu đen (các ô khoanh đỏ). Heading 1 bật Page break before để mỗi chương đứng đầu trang.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b4-3.png",
+        "caption": "Nếu thư viện Styles chưa hiện Heading 2 và Heading 3, bấm mũi tên mở rộng thư viện (khoanh đỏ) để chọn.",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Bước 4: Đánh số tự động cho chương và mục (Multilevel List nối với Heading)",
@@ -85,7 +159,27 @@
        "Chọn Level 2: 'Link level to style' chọn Heading 2; nội dung ô formatting là 1.1 (Word tự lấy số cấp 1, dấu chấm, số cấp 2). Chọn Level 3: link tới Heading 3, hiển thị 1.1.1.",
        "Bấm OK. Từ nay mỗi khi áp dụng Heading 1, 2, 3 sẽ tự có số Chương 1, 1.1, 1.1.1."
       ],
-      "note": "Nếu thấy phức tạp, trong phòng thi có thể gõ tay số thứ tự vào tiêu đề (ví dụ 'Chương 1. TỔNG QUAN', '1.1. Khái niệm'). Cách tự động vẫn tốt hơn."
+      "note": "Nếu thấy phức tạp, trong phòng thi có thể gõ tay số thứ tự vào tiêu đề (ví dụ 'Chương 1. TỔNG QUAN', '1.1. Khái niệm'). Cách tự động vẫn tốt hơn.",
+      "shots": [
+       {
+        "file": "b5-1.png",
+        "caption": "Tab Home, bấm nút Multilevel List rồi chọn Define New Multilevel List... (khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b5-2.png",
+        "caption": "Bấm More >> (khoanh đỏ) để mở rộng hộp thoại.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b5-3.png",
+        "caption": "Level 1: gõ chữ Chương trước số (ô Enter formatting khoanh đỏ) và ở Link level to style chọn Heading 1 (khoanh đỏ). Làm tương tự Level 2 liên kết Heading 2 và Level 3 liên kết Heading 3, rồi bấm OK.",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Bước 5: Soạn bố cục tài liệu (trang Mục lục, các chương, trang Tài liệu tham khảo)",
@@ -98,7 +192,15 @@
        "Cuối cùng gõ tiêu đề 'TÀI LIỆU THAM KHẢO' và áp Heading 1 để lọt vào mục lục. Nếu đã bật đánh số Chương tự động thì đặt con trỏ vào tiêu đề này > Home > Paragraph > Multilevel List > None để bỏ chữ 'Chương' (hoặc bấm nút Numbering để tắt số).",
        "Tổng cộng khoảng 5 trang: trang 1 Mục lục, trang 2 đến 4 là 3 chương, trang 5 Tài liệu tham khảo."
       ],
-      "note": "Mỗi chương phải bắt đầu ở đầu một trang mới. Nếu chương dài hơn một trang thì tổng số trang vượt 5, không sao nhưng nên giữ khoảng 5 trang."
+      "note": "Mỗi chương phải bắt đầu ở đầu một trang mới. Nếu chương dài hơn một trang thì tổng số trang vượt 5, không sao nhưng nên giữ khoảng 5 trang.",
+      "shots": [
+       {
+        "file": "b6-1.png",
+        "caption": "Soạn nội dung: trang 1 là MỤC LỤC, các chương đứng đầu trang, cuối cùng là TÀI LIỆU THAM KHẢO. Toàn bộ khoảng 5 trang (hiển thị nhiều trang, vùng khoanh đỏ cho biết số trang).",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Bước 6: Soạn danh sách Tài liệu tham khảo (đánh số tự động [1], [2], ...)",
@@ -108,7 +210,27 @@
        "Bôi đen 4 dòng đó. Tab Home > nhóm Paragraph > bấm mũi tên cạnh nút Numbering > Define New Number Format... > ô 'Number style' chọn 1, 2, 3; ô 'Number format' sửa thành [1] (giữ số 1 có nền xám, thêm hai dấu ngoặc vuông quanh nó) > Alignment Left > OK.",
        "Khi đó bốn dòng có số [1], [2], [3], [4] là danh sách đánh số tự động. Đảm bảo cả 4 tài liệu nằm gọn trên 1 trang (trang 5)."
       ],
-      "note": ""
+      "note": "",
+      "shots": [
+       {
+        "file": "b7-1.png",
+        "caption": "Bôi chọn 4 dòng tài liệu, tab Home, bấm mũi tên cạnh nút Numbering (khoanh đỏ) rồi chọn Define New Number Format... (khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b7-2.png",
+        "caption": "Number style 1, 2, 3 và Number format thêm dấu ngoặc vuông để thành [1] (các ô khoanh đỏ), rồi bấm OK.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b7-3.png",
+        "caption": "Bốn tài liệu được đánh số [1] đến [4] tự động, gọn trong một trang (vùng khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Bước 7: Tạo tham chiếu tự động đến tài liệu tham khảo (Cross-reference)",
@@ -120,7 +242,27 @@
        "Kết quả hiện số [1] trong câu văn, nền xám khi click vào (đó là một trường tham chiếu). Lặp lại để chèn thêm [2], [3] ở vài vị trí khác trong các chương.",
        "Kiểm tra tự động cập nhật: thêm hoặc xóa một tài liệu trong danh sách tham khảo, rồi bấm Ctrl+A (chọn tất cả) > F9 (Update Field). Các số tham chiếu trong bài thay đổi theo. Có thể bật thêm: File > Options > Display > tick 'Update fields before printing'."
       ],
-      "note": "Cách khác cũng chấp nhận: dùng References > Insert Citation và Bibliography. Nhưng Cross-reference tới Numbered item là cách đơn giản và hay dùng nhất. Không gõ tay [1] vì khi danh sách đổi thì số không cập nhật."
+      "note": "Cách khác cũng chấp nhận: dùng References > Insert Citation và Bibliography. Nhưng Cross-reference tới Numbered item là cách đơn giản và hay dùng nhất. Không gõ tay [1] vì khi danh sách đổi thì số không cập nhật.",
+      "shots": [
+       {
+        "file": "b8-1.png",
+        "caption": "Đặt con trỏ ngay sau chữ xem trong (xem ), tab Insert, bấm Cross-reference (khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b8-2.png",
+        "caption": "Reference type chọn Numbered item, Insert reference to chọn Paragraph number, chọn tài liệu cần trích dẫn rồi bấm Insert (các mục khoanh đỏ). Bấm Close khi xong.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b8-3.png",
+        "caption": "Số tham chiếu [1], [2], [3] hiện trong câu văn là các trường tự cập nhật (vùng khoanh đỏ). Khi đổi danh sách tài liệu, bấm Ctrl+A rồi F9 để cập nhật.",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Bước 8: Đánh số trang ở chính giữa phía trên",
@@ -131,7 +273,27 @@
        "Bấm Close Header and Footer (hoặc nháy đúp vào vùng thân văn bản) để thoát.",
        "Nếu ở Bước 1 đã tick Different first page thì bỏ tick đó để trang đầu cũng có số."
       ],
-      "note": "Nếu không muốn số trang xuất hiện trên trang Mục lục thì tick Different First Page, nhưng đề không yêu cầu nên để tất cả các trang đều có số trang."
+      "note": "Nếu không muốn số trang xuất hiện trên trang Mục lục thì tick Different First Page, nhưng đề không yêu cầu nên để tất cả các trang đều có số trang.",
+      "shots": [
+       {
+        "file": "b9-1.png",
+        "caption": "Tab Insert, bấm Page Number rồi chọn Top of Page (các mục khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b9-2.png",
+        "caption": "Chọn kiểu Plain Number 2, số trang nằm chính giữa phía trên (khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b9-3.png",
+        "caption": "Số trang xuất hiện ở giữa Header, font Times New Roman 13 (vùng khoanh đỏ). Bấm Close Header and Footer để thoát.",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Bước 9: Chèn mục lục tự động (tới Heading 3) và căn chỉnh theo hai bên",
@@ -144,7 +306,27 @@
        "Nếu mục lục không đúng font: Home > Styles > Dialog Launcher > chọn lần lượt TOC 1, TOC 2, TOC 3 > Modify > đặt Times New Roman 13.",
        "Khi sửa tên chương, thêm mục hoặc đổi số trang: bấm vào mục lục > Update Table (hoặc F9) > chọn Update entire table > OK."
       ],
-      "note": "Mục lục phải chiếm đúng 1 trang (trang 1). Vì Heading 1 có Page break before nên chương 1 không dính vào trang mục lục. Dòng 'MỤC LỤC' không dùng style Heading nên không tự đưa vào mục lục."
+      "note": "Mục lục phải chiếm đúng 1 trang (trang 1). Vì Heading 1 có Page break before nên chương 1 không dính vào trang mục lục. Dòng 'MỤC LỤC' không dùng style Heading nên không tự đưa vào mục lục.",
+      "shots": [
+       {
+        "file": "b10-1.png",
+        "caption": "Đặt con trỏ dưới dòng MỤC LỤC, tab References, bấm Table of Contents rồi chọn Custom Table of Contents... (các mục khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b10-2.png",
+        "caption": "Tick Show page numbers và Right align page numbers, Tab leader chọn dãy chấm, Show levels đặt 3 (các ô khoanh đỏ), rồi bấm OK.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b10-3.png",
+        "caption": "Chọn mục lục, tab Home, bấm Justify (khoanh đỏ) để căn đều hai bên. Mục lục gồm ba cấp Heading (vùng khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Bước 10: Kiểm tra lần cuối và lưu",
@@ -155,7 +337,15 @@
        "Xem File > Print (Ctrl+P) để duyệt từng trang: trang 1 mục lục, các chương bắt đầu đầu trang, trang cuối là Tài liệu tham khảo, số trang ở giữa trên.",
        "Bấm Ctrl+S để lưu file xyz_cau1.docx trong E:\\ThiCC."
       ],
-      "note": ""
+      "note": "",
+      "shots": [
+       {
+        "file": "b11-1.png",
+        "caption": "Bật View, Navigation Pane (khoanh đỏ) để kiểm tra cây Heading đủ ba cấp (vùng khoanh đỏ), rồi bấm Ctrl+A, F9 để cập nhật toàn bộ trường và Ctrl+S để lưu.",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      }
     ],
     "formulas": [],
@@ -406,7 +596,27 @@
        "Gõ Ngày sinh theo dạng dd/mm/yyyy (30/01/1978). Phải kiểm tra Excel nhận là ngày chứ không phải chữ: ngày hợp lệ tự căn phải trong ô, nếu bị căn trái nghĩa là Excel hiểu là text (xem phần lỗi thường gặp).",
        "Nhập cột TT bằng cách gõ 1 và 2 rồi bôi đen hai ô, kéo núm điền (Fill handle, ô vuông nhỏ góc dưới phải) xuống tới số 10."
       ],
-      "note": "Điểm Toán và Anh nhập là số (căn phải), không gõ thêm chữ."
+      "note": "Điểm Toán và Anh nhập là số (căn phải), không gõ thêm chữ.",
+      "shots": [
+       {
+        "file": "b1-1.png",
+        "caption": "Mở Excel, chọn Blank workbook. Tab File (khoanh đỏ) mở menu lưu file.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b1-2.png",
+        "caption": "File, Save As (khoanh đỏ) hoặc Ctrl+S. Chọn thư mục D:ThiCC, đặt tên sbd_cau2.xlsx rồi bấm Save.",
+        "w": 200,
+        "h": 600
+       },
+       {
+        "file": "b1-3.png",
+        "caption": "Gõ tiêu đề 10 cột ở hàng 1 và dữ liệu 10 thí sinh ở hàng 2 đến 11 (vùng khoanh đỏ). Các cột Tuổi, Điểm TB, Xếp loại, Học bổng để trống vì dùng công thức; ngày sinh nhập dạng ngày/tháng/năm.",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Bước 2: Font Times New Roman 13, kẻ khung, căn chỉnh và định dạng kiểu dữ liệu",
@@ -419,7 +629,33 @@
        "Định dạng kiểu dữ liệu: bôi đen C2:C11 > chuột phải > Format Cells... (Ctrl+1) > thẻ Number > Category: Custom > Type: dd/mm/yyyy > OK. Bôi đen D2:D11 > Format Cells > Number > Category Number, Decimal places = 0. Bôi đen H2:H11 > Number, Decimal places = 1. Bôi đen J2:J11 > Number, Decimal places = 0, tick Use 1000 Separator.",
        "Chỉnh độ rộng cột: bôi đen các cột A đến J > nháy đúp vào đường ngăn giữa hai tiêu đề cột bất kỳ (AutoFit Column Width) hoặc Home > Format > AutoFit Column Width."
       ],
-      "note": "Cột Tuổi phải để định dạng Number hoặc General. Nếu Excel tự gán định dạng Date vì ô bên cạnh là ngày, kết quả Tuổi sẽ hiện như ngày tháng năm 1900, cần đổi lại."
+      "note": "Cột Tuổi phải để định dạng Number hoặc General. Nếu Excel tự gán định dạng Date vì ô bên cạnh là ngày, kết quả Tuổi sẽ hiện như ngày tháng năm 1900, cần đổi lại.",
+      "shots": [
+       {
+        "file": "b2-1.png",
+        "caption": "Bấm Ctrl+A, tab Home, ô Font chọn Times New Roman, Font Size chọn 13 (khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b2-2.png",
+        "caption": "Chọn A1:J11, bấm mũi tên cạnh nút Borders (khoanh đỏ), chọn All Borders (khoanh đỏ) để kẻ khung.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b2-3.png",
+        "caption": "Chọn vùng bảng, Home, Format (khoanh đỏ), AutoFit Column Width (khoanh đỏ) để tự giãn cột.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b2-4.png",
+        "caption": "Bảng sau khi định dạng: font Times New Roman 13, có khung, tiêu đề đậm căn giữa (vùng khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Bước 3: Định dạng trang (A4, Landscape, lề, căn giữa ngang)",
@@ -431,7 +667,27 @@
        "Bấm OK. Nhấn Ctrl+P (hoặc File > Print) xem Print Preview: bảng nằm ngang và chính giữa theo chiều ngang trang.",
        "Có thể đặt vùng in cho gọn: bôi đen A1:J11 > Page Layout > Print Area > Set Print Area."
       ],
-      "note": "Nếu Excel đang hiện đơn vị inch (do cài đặt Region), nhập 2.5 cm bằng cách gõ '2.5 cm' vào ô, Excel sẽ tự đổi sang inch. Hoặc 2.5 cm xấp xỉ 0.98 inch, 1.5 cm xấp xỉ 0.59 inch."
+      "note": "Nếu Excel đang hiện đơn vị inch (do cài đặt Region), nhập 2.5 cm bằng cách gõ '2.5 cm' vào ô, Excel sẽ tự đổi sang inch. Hoặc 2.5 cm xấp xỉ 0.98 inch, 1.5 cm xấp xỉ 0.59 inch.",
+      "shots": [
+       {
+        "file": "b3-1.png",
+        "caption": "Tab Page Layout, bấm mũi tên góc dưới phải nhóm Page Setup (khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b3-2.png",
+        "caption": "Tab Page: Orientation chọn Landscape, Paper size chọn A4 (khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b3-3.png",
+        "caption": "Tab Margins: Top 2.5, Bottom 2.5, Left 2.5, Right 1.5 (cm), tick Horizontally (các ô khoanh đỏ), rồi bấm OK.",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Bước 4: Tính Tuổi (đến ngày hiện tại)",
@@ -443,7 +699,21 @@
        "Kéo núm điền ở góc dưới phải ô D2 xuống D11 (hoặc nháy đúp núm điền, hoặc chọn D2:D11 rồi Ctrl+D).",
        "Kiểm tra: ngày sinh 30/01/1978 cho kết quả bằng năm hiện tại trừ 1978 (nếu dùng DATEDIF thì có thể ít hơn 1 nếu chưa tới sinh nhật)."
       ],
-      "note": "Nếu máy dùng dấu chấm phẩy (;) làm dấu ngăn cách đối số (thường gặp khi Region là Vietnamese) thì gõ ; thay cho dấu phẩy: =DATEDIF(C2;TODAY();\"Y\"). Quy tắc này áp dụng cho mọi công thức dưới đây."
+      "note": "Nếu máy dùng dấu chấm phẩy (;) làm dấu ngăn cách đối số (thường gặp khi Region là Vietnamese) thì gõ ; thay cho dấu phẩy: =DATEDIF(C2;TODAY();\"Y\"). Quy tắc này áp dụng cho mọi công thức dưới đây.",
+      "shots": [
+       {
+        "file": "b4-1.png",
+        "caption": "Ô D2 (Tuổi): =YEAR(TODAY())-YEAR(C2), gõ vào thanh công thức rồi Enter (Name Box, ô và thanh công thức khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b4-2.png",
+        "caption": "Fill xuống đến D11 bằng Fill Handle. Tuổi tự thay đổi theo ngày hiện tại của máy.",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Bước 5: Tính Điểm TB (hệ số 3 và 2, làm tròn 1 chữ số)",
@@ -454,7 +724,21 @@
        "Kéo núm điền từ H2 xuống H11.",
        "Kiểm tra: dòng 1 (4 và 7) cho (12+14)/5 = 5.2; dòng 2 (6 và 8) cho (18+16)/5 = 6.8."
       ],
-      "note": "Phải bọc toàn bộ phép tính trong ROUND chứ không chỉ định dạng 1 chữ số thập phân (Format Cells). Xếp loại phải dựa trên giá trị đã làm tròn."
+      "note": "Phải bọc toàn bộ phép tính trong ROUND chứ không chỉ định dạng 1 chữ số thập phân (Format Cells). Xếp loại phải dựa trên giá trị đã làm tròn.",
+      "shots": [
+       {
+        "file": "b5-1.png",
+        "caption": "Ô H2 (Điểm TB): =ROUND((F2*3+G2*2)/5,1), toán hệ số 3, anh hệ số 2, làm tròn một chữ số.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b5-2.png",
+        "caption": "Fill xuống đến H11.",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Bước 6: Tính Xếp loại",
@@ -465,7 +749,21 @@
        "Kéo núm điền từ I2 xuống I11.",
        "Gõ đúng chính tả chữ Việt như trong đề: Kém, Trung bình, Khá, Giỏi, Xuất sắc."
       ],
-      "note": "Chuỗi chữ trong công thức luôn đặt trong dấu nháy kép thẳng; nếu copy từ Word dễ bị nháy cong gây lỗi #NAME?."
+      "note": "Chuỗi chữ trong công thức luôn đặt trong dấu nháy kép thẳng; nếu copy từ Word dễ bị nháy cong gây lỗi #NAME?.",
+      "shots": [
+       {
+        "file": "b6-1.png",
+        "caption": "Ô I2 (Xếp loại): hàm IF lồng nhau theo các mốc 5, 7, 8 và 9.5.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b6-2.png",
+        "caption": "Fill xuống đến I11. Kết quả xếp loại của từng thí sinh (vùng khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Bước 7: Tính Học bổng",
@@ -477,7 +775,21 @@
        "Cách khác dựa trực tiếp vào điểm: =IF(H2>=9.5,2000000,IF(H2>=8,1000000,IF(H2>=7,500000,\"\"))). Kết quả tương đương.",
        "Cột J đã định dạng Number có dấu phân cách hàng nghìn ở Bước 2."
       ],
-      "note": "Có thể thay \"\" bằng 0 nếu muốn hiện số 0; đề để trống nên dùng \"\"."
+      "note": "Có thể thay \"\" bằng 0 nếu muốn hiện số 0; đề để trống nên dùng \"\".",
+      "shots": [
+       {
+        "file": "b7-1.png",
+        "caption": "Ô J2 (Học bổng): =IF(I2=\"Khá\",500000,IF(I2=\"Giỏi\",1000000,IF(I2=\"Xuất sắc\",2000000,\"\"))).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b7-2.png",
+        "caption": "Fill xuống đến J11. Chỉ Khá, Giỏi, Xuất sắc có học bổng, các loại còn lại để trống (vùng khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Bước 8: Kiểm tra và lưu",
@@ -488,7 +800,15 @@
        "Nhấn Ctrl+P để xem trước trang in: giấy ngang, bảng ở giữa theo chiều ngang, không bị cắt cột.",
        "Lưu Ctrl+S (xyz_cau2.xlsx)."
       ],
-      "note": ""
+      "note": "",
+      "shots": [
+       {
+        "file": "b8-1.png",
+        "caption": "Bấm Ctrl+S hoặc File, Save (khoanh đỏ) để lưu bài vào D:ThiCC với tên sbd_cau2.xlsx.",
+        "w": 200,
+        "h": 600
+       }
+      ]
      }
     ],
     "formulas": [
@@ -583,7 +903,21 @@
        "Mở PowerPoint, chọn Blank Presentation (slide đầu là Title Slide).",
        "File > Save As > thư mục E:\\ThiCC > đặt tên xyz_cau3.pptx > Save. Khổ 16:9 hay 4:3 chọn ở Design > Slide Size (không bắt buộc)."
       ],
-      "note": "Nên dựng Slide Master trước khi tạo nội dung để toàn bộ slide tự theo mẫu."
+      "note": "Nên dựng Slide Master trước khi tạo nội dung để toàn bộ slide tự theo mẫu.",
+      "shots": [
+       {
+        "file": "b1-1.png",
+        "caption": "Mở PowerPoint, chọn Blank Presentation. Tab File (khoanh đỏ) mở menu lưu file.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b1-2.png",
+        "caption": "File, Save As (khoanh đỏ) hoặc Ctrl+S. Chọn thư mục D:ThiCC, đặt tên sbd_cau3.pptx rồi bấm Save.",
+        "w": 200,
+        "h": 600
+       }
+      ]
      },
      {
       "title": "Bước 2: Định dạng Slide Master (font, kích thước tiêu đề và nội dung)",
@@ -595,7 +929,27 @@
        "Có thể thêm màu nền hoặc hình trang trí ở Slide Master: tab Slide Master > Background Styles; hoặc Insert > Shapes vẽ một thanh màu ở dưới. Bất cứ thứ gì thêm vào Slide Master sẽ xuất hiện trên mọi slide.",
        "Chưa đóng Master View, tiếp tục các bước 3 và 4."
       ],
-      "note": "Không chỉnh font tay trong từng slide; chỉ chỉnh ở Master để đáp ứng yêu cầu 'sử dụng slide master'. Các layout con kế thừa từ Slide Master."
+      "note": "Không chỉnh font tay trong từng slide; chỉ chỉnh ở Master để đáp ứng yêu cầu 'sử dụng slide master'. Các layout con kế thừa từ Slide Master.",
+      "shots": [
+       {
+        "file": "b2-1.png",
+        "caption": "Tab View, bấm Slide Master (khoanh đỏ) để vào chế độ chỉnh slide mẫu.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b2-2.png",
+        "caption": "Tab Slide Master, bấm Fonts rồi chọn Customize Fonts... (khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b2-3.png",
+        "caption": "Hộp thoại Create New Theme Fonts: chọn font cho Heading và Body (ở đây Arial), đặt Name rồi bấm Save. Kích thước chữ tiêu đề và nội dung chỉnh ngay trên slide master (các ô khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Bước 3: Đánh số trang slide",
@@ -606,7 +960,27 @@
        "Tab Insert > nhóm Text > Slide Number (hoặc Header & Footer) > thẻ Slide: tick Slide number; tick Don't show on title slide nếu muốn trang giới thiệu không có số (không bắt buộc); bấm Apply to All.",
        "Kiểm tra: số 1, 2, 3, ... hiện ở góc các slide."
       ],
-      "note": "Nếu số trang không hiện thì kiểm tra khung Slide Number còn trong layout (không bị xóa) và đã bấm Apply to All. Layout mới tạo ở bước sau cũng phải có khung này (Master Layout > tick Footers)."
+      "note": "Nếu số trang không hiện thì kiểm tra khung Slide Number còn trong layout (không bị xóa) và đã bấm Apply to All. Layout mới tạo ở bước sau cũng phải có khung này (Master Layout > tick Footers).",
+      "shots": [
+       {
+        "file": "b3-1.png",
+        "caption": "Tab Insert, bấm Slide Number (khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b3-2.png",
+        "caption": "Hộp thoại Header and Footer, tab Slide: tick Slide number rồi bấm Apply to All (các mục khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b3-3.png",
+        "caption": "Số trang xuất hiện tự động ở góc dưới phải mỗi slide (vùng khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Bước 4: Tạo mới một Layout dành cho phần nội dung",
@@ -618,7 +992,39 @@
        "Trang trí riêng cho layout này (ví dụ thêm một đường kẻ hoặc hình nhỏ) để phân biệt với layout mặc định. Kiểm tra khung Slide Number vẫn có (Master Layout > tick Footers).",
        "Tab Slide Master > Close Master View."
       ],
-      "note": "Đây là phần thường bị bỏ sót: bắt buộc phải là layout MỚI tự tạo và dùng nó cho các slide nội dung (không dùng lại Title and Content mặc định)."
+      "note": "Đây là phần thường bị bỏ sót: bắt buộc phải là layout MỚI tự tạo và dùng nó cho các slide nội dung (không dùng lại Title and Content mặc định).",
+      "shots": [
+       {
+        "file": "b4-1.png",
+        "caption": "Trong Slide Master, chọn một layout rồi bấm Insert Layout (khoanh đỏ) để thêm layout mới.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b4-2.png",
+        "caption": "Bấm Rename, đặt tên layout là NoiDung rồi bấm Rename (các ô khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b4-3.png",
+        "caption": "Insert Placeholder: chọn loại khung cần thêm như Text hoặc Picture (khoanh đỏ), kéo khung vào vị trí mong muốn.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b4-4.png",
+        "caption": "Layout NoiDung (khoanh đỏ): tiêu đề ở trên, khung hình bên trái, khung chữ bên phải.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b4-5.png",
+        "caption": "Bấm Close Master View (khoanh đỏ) để quay về chế độ soạn slide.",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Bước 5: Dựng slide 1 (Trang giới thiệu)",
@@ -628,7 +1034,15 @@
        "Ô phụ đề (Click to add subtitle) gõ 'Hà Nội, ngày ... tháng ... năm ...' (có thể điền ngày thực).",
        "Không đổi font ở slide; font đã lấy từ Master."
       ],
-      "note": ""
+      "note": "",
+      "shots": [
+       {
+        "file": "b5-1.png",
+        "caption": "Slide 1 (trang giới thiệu): gõ tên tài liệu ở khung tiêu đề và dòng Hà Nội, ngày ... tháng ... năm ... ở khung phụ đề (các khung khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Bước 6: Dựng slide 2 (Mục lục), các slide nội dung và Kết luận",
@@ -640,7 +1054,33 @@
        "Tổng cộng 6 slide: 1 Giới thiệu, 2 Mục lục, 3 đến 5 nội dung các chương, 6 Kết luận (thỏa yêu cầu >= 5 slide).",
        "Nếu slide đã tạo bằng layout khác, đổi layout: chọn slide > Home > Layout > chọn layout mới."
       ],
-      "note": "Nội dung các slide phải khớp tên chương trong mục lục của Word. Không nhập quá nhiều chữ (khoảng 3 đến 5 ý mỗi slide)."
+      "note": "Nội dung các slide phải khớp tên chương trong mục lục của Word. Không nhập quá nhiều chữ (khoảng 3 đến 5 ý mỗi slide).",
+      "shots": [
+       {
+        "file": "b6-1.png",
+        "caption": "Slide 2 là Mục lục liệt kê các chương và phần Kết luận (các khung khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b6-2.png",
+        "caption": "Các slide nội dung dùng layout NoiDung: tên chương, hình ảnh và 3 ý chính (các khung khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b6-3.png",
+        "caption": "Slide cuối là phần Kết luận (các khung khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b6-4.png",
+        "caption": "Cột trái hiện đủ các slide của bài (vùng khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Bước 7: Thêm ít nhất 02 hiệu ứng Animation",
@@ -651,7 +1091,33 @@
        "Trên slide nội dung 3: chọn khung nội dung > Animations > Wipe hoặc Appear > Effect Options > By Paragraph để các ý hiện lần lượt.",
        "Kiểm tra: Animations > Animation Pane để xem danh sách hiệu ứng; nhấn Preview hoặc F5 (chạy từ đầu) để thử."
       ],
-      "note": "Yêu cầu chỉ cần ít nhất 2 hiệu ứng; nên dùng hai hiệu ứng khác loại trên hai đối tượng khác nhau cho chắc."
+      "note": "Yêu cầu chỉ cần ít nhất 2 hiệu ứng; nên dùng hai hiệu ứng khác loại trên hai đối tượng khác nhau cho chắc.",
+      "shots": [
+       {
+        "file": "b7-1.png",
+        "caption": "Slide 3: chọn tiêu đề, tab Animations, chọn hiệu ứng Fade (khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b7-2.png",
+        "caption": "Slide 4: chọn hình ảnh, chọn hiệu ứng Fly In (khoanh đỏ), khác với Fade.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b7-3.png",
+        "caption": "Slide 5: chọn hình ảnh, mở rộng thư viện hiệu ứng rồi chọn Zoom (khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b7-4.png",
+        "caption": "Bấm Animation Pane (khoanh đỏ) để xem danh sách hiệu ứng (vùng khoanh đỏ). Bài có 3 hiệu ứng khác nhau.",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Bước 8: Thêm ít nhất 02 hiệu ứng Transition",
@@ -662,7 +1128,33 @@
        "Chọn các slide còn lại > chọn tiếp một hiệu ứng khác (ví dụ Cover), hoặc dùng Apply To All cho một hiệu ứng chung. Tùy chọn: Timing > Duration 1.0 giây; chọn On Mouse Click.",
        "Slide nào có hiệu ứng sẽ hiện ngôi sao nhỏ bên cạnh số slide trong ngăn trái. Nhấn F5 để xem toàn bộ."
       ],
-      "note": "Đảm bảo có tối thiểu 2 kiểu Transition khác nhau, ví dụ Fade và Push. Nếu bấm Apply To All sau cùng thì tất cả slide thành cùng một hiệu ứng, nên áp dụng riêng từng slide."
+      "note": "Đảm bảo có tối thiểu 2 kiểu Transition khác nhau, ví dụ Fade và Push. Nếu bấm Apply To All sau cùng thì tất cả slide thành cùng một hiệu ứng, nên áp dụng riêng từng slide.",
+      "shots": [
+       {
+        "file": "b8-1.png",
+        "caption": "Slide 1: tab Transitions, chọn Fade (khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b8-2.png",
+        "caption": "Slide 2 đến 5: chọn Push (khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b8-3.png",
+        "caption": "Slide 6 (Kết luận): chọn Wipe (khoanh đỏ). Không bấm Apply To All để các slide có hiệu ứng khác nhau.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b8-4.png",
+        "caption": "Các slide có ngôi sao nhỏ cạnh số slide ở cột trái nghĩa là đã gắn hiệu ứng chuyển (vùng khoanh đỏ).",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      },
      {
       "title": "Bước 9: Kiểm tra lần cuối và lưu",
@@ -672,7 +1164,21 @@
        "View > Slide Master: kiểm tra layout mới còn tồn tại.",
        "Bấm Ctrl+S để lưu xyz_cau3.pptx trong E:\\ThiCC."
       ],
-      "note": ""
+      "note": "",
+      "shots": [
+       {
+        "file": "b9-1.png",
+        "caption": "Tab Slide Show, bấm From Beginning (khoanh đỏ) hoặc F5 để xem cả bài.",
+        "w": 1920,
+        "h": 1020
+       },
+       {
+        "file": "b9-2.png",
+        "caption": "Chế độ Slide Sorter cho thấy đủ 6 slide với số trang và biểu tượng hiệu ứng; kiểm tra xong bấm Ctrl+S để lưu.",
+        "w": 1920,
+        "h": 1020
+       }
+      ]
      }
     ],
     "formulas": [],
