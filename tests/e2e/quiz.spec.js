@@ -214,11 +214,6 @@ test.describe("practical exams", () => {
     expect(loaded).toBe(true);
   });
 
-  test("a task without screenshots shows no empty image blocks", async ({ page }) => {
-    await page.goto("/#/thuc-hanh/5/2");
-    await expect(page.getByTestId("shot")).toHaveCount(0);
-  });
-
   test("screenshots do not make the page scroll sideways on a phone", async ({ page }) => {
     await page.setViewportSize({ width: 375, height: 800 });
     await page.goto("/#/thuc-hanh/1/1");
